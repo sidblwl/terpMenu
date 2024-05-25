@@ -1,0 +1,120 @@
+.topNav{
+  text-align: center;
+  /* border: 1px solid red; */
+  background-color: red;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0vw 5vw 5vw 5vw;
+}
+
+.topNav > button{
+  border-radius: 0px;
+  border: 1px solid transparent;
+  padding: 2vh 10vh;
+  margin: 0px;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  background-color: red;
+  color: white;
+  height: 100%;
+}
+
+.topNav > button:hover {
+  background-color: rgb(174, 0, 0);
+}
+
+.wrapper > div{
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.sidebarBtn{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 100%;
+  padding: 3vh 0vh;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.25s;
+}
+
+.redBorder{
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar{
+  width: 75%;
+  border: 1px solid #c2c2c2;
+  box-shadow: 1px 1px 5px lightgray;
+  border-radius: 5px;
+}
+
+.menu{
+  grid-column: 2 / span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.menuItem{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  /* border: 1px solid red; */
+}
+
+.menuItemImage{
+  background-color: lightgray;
+  border-radius: 8px;
+  width: 50%;
+  height: 40%;
+  margin-bottom: 2vh;
+}
+
+.menuItemName{
+  font-size: 3vh;
+  margin: 0;
+}
+
+.checked {
+  color: orange;
+}
+
+.sectionTitle{
+  grid-column: 2 / span 3;
+  font-size: 6vh;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.favWrapper{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favoriteBtn{
+  border: 1px solid #c2c2c2;
+  box-shadow: 1px 1px 5px lightgray;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3vh 0vh;
+  margin: 0;
+  width: 75%;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
