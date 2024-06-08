@@ -16,16 +16,12 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
-# menu = {
-#     "Asian": ["Pork chops", "Dakh Ghibli", "Filipino Pineapple Fried Rice", "Sweet and Sour Chicken"]
-# }
-
-# Y: 19
-# North: 
-# South: 16
-
 def getMenu(num):
-    url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=5/12/2024"
+    ySections = ["Breakfast", "Good Food Gluten Free", "Sprouts", "Terp Comfort", "Salad Bar","Maryland Bakery", "Mezza", "Joe's Grill", "Terp Grain Bowl", "Woks"]
+    northSections = ["Smash Burger", "Harvest Greens", "Harvest Vegan-LUNCH", "Purple Zone", "Purple Zone-ALL DAY",  "Smash Deli", "Ciao All-Day", "Ciao Chilled Salads", "Ciao Pizza", "Ciao Pasta", "Ciao Entree", "Chef's Table Mains", "Chef's Table Extras",  "Chef's Table Vegetarian", "Halal at Chef's Table", "Harvest Entree", "Soups", "Scoops Homemade Ice Cream"]
+    southSections = ["Broiler Works", "Grill Works", "Chef's Table", "Salad Bar", "Waffle, Doughnut, Bagel Bar", "Purple Zone", "Roaster", "Pasta", "Pizza", "Soup Du Jour", "Deli+", "Deli", "Roma Vegan Salads and Panini", "Vegan Desserts", "Mongolian Grill", "Mongolian Grill Made to Ord"]
+    url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=9/3/2023"
+    # url = "https://nutrition.umd.edu/?locationNum=" + str(num)
     page = requests.get(url)
     parser = BeautifulSoup(page.text, "html.parser")
     items = (parser.find_all("a", class_="menu-item-name"))
@@ -45,30 +41,46 @@ def getMenu(num):
     for station in stations:
         #find station name
         stationName = (station.find("h5", class_="card-title"))
-
         #make sure station name is not part of the sides
         if "Sides" not in stationName.text and stationName.text not in listed:
             #get all items including fluff
-            allItems = (station.find_all("a", class_="menu-item-name"))
-
-            #create a list for main menu items and filter for fluff
-            mainItems = []
-            for item in allItems:
-                if item.text not in fluff:
-                    mainItems.append(item.text)
-            #add station name as key and mainItems as value.
-            menus[stationName.text.strip()] = mainItems
-
+            allItemRows = (station.find_all("div", class_="row menu-item-row"))
+            allItems = []
+            for itemRow in allItemRows:
+                item = {}
+                item["name"] = itemRow.find("a", class_="menu-item-name").text 
+                if item["name"] not in fluff:
+                    itemTagsHTML = itemRow.find_all("img", class_="nutri-icon")
+                    itemTags = []
+                    for tag in itemTagsHTML:
+                        itemTags.append(tag.get("title"))
+                    item["tags"] = itemTags
+                    allItems.append(item)
+                    menus[stationName.text.strip()] = allItems
 
     return menus
 
-@app.get('/menu')
+
+
+
+
+
+@app.get('/menu0')
 async def root():
-    allDiningHalls = {}
-    allDiningHalls["yahentamitsi"] = getMenu(19)
-    allDiningHalls["northDining"] = getMenu(51)
-    allDiningHalls["southDining"] = getMenu(16)
-    return allDiningHalls
+    return getMenu(51)
+
+@app.get('/menu1')
+async def root():
+    return getMenu(19)
+
+@app.get('/menu2')
+async def root():
+    return getMenu(16)
+
+# @app.get('/menu/{num}')
+# async def root(num: int = None):
+#     return getMenu(num)
+
 
 
     

@@ -24,8 +24,8 @@
   height: 100%;
 }
 
-.topNav > button:hover {
-  background-color: rgb(174, 0, 0);
+.navButton:hover {
+  background-color: darkred !important;
 }
 
 .wrapper > div{
@@ -34,8 +34,6 @@
 }
 
 .sidebarBtn{
-  border: 1px solid transparent;
-  border-radius: 5px;
   width: 100%;
   padding: 3vh 0vh;
   margin: 0;
@@ -43,8 +41,13 @@
   font-weight: 500;
   cursor: pointer;
   background-color: white;
-  transition: background-color 0.25s;
+  transition: 0.25s;
+  border-radius: 4px;
 }
+
+/* .sidebarBtn:hover {
+  background-color: rgb(234, 234, 234) !important;
+} */
 
 .redBorder{
   display: flex;
@@ -56,6 +59,7 @@
   border: 1px solid #c2c2c2;
   box-shadow: 1px 1px 5px lightgray;
   border-radius: 5px;
+  height: fit-content;
 }
 
 .menu{
