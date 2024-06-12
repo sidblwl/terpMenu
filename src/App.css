@@ -67,24 +67,31 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: fit-content;
+  /* border: 1px solid black; */
 }
 
 .menuItem{
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
   align-items: center;
-  height: 40vh;
   /* border: 1px solid red; */
 }
 
 .menuItemImage{
   background-color: lightgray;
   border-radius: 8px;
-  width: 50%;
-  height: 40%;
-  margin-bottom: 2vh;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menuItemNameHolder{
+  height: 70px;
+  width: 100%;
+  /* border: 1px solid green; */
 }
 
 .menuItemName{

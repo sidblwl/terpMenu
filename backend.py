@@ -16,6 +16,8 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
+photos = {"American Grilled Cheese Sandwich": "public/grilledCheese.jpeg", "BBQ Chicken Pepperjack Grilled Cheese Sandwich": "public/bbqChicken.jpeg"}
+
 def getMenu(num):
     ySections = ["Breakfast", "Good Food Gluten Free", "Sprouts", "Terp Comfort", "Salad Bar","Maryland Bakery", "Mezza", "Joe's Grill", "Terp Grain Bowl", "Woks"]
     northSections = ["Smash Burger", "Harvest Greens", "Harvest Vegan-LUNCH", "Purple Zone", "Purple Zone-ALL DAY",  "Smash Deli", "Ciao All-Day", "Ciao Chilled Salads", "Ciao Pizza", "Ciao Pasta", "Ciao Entree", "Chef's Table Mains", "Chef's Table Extras",  "Chef's Table Vegetarian", "Halal at Chef's Table", "Harvest Entree", "Soups", "Scoops Homemade Ice Cream"]
@@ -55,6 +57,10 @@ def getMenu(num):
                     for tag in itemTagsHTML:
                         itemTags.append(tag.get("title"))
                     item["tags"] = itemTags
+                    if(item["name"] in photos):
+                        item["image"] = photos[item["name"]]
+                    else:
+                        item["image"] = "none.jpeg"
                     allItems.append(item)
                     menus[stationName.text.strip()] = allItems
 
