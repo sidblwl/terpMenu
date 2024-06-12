@@ -4,7 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import HallSections from './components/HallSections.jsx'
-
+let lamborghini = {}
 const loadingY = {
   "Breakfast": [
       {
@@ -362,12 +362,18 @@ function App() {
       const response = await fetch("http://127.0.0.1:8000/menu" + diningHall, {signal: signal})
       const menuResponse = await response.json()
       fetching = false;
+      lamborghini[diningHall] = menuResponse
       setMenulist(menuResponse);
   }
 
   useEffect(() => {
     if(dontLoadFirstRender){
-      fetchMessages()
+      if(lamborghini[diningHall] != undefined){
+        setMenulist(lamborghini[diningHall])
+      }
+      else{
+        fetchMessages()
+      }
     }
     else{
       dontLoadFirstRender = true;
