@@ -17,14 +17,3 @@
 body {
   margin: 0;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 2vh 10vh;
-  margin: 1vw;
-  font-size: 1em;
-  font-weight: 700;
-  cursor: pointer;
-  transition: background-color 0.25s;
-}

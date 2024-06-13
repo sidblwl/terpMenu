@@ -3,9 +3,10 @@ import { useEffect } from 'react'
 import NavButton from './components/NavButton.jsx'
 import './App.css'
 import HallSections from './components/HallSections.jsx'
+import RatingMenu from './components/RatingMenu.jsx'
 let lamborghini = {}
 const loadingY = {
-  "Loading": [
+  "Loading...": [
       {
           "name": "Loading Items...",
           "tags": [],
@@ -15,7 +16,7 @@ const loadingY = {
 }
 
 const loadingSouth = {
-  "Loading": [
+  "Loading...": [
     {
       "name": "Loading Items...",
       "tags": [],
@@ -24,7 +25,7 @@ const loadingSouth = {
   ]}
 
 const loadingNorth = {
-  "Loading": [
+  "Loading...": [
     {
       "name": "Loading Items...",
       "tags": [],
@@ -36,6 +37,16 @@ const loadingNorth = {
 let dontLoadFirstRender = false;
 
 function MenuCard({mItem}){
+  const [rating, setRating] = useState(0); 
+  const [popupState, setPopupState] = useState(false);
+
+  function Star({id}){
+    return(
+      <div style = {(id <= rating ? {color: "orange"} : {color: "black"})} className="fa fa-star"></div>
+    )
+  }
+
+
   let tagList = "";
   mItem.tags.forEach((tag) => {
     if(tag != "HalalFriendly"){
@@ -58,39 +69,44 @@ function MenuCard({mItem}){
         <div className="menuItemNameHolder">
           <h1 className="menuItemName">{mItem.name}</h1>
         </div>
-        <p>{tagList}</p>
+        <div className="menuItemTagHolder">
+          <p>{tagList}</p>
+        </div>
         <div>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star"></span>
-          <span className="fa fa-star"></span>
-          <span className="fa fa-star"></span>
+          <Star id = {1}></Star>
+          <Star id = {2}></Star>
+          <Star id = {3}></Star>
+          <Star id = {4}></Star>
+          <Star id = {5}></Star>
+          <button className="reviewButton" onClick={() => {
+            setPopupState(true)
+          }}>Review</button>
         </div>
       </div>
+
+      <RatingMenu setRating = {setRating} rating={rating} setPopupState = {setPopupState} popupState={popupState} mItem={mItem}></RatingMenu>
     </>
   )
 }
 
 function App() {
   const [diningHall, setDiningHall] = useState(1)
-  const [section, setSection] = useState("Loading")
+  const [section, setSection] = useState("Loading...")
   const [menulist, setMenulist] = useState(loadingY)
   const [activeTab, setActiveTab] = useState(1)
   const [activeSection, setActiveSection] = useState(1)
-  const controller = new AbortController()
+  const [controller, setAbortController] = useState(new AbortController())
   const diningHalls = [{name: "North Dining", loading: loadingNorth, firstSection: "Smash Burger", id: 0}, {name: "The Y", loading: loadingY, firstSection: "Breakfast", id: 1}, {name: "South Dining", loading: loadingSouth, firstSection: "Broiler Works", id: 2}]
-  let fetching = false;
-  const signal = controller.signal; 
   const fetchMessages = async () => {
-      fetching = true;
-      const response = await fetch("http://127.0.0.1:8000/menu" + diningHall, {signal: signal})
-      const menuResponse = await response.json()
-      lamborghini[diningHall] = menuResponse
-      setSection(diningHalls[diningHall].firstSection)
-      setMenulist(menuResponse);
+    const signal = controller.signal; 
+    const response = await fetch("http://127.0.0.1:8000/menu" + diningHall, {signal: signal})
+    const menuResponse = await response.json()
+    lamborghini[diningHall] = menuResponse
+    setSection(diningHalls[diningHall].firstSection)
+    setMenulist(menuResponse);
   }
 
-  useEffect(() => {
+  useEffect(() => { 
 
     if(dontLoadFirstRender){
       if(lamborghini[diningHall] != undefined){
@@ -99,7 +115,7 @@ function App() {
       }
       else{
         setMenulist(diningHalls[diningHall].loading); 
-        setSection("Loading"); 
+        setSection("Loading..."); 
         fetchMessages()
       }
     }
@@ -113,7 +129,7 @@ function App() {
     <>
       <div className="topNav">
         {diningHalls.map((hall) => (
-            <NavButton currentHall={hall} setMenulist = {setMenulist} setSection = {setSection} setDiningHall = {setDiningHall}  controller = {controller} activeTab = {activeTab} setActiveSection = {setActiveSection} setActiveTab={setActiveTab}></NavButton>
+            <NavButton currentHall={hall} setDiningHall = {setDiningHall} setAbortController= {setAbortController} controller = {controller} activeTab = {activeTab} setActiveSection = {setActiveSection} setActiveTab={setActiveTab}></NavButton>
         ))}
       </div>
       <div className="wrapper">
@@ -127,8 +143,6 @@ function App() {
           </div>
         </div>
         <div className="menu">
-          {console.log(menulist)}
-          {console.log(menulist[section])}
           {/* <p>{menulist[section][0].name}</p> */}
           {menulist[section].map((menuItem) => (
           <MenuCard mItem={menuItem}></MenuCard>

@@ -42,8 +42,11 @@
   cursor: pointer;
   background-color: white;
   transition: 0.25s;
+  border: 1px solid transparent;
   border-radius: 4px;
 }
+
+
 
 /* .sidebarBtn:hover {
   background-color: rgb(234, 234, 234) !important;
@@ -56,7 +59,6 @@
 
 .sidebar{
   width: 75%;
-  border: 1px solid #c2c2c2;
   box-shadow: 1px 1px 5px lightgray;
   border-radius: 5px;
   height: fit-content;
@@ -91,12 +93,26 @@
 .menuItemNameHolder{
   height: 70px;
   width: 100%;
-  /* border: 1px solid green; */
+  margin: 0;
 }
 
 .menuItemName{
   font-size: 3vh;
   margin: 0;
+}
+
+.menuItemTagHolder{
+  width: 90%;
+}
+.reviewButtonHolder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+.reviewButton{
+  text-align: center;
+  margin-left: 5px;
 }
 
 .checked {
@@ -129,4 +145,26 @@
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.25s;
+}
+
+.popup-inner{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,1);
+  overflow-y: scroll;
+}
+
+.popup{
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  background-color: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
 }

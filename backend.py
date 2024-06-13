@@ -60,7 +60,7 @@ def getMenu(num):
                     if(item["name"] in photos):
                         item["image"] = photos[item["name"]]
                     else:
-                        item["image"] = "none.jpeg"
+                        item["image"] = "none.jpg"
                     allItems.append(item)
                     menus[stationName.text.strip()] = allItems
 
