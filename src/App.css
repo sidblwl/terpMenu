@@ -179,7 +179,7 @@
 }
 
 .review-input{
-  height: 7rem;
+  height: 7.5rem;
   width: 70%;
 }
 
@@ -210,7 +210,15 @@
 }
 
 .ratingSubmitBtn{
-  width: 50%;
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.25s;
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
 }
 
 .ratingTitle{
@@ -222,4 +230,41 @@
   width: 30px;
   margin-top: 5px;
   margin-right: 5px;
+}
+
+.reviewsContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.reviewCard{
+  display: flex;
+  flex-direction: row;
+  /* background-color: #c2c2c2; */
+  padding-top: 20px;
+  border-top: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.reviewInformation{
+  margin-right: 50px;
+  text-align: left;
+}
+
+.reviewInformation > p{
+  margin: 0;
+}
+
+.reviewRatingStar{
+  font-size: 20px;
+  margin: 0;
+}
+
+.reviewText{
+  /* border: 1px solid black; */
+}
+
+.reviewText > p{
+  margin: 0;
 }
