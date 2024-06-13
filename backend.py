@@ -61,6 +61,11 @@ def getMenu(num):
                         item["image"] = photos[item["name"]]
                     else:
                         item["image"] = "none.jpg"
+                    item["reviews"] = []
+                    review = {"rating": 4, "name": "Anonymous", "date": "06/13/24", "text":"this food is yum diddly scrumptious"}
+                    review2 = {"rating": 2, "name": "Anonymous", "date": "06/13/24", "text":"lowkey mid"}
+                    item["reviews"].append(review)
+                    item["reviews"].append(review2)
                     allItems.append(item)
                     menus[stationName.text.strip()] = allItems
 
