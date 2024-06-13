@@ -1201,14 +1201,7 @@
                     "vegetarian"
                 ],
                 "image": "public/grilledCheese.jpeg",
-                "reviews": [
-                    {
-                        "rating": 2,
-                        "name": "Anonymous",
-                        "date": "6/13/2024",
-                        "text": "The grilled cheese is meh"
-                    }
-                ]
+                "reviews": []
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",

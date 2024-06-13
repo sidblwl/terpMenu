@@ -139,5 +139,18 @@ async def add_item(review: Review):
         outfile.write(json_object)
     return {'message': 'success'}
 
+@app.delete('/clearReviews')
+async def clear_reviews():
+    with open('reviews.json') as json_file:
+        reviews = json.load(json_file)
+    for hall_reviews, sections_reviews in reviews.items():
+                for section_reviews, items_reviews in sections_reviews.items():
+                    for review_item in items_reviews:
+                            review_item['reviews'] = []
+    json_object = json.dumps(reviews, indent=4)
+    with open("reviews.json", "w") as outfile:
+        outfile.write(json_object)
+    return {'message': 'success'}
+
 
     
