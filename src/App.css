@@ -46,8 +46,6 @@
   border-radius: 4px;
 }
 
-
-
 /* .sidebarBtn:hover {
   background-color: rgb(234, 234, 234) !important;
 } */
@@ -134,7 +132,7 @@
 }
 
 .favoriteBtn{
-  border: 1px solid #c2c2c2;
+  border: 1px solid transparent;
   box-shadow: 1px 1px 5px lightgray;
   background-color: white;
   border-radius: 5px;
@@ -152,8 +150,11 @@
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
+  border: 1px solid transparent;
   background-color: rgba(255,255,255,1);
   overflow-y: scroll;
+  text-align: right;
 }
 
 .popup{
@@ -162,9 +163,62 @@
   left: 15%;
   width: 70%;
   height: 70%;
-  background-color: rgba(0,0,0,0.9);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border-radius: 5px;
+  border: 1px solid #c2c2c2;
+  box-shadow: 3px 3px 5px lightgray;
+}
+
+.popupTitle{
+  text-align: center;
+  margin: 0;
+}
+
+.review-input{
+  height: 7rem;
+  width: 70%;
+}
+
+.rating-section{
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.starSection{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.ratingStar{
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.ratingNameInput{
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.ratingSubmitBtn{
+  width: 50%;
+}
+
+.ratingTitle{
+  text-align: left;
+  margin-left: 50px;
+}
+
+.close-popup{
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
