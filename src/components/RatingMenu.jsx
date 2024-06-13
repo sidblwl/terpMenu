@@ -2,8 +2,43 @@ import '../App.css'
 import React, { useState } from "react";
 import close from "../assets/close.png";
 
+export default function RatingMenu({popupState, setPopupState, rating, setRating, mItem, hall, section, index}){
 
-export default function RatingMenu({popupState, setPopupState, rating, setRating, mItem}){
+    function getDate() {
+        const today = new Date();
+        const month = today.getMonth() + 1;
+        const year = today.getFullYear();
+        const date = today.getDate();
+        return `${month}/${date}/${year}`;
+    }
+
+    function addReview(review){
+        const myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+
+        const raw = JSON.stringify({
+        "hall": hall,
+        "station": section,
+        "index": index,
+        "rating": rating,
+        "name": "Anonymous",
+        "date": getDate(),
+        "text": review
+        });
+
+        console.log(raw)
+
+        const requestOptions = {
+        method: "POST",
+        headers: myHeaders,
+        body: raw,
+        redirect: "follow"
+        };
+
+        const response = fetch("http://127.0.0.1:8000/addReview", requestOptions)
+        console.log(response)
+    }
+
     function RatingStar({id}){
         return(
             <div style = {(id <= rating ? {color: "orange"} : {color: "black"})} onClick = {() => {setRating(id)}} className="fa fa-star ratingStar"></div>
@@ -52,7 +87,7 @@ export default function RatingMenu({popupState, setPopupState, rating, setRating
                             <RatingStar rating = {rating} setRating = {setRating}  id = {5}></RatingStar>
                         </div>
                         <input className="ratingNameInput" type="text" placeholder="Name (optional)"></input>
-                        <button className="ratingSubmitBtn" onClick={() => alert(document.getElementById("review-input").value)}>Submit</button>
+                        <button className="ratingSubmitBtn" onClick={() => addReview(document.getElementById("review-input").value)}>Submit</button>
                     </div>
                     <textarea name="content" cols="40" id="review-input" rows="10" maxLength="10000" placeholder="Add a review to this menu item" className="review-input"></textarea>
                 </div>
