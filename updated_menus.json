@@ -5,7 +5,20 @@
                 "name": "Bacon",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [
+                    {
+                        "rating": 2,
+                        "name": "Anonymous",
+                        "date": "06/13/24",
+                        "text": "lowkey mid"
+                    },
+                    {
+                        "rating": 2,
+                        "name": "Anonymous",
+                        "date": "06/13/24",
+                        "text": "lowkey mid"
+                    }
+                ]
             },
             {
                 "name": "Beef Burger",
@@ -1203,10 +1216,112 @@
                 "image": "public/grilledCheese.jpeg",
                 "reviews": [
                     {
-                        "rating": 2,
+                        "rating": 0,
                         "name": "Anonymous",
                         "date": "6/13/2024",
-                        "text": "The grilled cheese is meh"
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i love ythis food!"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i love ythis food!"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i love ythis food!"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i love ythis food!"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "what the"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "ef"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "psijfpsfmj"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "sorru"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i hate this"
                     }
                 ]
             },

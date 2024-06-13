@@ -36,7 +36,7 @@ const loadingNorth = {
 
 let dontLoadFirstRender = false;
 
-function MenuCard({mItem, hall, section, index}){
+function MenuCard({mItem, hall, section}){
   const [rating, setRating] = useState(0); 
   const [popupState, setPopupState] = useState(false);
 
@@ -93,7 +93,7 @@ function MenuCard({mItem, hall, section, index}){
         </div>
       </div>
 
-      <RatingMenu setRating = {setRating} rating={rating} setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section} index={index}></RatingMenu>
+      <RatingMenu setRating = {setRating} rating={rating} setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section}></RatingMenu>
     </>
   )
 }
@@ -153,8 +153,8 @@ function App() {
         </div>
         <div className="menu">
           {/* <p>{menulist[section][0].name}</p> */}
-          {menulist[section].map((menuItem, index) => (
-          <MenuCard mItem={menuItem} hall={diningHall} section={section} index={index}></MenuCard>
+          {menulist[section].map((menuItem) => (
+          <MenuCard mItem={menuItem} hall={diningHall} section={section}></MenuCard>
           ))}
         </div>
       </div>

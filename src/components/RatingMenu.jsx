@@ -2,7 +2,7 @@ import '../App.css'
 import React, { useState } from "react";
 import close from "../assets/close.png";
 
-export default function RatingMenu({popupState, setPopupState, rating, setRating, mItem, hall, section, index}){
+export default function RatingMenu({popupState, setPopupState, rating, setRating, mItem, hall, section}){
 
     function getDate() {
         const today = new Date();
@@ -19,7 +19,7 @@ export default function RatingMenu({popupState, setPopupState, rating, setRating
         const raw = JSON.stringify({
         "hall": hall,
         "station": section,
-        "index": index,
+        "itemName": mItem.name,
         "rating": rating,
         "name": "Anonymous",
         "date": getDate(),
