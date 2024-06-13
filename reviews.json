@@ -5,14 +5,7 @@
                 "name": "Bacon",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": [
-                    {
-                        "rating": 4,
-                        "name": "Sid",
-                        "date": "06/13/24",
-                        "text": "grilled cheese i hope"
-                    }
-                ]
+                "reviews": []
             },
             {
                 "name": "Beef Burger",
@@ -1210,28 +1203,112 @@
                 "image": "public/grilledCheese.jpeg",
                 "reviews": [
                     {
-                        "rating": 4,
-                        "name": "Sid",
-                        "date": "06/13/24",
-                        "text": "grilled cheese i hope"
-                    },
-                    {
-                        "rating": 4,
-                        "name": "Sid",
-                        "date": "06/13/24",
-                        "text": "grilled cheese i hope"
-                    },
-                    {
-                        "rating": 3,
+                        "rating": 0,
                         "name": "Anonymous",
                         "date": "6/13/2024",
-                        "text": "test"
+                        "text": "fuck yeahhh"
                     },
                     {
-                        "rating": 1,
+                        "rating": 0,
                         "name": "Anonymous",
                         "date": "6/13/2024",
-                        "text": "test"
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "fuck yeahhh"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i love ythis food!"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i love ythis food!"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i love ythis food!"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i love ythis food!"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "what the"
+                    },
+                    {
+                        "rating": 4,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "ef"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "psijfpsfmj"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "sorru"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/13/2024",
+                        "text": "i hate this"
                     }
                 ]
             },
@@ -1243,20 +1320,7 @@
                     "Contains soy"
                 ],
                 "image": "public/bbqChicken.jpeg",
-                "reviews": [
-                    {
-                        "rating": 4,
-                        "name": "Sid",
-                        "date": "06/13/24",
-                        "text": "grilled cheese i hope"
-                    },
-                    {
-                        "rating": 1,
-                        "name": "Anonymous",
-                        "date": "6/13/2024",
-                        "text": "Avoid at all costs"
-                    }
-                ]
+                "reviews": []
             },
             {
                 "name": "Cream of Tomato Soup",
