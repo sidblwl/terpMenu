@@ -4,6 +4,8 @@ import NavButton from './components/NavButton.jsx'
 import './App.css'
 import HallSections from './components/HallSections.jsx'
 import RatingMenu from './components/RatingMenu.jsx'
+import FilterMenu from './components/FilterMenu.jsx'
+
 let lamborghini = {}
 const loadingY = {
   "Loading...": [
@@ -150,11 +152,14 @@ function App() {
             <HallSections menulist = {menulist} hall={diningHall} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection} setActiveTab = {setActiveTab}></HallSections>
           </div>
         </div>
-        <div className="menu">
-          {/* <p>{menulist[section][0].name}</p> */}
-          {menulist[section].map((menuItem) => (
-          <MenuCard mItem={menuItem} hall={diningHall} section={section}></MenuCard>
-          ))}
+        <div className="sideWrapper">
+          <div className="filterWrapper">
+            <FilterMenu></FilterMenu>
+          </div>
+          <div className="menu">
+            {/* <p>{menulist[section][0].name}</p> */}
+            {menulist[section].map((menuItem) => ((1) ? (<MenuCard mItem={menuItem} hall={diningHall} section={section}></MenuCard>): ""))}
+          </div>
         </div>
       </div>
     </>

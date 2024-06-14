@@ -1,7 +1,15 @@
 .topNav{
   text-align: center;
   /* border: 1px solid red; */
-  background-color: red;
+  background-color: #e21833;
+}
+
+.blackBorder{
+  border: 2px solid black;
+}
+
+.blueBorder{
+  border: 2px solid blue;
 }
 
 .wrapper{
@@ -63,12 +71,14 @@
   border: 1px solid #c2c2c2;
 }
 
-.menu{
+.sideWrapper{
   grid-column: 2 / span 3;
+}
+
+.menu{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: fit-content;
-  /* border: 1px solid black; */
 }
 
 .menuItem{
@@ -267,4 +277,21 @@
 
 .reviewText > p{
   margin: 0;
+}
+
+.filterWrapper{
+  margin-bottom: 20px;
+}
+
+.filterWrapper > button{
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
 }
