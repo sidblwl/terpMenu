@@ -5,19 +5,22 @@
                 "name": "Bacon",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Beef Burger",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Beef Chili with Beans",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cheese Sauce",
@@ -27,7 +30,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chipotle Lime BBQ Sauce",
@@ -36,7 +40,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Fresh French Fries",
@@ -45,7 +50,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled  Chicken",
@@ -53,13 +59,15 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Hot Dog",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Mushrooms",
@@ -68,7 +76,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Onions",
@@ -77,7 +86,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Over Hard Fried Eggs",
@@ -86,7 +96,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Potato Hot Dog Roll",
@@ -97,7 +108,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Sock It 2 Me Sauce",
@@ -107,7 +119,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Tabasco Onions",
@@ -117,7 +130,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Harvest Greens": [
@@ -128,7 +142,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Banana",
@@ -137,7 +152,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Butter Sage Roasted Brussel Sprouts",
@@ -146,7 +162,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Candied Pumkin Seeds",
@@ -155,7 +172,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chipotle Farm House",
@@ -166,7 +184,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chipotle Vinagrette",
@@ -174,7 +193,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cilantro Lime Coleslaw",
@@ -185,7 +205,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Corn Nuts",
@@ -194,7 +215,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Crisp CornTortilla Strips",
@@ -203,7 +225,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Elbow Macaroni Salad",
@@ -214,7 +237,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Farro Roasted Mushroom Salad",
@@ -224,7 +248,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Feta Cheese",
@@ -233,7 +258,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Flax Seeds",
@@ -243,7 +269,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grape Tomatoes",
@@ -252,7 +279,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Greek Dressing",
@@ -262,7 +290,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Herb Garlic Mushrooms",
@@ -271,7 +300,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Honey Roasted Butternut Squash",
@@ -280,7 +310,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Lemon Mint Vinaigrette",
@@ -289,7 +320,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Quinoa Feta Mint Salad",
@@ -298,7 +330,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Cauliflower and Red Onions",
@@ -308,7 +341,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Garlic Chili Broccoli",
@@ -318,7 +352,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Shredded Parmesan Cheese",
@@ -327,7 +362,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Shredded Red Cabbage",
@@ -336,7 +372,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Spicy Roasted Sunflower Seeds",
@@ -351,7 +388,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Wild Rice Cranberries Apples Salad",
@@ -361,7 +399,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Harvest Vegan-LUNCH": [
@@ -374,7 +413,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Breaded Eggplant Parmesan Casserole",
@@ -385,7 +425,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Teriyaki Tofu Stir Fry",
@@ -397,7 +438,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Purple Zone": [
@@ -407,7 +449,8 @@
                     "smartchoice"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Baked Potato",
@@ -416,7 +459,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "French Fries (Purple)",
@@ -425,7 +469,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Garlic Broccolini",
@@ -434,7 +479,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Garlic Herb Roasted Zucchini and Yellow Squash",
@@ -443,13 +489,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Chicken Breast",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Garlic Basil Chicken Alfredo (purple)",
@@ -457,7 +505,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Lemon Basil Alfredo Sauce",
@@ -466,7 +515,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Red Lentil Penne Pasta",
@@ -475,7 +525,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Margherita Pizza",
@@ -484,7 +535,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Purple Zone-ALL DAY": [
@@ -495,7 +547,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Annie's French Dressing (purple)",
@@ -504,7 +557,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Annie's Lite Raspberry Vinaigrette (purple)",
@@ -513,7 +567,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Arugula",
@@ -522,7 +577,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Red Pepper",
@@ -531,7 +587,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Smash Deli": [
@@ -543,7 +600,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Ciao All-Day": [
@@ -556,7 +614,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Italian Herb Red Pepper Broccoli",
@@ -566,7 +625,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Beets & Peaches with Arugula",
@@ -576,7 +636,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Green Beans with Red Onions",
@@ -585,7 +646,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Whole Grain Mustard Roasted Button Mushrooms",
@@ -594,7 +656,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Ciao Chilled Salads": [
@@ -607,7 +670,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grape Tomato Fresh Mozzarella Fried Basil Salad",
@@ -616,7 +680,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Italian Potato Salad",
@@ -625,7 +690,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Mixed Fruit with Mint",
@@ -634,7 +700,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Three Bean Salad",
@@ -644,7 +711,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Ciao Pizza": [
@@ -658,7 +726,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Crispy Pan Vegetable Pizza",
@@ -670,7 +739,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Italian Sausage Pizza",
@@ -681,7 +751,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pepperoni Pizza",
@@ -692,7 +763,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Ciao Pasta": [
@@ -705,7 +777,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grandma's Baked Macaroni and Cheese",
@@ -717,7 +790,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Italian Herb Red Pepper Broccoli",
@@ -727,7 +801,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Meat Loaf",
@@ -736,7 +811,8 @@
                     "Contains gluten"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Garlic Thyme Mushrooms",
@@ -745,7 +821,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Green Beans with Red Onions",
@@ -754,7 +831,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Red Pepper,Portobello, Penne & Pecorino Cheese",
@@ -765,7 +843,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Zucchini, Yellow Squash, Peppers & Onions",
@@ -775,7 +854,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Ciao Entree": [
@@ -786,7 +866,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Lime Red Onion Lentils",
@@ -796,7 +877,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Seared Garlic Chili Roasted Tilapia",
@@ -805,7 +887,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Semolina Pasta Cooked",
@@ -815,7 +898,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Chef's Table Mains": [
@@ -827,7 +911,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Jerk Chicken",
@@ -835,7 +920,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Chef's Table Extras": [
@@ -846,7 +932,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Bibb Lettuce",
@@ -855,7 +942,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Creamy Jerk Sauce",
@@ -864,7 +952,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Crispy Rice Noodle",
@@ -873,7 +962,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Fried Wonton Strips",
@@ -883,7 +973,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Gochujang Bbq Sauce",
@@ -895,7 +986,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Jasmine Rice",
@@ -904,7 +996,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Kimchi",
@@ -916,13 +1009,15 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Limes",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pickled Garlic",
@@ -933,7 +1028,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pineapple Mango Mix",
@@ -942,7 +1038,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Quinoa Pilaf",
@@ -951,7 +1048,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Spicy Mayo",
@@ -961,7 +1059,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Sweet Thai Chili Sauce",
@@ -970,7 +1069,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Chef's Table Vegetarian": [
@@ -984,7 +1084,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Thai veggie burger",
@@ -994,7 +1095,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Halal at Chef's Table": [
@@ -1004,7 +1106,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Harvest Entree": [
@@ -1015,7 +1118,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Soups": [
@@ -1026,7 +1130,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Broccoli Cheddar Cheese Soup",
@@ -1036,7 +1141,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Buffalo Style Chicken Soup",
@@ -1047,7 +1153,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Scoops Homemade Ice Cream": [
@@ -1059,7 +1166,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cherry Sorbet Soft Serve",
@@ -1068,7 +1176,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chocolate Chips",
@@ -1078,7 +1187,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chocolate Ice Cream",
@@ -1090,7 +1200,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chocolate Soft Serve Ice Cream",
@@ -1103,7 +1214,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chocolate Sprinkles",
@@ -1113,7 +1225,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Maraschino Cherries",
@@ -1122,7 +1235,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vanilla Ice Cream",
@@ -1134,7 +1248,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vanilla Soft Serve Ice Cream",
@@ -1147,7 +1262,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Warm Apple Cobbler",
@@ -1160,7 +1276,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Warm Brownie Cheesecake",
@@ -1173,7 +1290,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Warm Brownie",
@@ -1186,7 +1304,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ]
     },
@@ -1201,7 +1320,8 @@
                     "vegetarian"
                 ],
                 "image": "public/grilledCheese.jpeg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -1211,7 +1331,8 @@
                     "Contains soy"
                 ],
                 "image": "public/bbqChicken.jpeg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cream of Tomato Soup",
@@ -1221,7 +1342,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Good Food Gluten Free": [
@@ -1231,7 +1353,8 @@
                     "smartchoice"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Mediterranean Grilled Cod",
@@ -1240,7 +1363,8 @@
                     "smartchoice"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Sprouts": [
@@ -1253,7 +1377,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Garlic Buffalo Tofu",
@@ -1265,7 +1390,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Tempura Mushrooms",
@@ -1275,7 +1401,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Sweet and Sour Chicken Stir Fry",
@@ -1288,7 +1415,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Tofu & Spinach Lasagna",
@@ -1300,7 +1428,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Chef's Corner": [
@@ -1311,7 +1440,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cereal Granola",
@@ -1321,7 +1451,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grapefruit Half",
@@ -1331,7 +1462,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Orange Wedges",
@@ -1341,7 +1473,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Sliced Apples",
@@ -1350,7 +1483,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Special K Berry",
@@ -1360,7 +1494,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vanilla Greek Yogurt",
@@ -1369,7 +1504,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Watermelon",
@@ -1378,7 +1514,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Yogurt Plain",
@@ -1387,7 +1524,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Joe's Grill": [
@@ -1400,7 +1538,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Piccatta Brioche Provolone Lemon Basil Aioli",
@@ -1412,7 +1551,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Terp Comfort": [
@@ -1422,7 +1562,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Old Fashioned Texas Fried Chicken",
@@ -1432,7 +1573,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "One Pot Vegetable Biryani",
@@ -1443,7 +1585,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Tandoori Chicken",
@@ -1452,13 +1595,15 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Tequila Lime Chicken",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Terp Grain Bowl": [
@@ -1470,7 +1615,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Bamboo Rice Toasted Cumin Cilantro Lime Salad",
@@ -1479,7 +1625,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Bolitas de Yuca con Azucar Cassava Balls",
@@ -1489,7 +1636,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Bulgur Wheat Shitake Mushroom Heb Goat Cheese Salad",
@@ -1499,7 +1647,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chickpea Broccoli Arugula Roasted Shallot Salad",
@@ -1507,7 +1656,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chili Roasted Sweet Potatoes",
@@ -1517,7 +1667,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Chipotle Lime Chicken",
@@ -1525,7 +1676,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Corn with Manchego Cheese",
@@ -1534,13 +1686,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pork Carnitas",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Spicy Black Beans",
@@ -1550,7 +1704,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Wild Rice Roasted Corn Parsley Salad",
@@ -1560,7 +1715,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Salad Bar": [
@@ -1571,7 +1727,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cantaloupe",
@@ -1580,7 +1737,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Strips",
@@ -1588,7 +1746,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Candied Beets and Broccili",
@@ -1597,7 +1756,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Kale Apple Orange Smoothie",
@@ -1606,7 +1766,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Watermelon",
@@ -1615,7 +1776,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Mezza": [
@@ -1625,7 +1787,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Broccoli Cheddar Pizza",
@@ -1636,7 +1799,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cheese Pizza",
@@ -1648,7 +1812,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Parmesan Ricotta Pizza",
@@ -1659,7 +1824,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Tetrazzini",
@@ -1669,7 +1835,8 @@
                     "Contains gluten"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Crusty Baked Shells and Cauliflower",
@@ -1680,13 +1847,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Italian Sausage and Peppers",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pepperoni Pizza",
@@ -1697,7 +1866,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pesto Tilapia Roasted Potaoes Sundried Pesto",
@@ -1706,7 +1876,8 @@
                     "Contains fish"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pork Carnitas Pizza",
@@ -1717,7 +1888,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegetable Pizza",
@@ -1729,7 +1901,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Woks": [
@@ -1737,7 +1910,8 @@
                 "name": "Asian Beef Mongolian Grill",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Asian Chicken Mongolian Grill",
@@ -1745,7 +1919,8 @@
                     "smartchoice"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Asian Crispy Brussels Sprouts Salad",
@@ -1756,7 +1931,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Asian Slaw with Ginger Sesame Dressing",
@@ -1768,7 +1944,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Pad Thai",
@@ -1777,7 +1954,8 @@
                     "Contains fish"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Teryaki Fried Rice",
@@ -1788,7 +1966,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "General Tso's Chicken",
@@ -1798,7 +1977,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pad Thai Noodle Mongolian Grill",
@@ -1807,7 +1987,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Seasame Sauce",
@@ -1819,7 +2000,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Sesame Tofu Salad",
@@ -1831,7 +2013,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Stir Fry Squash & Peppers",
@@ -1843,7 +2026,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Sweet and Sour Pork",
@@ -1853,7 +2037,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "TOFU",
@@ -1863,7 +2048,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegetable Lo Mein Noodle",
@@ -1876,7 +2062,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vietnamese Rice Noodle Salad",
@@ -1884,7 +2071,8 @@
                     "Contains fish"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ]
     },
@@ -1897,19 +2085,22 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Chicken Breast",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Hot Dog",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Grill Works": [
@@ -1921,7 +2112,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cheese Burger Quesadilla",
@@ -1930,7 +2122,8 @@
                     "Contains gluten"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cheese Quesadilla",
@@ -1940,7 +2133,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Roaster": [
@@ -1950,7 +2144,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Chef's Table": [
@@ -1963,7 +2158,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Grilled Harissa Wild Blue Catfish",
@@ -1971,7 +2167,8 @@
                     "Contains fish"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Wild Mushroom Caramelized Onion Sheperd's Pie",
@@ -1980,7 +2177,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Pasta": [
@@ -1994,7 +2192,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Gnocchi w/ Mushroom & Spinach",
@@ -2006,7 +2205,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Parmesan Garlic Bread",
@@ -2017,7 +2217,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Pizza": [
@@ -2030,7 +2231,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pan Cheeseburger Pizza",
@@ -2041,7 +2243,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pan Italian Sausage Pizza",
@@ -2052,7 +2255,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pan Mexican Chorizo Pizza",
@@ -2063,7 +2267,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pan Pepperoni Pizza",
@@ -2074,7 +2279,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pan Vegetable Pizza",
@@ -2086,7 +2292,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Salad Bar": [
@@ -2097,7 +2304,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Beets",
@@ -2106,7 +2314,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cantaloupe",
@@ -2115,7 +2324,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Celery Sticks",
@@ -2124,7 +2334,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chipotle Hummus",
@@ -2133,7 +2344,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Corn Nuts",
@@ -2142,7 +2354,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Flax Seeds",
@@ -2152,7 +2365,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "French Dressing",
@@ -2162,7 +2376,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Greek Dressing",
@@ -2172,7 +2387,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Greek Pita Flat Bread",
@@ -2183,7 +2399,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Italian Creamy",
@@ -2193,7 +2410,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Italian Hummus",
@@ -2202,7 +2420,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Lite Caesar Dressing",
@@ -2212,7 +2431,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Lite Ranch Dressing",
@@ -2223,7 +2443,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Parmesan Cheese",
@@ -2232,7 +2453,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Parmesan Peppercorn Dressing",
@@ -2243,7 +2465,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Raspberry Vinaigrette Lite",
@@ -2253,7 +2476,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Sesame Oriental Dressing",
@@ -2265,7 +2489,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "TOFU",
@@ -2275,13 +2500,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Tomato Wedges",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Watermelon",
@@ -2290,7 +2517,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Yogurt",
@@ -2299,7 +2527,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Treats": [
@@ -2310,7 +2539,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Banana Coconut Yogurt Smoothie",
@@ -2319,7 +2549,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Banana",
@@ -2328,7 +2559,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Caramel Sauce",
@@ -2338,7 +2570,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cherry Sorbet Soft Serve",
@@ -2347,7 +2580,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chocolate Chip Cookie",
@@ -2359,7 +2593,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chocolate Soft Serve Ice Cream",
@@ -2372,7 +2607,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Dole Mango Sorbet Soft Serve",
@@ -2381,7 +2617,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Dole Pinapple Sorbet Soft Serve",
@@ -2390,7 +2627,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Dole Raspberry Sorbet Soft Serve",
@@ -2399,7 +2637,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Hot Fudge Sauce",
@@ -2409,7 +2648,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Kale Apple Orange Smoothie",
@@ -2418,7 +2658,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "M&M Candy Cookie",
@@ -2430,7 +2671,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Oatmeal Raisin Cookie",
@@ -2442,7 +2684,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Orange",
@@ -2452,7 +2695,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Salted Caramel Soft Serve Ice Cream",
@@ -2465,7 +2709,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Sugar Cookie",
@@ -2477,7 +2722,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vanilla Soft Serve Ice Cream",
@@ -2490,7 +2736,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Warm Brownie Cheesecake",
@@ -2503,7 +2750,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Warm Brownie",
@@ -2516,7 +2764,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "White Chocolate Macadamia Nut Cookie",
@@ -2529,7 +2778,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Waffle, Doughnut, Bagel Bar": [
@@ -2540,7 +2790,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Strawberry Cream Cheese",
@@ -2549,7 +2800,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Soup Du Jour": [
@@ -2561,7 +2813,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Buffalo Style Chicken Soup",
@@ -2572,7 +2825,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Butternut Squash and Cranberry Bisque",
@@ -2581,7 +2835,8 @@
                     "Contains gluten"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Minestrone Soup",
@@ -2592,7 +2847,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Deli+": [
@@ -2604,7 +2860,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Aji Amarillo Rice",
@@ -2613,7 +2870,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "CIlantro",
@@ -2622,7 +2880,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Caraotas Negras",
@@ -2631,7 +2890,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Limes",
@@ -2640,13 +2900,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Red Onion Diced 1/2\"",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Roasted Grape Tomato Yellow Squash Verde Taco",
@@ -2657,7 +2919,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Salsa Verde Chicken Street Taco",
@@ -2667,7 +2930,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Taco Shell",
@@ -2676,7 +2940,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Deli": [
@@ -2687,7 +2952,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Celery Sticks",
@@ -2696,7 +2962,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cheddar Cheese Sliced",
@@ -2705,7 +2972,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Salad",
@@ -2714,7 +2982,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Deli Wheat Bread Sliced",
@@ -2726,7 +2995,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Jalapenos",
@@ -2735,7 +3005,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Multi-grain Bread",
@@ -2746,13 +3017,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pepperoni Sliced",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pickle Slice",
@@ -2761,7 +3034,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Plain Tortilla 12\"",
@@ -2771,7 +3045,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Potato Chips",
@@ -2780,7 +3055,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pullman White Bread Sliced",
@@ -2791,7 +3067,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Rye Bread",
@@ -2802,13 +3079,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Salami Sliced",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Swiss Cheese Sliced",
@@ -2817,7 +3096,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Tomato Tortilla 12\"",
@@ -2827,7 +3107,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Tuna Salad",
@@ -2837,7 +3118,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Wheat Tortilla 12\"",
@@ -2847,7 +3129,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Yellow Mustard",
@@ -2856,7 +3139,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Purple Zone": [
@@ -2867,7 +3151,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Tikka Masala",
@@ -2876,7 +3161,8 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Roma Vegan Salads and Panini": [
@@ -2888,7 +3174,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Garlic Buffalo Tofu",
@@ -2900,7 +3187,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Tofu & Spinach Lasagna",
@@ -2912,7 +3200,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Vegan Desserts": [
@@ -2923,7 +3212,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Chocolate Cheesecake",
@@ -2932,7 +3222,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Key Lime Cheesecake",
@@ -2941,7 +3232,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Strawberry Cheesecake",
@@ -2950,7 +3242,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Mongolian Grill": [
@@ -2963,7 +3256,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Blistered Shishito Pepperes",
@@ -2972,7 +3266,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Crispy Chili Oil",
@@ -2982,7 +3277,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Crispy Scallions",
@@ -2991,7 +3287,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Fried Wonton Strips",
@@ -3001,7 +3298,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Mushroom Chicken",
@@ -3012,7 +3310,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Shawarma Rice",
@@ -3021,7 +3320,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Spicy Mushroom Stir Fry",
@@ -3032,7 +3332,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Spicy Sesame Ginger Bok Choy with Bean Sprouts and Carrots",
@@ -3044,7 +3345,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Steamed Edamame Pods",
@@ -3054,7 +3356,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Yaki Hakka Noodles",
@@ -3065,7 +3368,8 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Mongolian Grill Made to Ord": [
@@ -3073,7 +3377,8 @@
                 "name": "Asian Beef Mongolian Grill",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Asian Chicken Mongolian Grill",
@@ -3081,7 +3386,8 @@
                     "smartchoice"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Asian Shrimp Mongolian Grill",
@@ -3090,7 +3396,8 @@
                     "smartchoice"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Cooked Lo Mein",
@@ -3101,7 +3408,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Pad Thai Noodle Mongolian Grill",
@@ -3110,7 +3418,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Sauce Plum (RTU)",
@@ -3121,7 +3430,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Stir Fry Sauce (RTU)",
@@ -3133,7 +3443,8 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "TOFU",
@@ -3143,7 +3454,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": []
+                "reviews": [],
+                "rating": 0
             }
         ]
     }

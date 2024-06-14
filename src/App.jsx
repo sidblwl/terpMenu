@@ -36,13 +36,12 @@ const loadingNorth = {
 
 let dontLoadFirstRender = false;
 
-function MenuCard({mItem, hall, section}){
-  const [rating, setRating] = useState(0); 
+function MenuCard({mItem, hall, section}){ 
   const [popupState, setPopupState] = useState(false);
 
   function Star({id}){
     return(
-      <div style = {(id <= rating ? {color: "orange"} : {color: "black"})} className="fa fa-star"></div>
+      <div style = {(id <= mItem.rating ? {color: "orange"} : {color: "black"})} className="fa fa-star"></div>
     )
   }
 
@@ -93,7 +92,7 @@ function MenuCard({mItem, hall, section}){
         </div>
       </div>
 
-      <RatingMenu setRating = {setRating} rating={rating} setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section}></RatingMenu>
+      <RatingMenu setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section}></RatingMenu>
     </>
   )
 }

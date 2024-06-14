@@ -21,6 +21,26 @@ app.add_middleware(
 
 photos = {"American Grilled Cheese Sandwich": "public/grilledCheese.jpeg", "BBQ Chicken Pepperjack Grilled Cheese Sandwich": "public/bbqChicken.jpeg"}
 
+def calcRatings():
+    with open("reviews.json", 'r') as rf:
+        reviews = json.load(rf)
+    for hall_reviews, sections_reviews in reviews.items():
+        for section_reviews, items_reviews in sections_reviews.items():
+            for review_item in items_reviews:
+                ratingSum = 0
+                numRatings = 0
+                for review in review_item["reviews"]:
+                    ratingSum += review["rating"]
+                    numRatings += 1
+                if(numRatings != 0):
+                    review_item["rating"] = ratingSum/numRatings
+                else:
+                    review_item["rating"] = 0
+
+    json_object = json.dumps(reviews, indent=4)
+    with open("reviews.json", "w") as outfile:
+        outfile.write(json_object)
+
 # This function scrapes the menu on the UMD dining hall website 
 
 def getMenu(num):
@@ -67,6 +87,7 @@ def getMenu(num):
                     else:
                         item["image"] = "none.jpg"
                     item["reviews"] = []
+                    item["rating"] = 0
                     # review = {"rating": 4, "name": "Anonymous", "date": "06/13/24", "text":"this food is yum diddly scrumptious"}
                     # review2 = {"rating": 2, "name": "Anonymous", "date": "06/13/24", "text":"lowkey mid"}
                     # # item["reviews"].append(review)
@@ -137,6 +158,7 @@ async def add_item(review: Review):
     json_object = json.dumps(reviews, indent=4)
     with open("reviews.json", "w") as outfile:
         outfile.write(json_object)
+    calcRatings()
     return {'message': 'success'}
 
 @app.delete('/clearReviews')
@@ -147,6 +169,7 @@ async def clear_reviews():
                 for section_reviews, items_reviews in sections_reviews.items():
                     for review_item in items_reviews:
                             review_item['reviews'] = []
+                            review_item['rating'] = 0
     json_object = json.dumps(reviews, indent=4)
     with open("reviews.json", "w") as outfile:
         outfile.write(json_object)

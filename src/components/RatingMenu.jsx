@@ -2,8 +2,9 @@ import '../App.css'
 import React, { useState } from "react";
 import close from "../assets/close.png";
 
-export default function RatingMenu({popupState, setPopupState, rating, setRating, mItem, hall, section}){
-
+export default function RatingMenu({popupState, setPopupState, mItem, hall, section}){
+    const [rating, setRating] = useState(0);
+    
     function getDate() {
         const today = new Date();
         const month = today.getMonth() + 1;

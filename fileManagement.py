@@ -19,6 +19,7 @@ def update_menu_with_reviews(menus_file, reviews_file, output_file):
                         for review_item in items_reviews:
                             if review_item['name'] == item_name:
                                 item['reviews'] = review_item['reviews']
+                                item['rating'] = review_item['rating']
                                 break
     
     # Save the updated menus to a new file
