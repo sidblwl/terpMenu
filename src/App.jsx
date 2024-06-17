@@ -50,13 +50,15 @@ function MenuCard({mItem, hall, section}){
 
   let tagList = "";
   mItem.tags.forEach((tag) => {
-    if(tag != "HalalFriendly"){
-      tagList += tag.charAt(0).toUpperCase() + tag.substring(1, tag.length);
+    if(tag != "Show All"){
+      if(tag != "HalalFriendly"){
+        tagList += tag.charAt(0).toUpperCase() + tag.substring(1, tag.length);
+      }
+      else{
+        tagList+= "Halal Friendly"
+      }
+      tagList += ", "
     }
-    else{
-      tagList+= "Halal Friendly"
-    }
-    tagList += ", "
   })
 
   if(tagList == ""){
@@ -106,6 +108,8 @@ function App() {
   const [activeTab, setActiveTab] = useState(1)
   const [activeSection, setActiveSection] = useState(1)
   const [controller, setAbortController] = useState(new AbortController())
+  const [filter, setFilter] = useState("Show All")
+
   const diningHalls = [{name: "North Dining", loading: loadingNorth, firstSection: "Smash Burger", id: 0}, {name: "The Y", loading: loadingY, firstSection: "Breakfast", id: 1}, {name: "South Dining", loading: loadingSouth, firstSection: "Broiler Works", id: 2}]
   const fetchMessages = async () => {
     const signal = controller.signal; 
@@ -154,11 +158,11 @@ function App() {
         </div>
         <div className="sideWrapper">
           <div className="filterWrapper">
-            <FilterMenu></FilterMenu>
+            <FilterMenu filter={filter} setFilter={setFilter}></FilterMenu>
           </div>
           <div className="menu">
             {/* <p>{menulist[section][0].name}</p> */}
-            {menulist[section].map((menuItem) => ((1) ? (<MenuCard mItem={menuItem} hall={diningHall} section={section}></MenuCard>): ""))}
+            {menulist[section].map((menuItem) => ((menuItem.tags.indexOf(filter) > -1) ? (<MenuCard mItem={menuItem} hall={diningHall} section={section}></MenuCard>): ""))}
           </div>
         </div>
       </div>

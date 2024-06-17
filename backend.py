@@ -81,6 +81,7 @@ def getMenu(num):
                     itemTags = []
                     for tag in itemTagsHTML:
                         itemTags.append(tag.get("title"))
+                    itemTags.append("Show All")
                     item["tags"] = itemTags
                     if(item["name"] in photos):
                         item["image"] = photos[item["name"]]

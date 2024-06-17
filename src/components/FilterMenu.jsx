@@ -1,16 +1,15 @@
 import '../App.css'
 import React, { useState } from "react";
 
-export default function FilterMenu({}){
-    const [filter, setFilter] = useState(0)
+export default function FilterMenu({filter, setFilter}){
 
     return(
         <>
-            <button style = {(filter == 0 ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter(0)}}>Show All</button>
-            <button style = {(filter == 1 ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter(1)}}>Vegetarian</button>
-            <button style = {(filter == 2 ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter(2)}}>Vegan</button>
-            <button style = {(filter == 3 ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter(3)}}>Gluten Free</button>
-            <button style = {(filter == 4 ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter(4)}}>Halal</button>
+            <button style = {(filter == "Show All" ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter("Show All")}}>Show All</button>
+            <button style = {(filter == "vegetarian" ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter("vegetarian")}}>Vegetarian</button>
+            <button style = {(filter == "vegan" ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter("vegan")}}>Vegan</button>
+            <button style = {(filter == "contains gluten" ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter("contains gluten")}}>Gluten Free</button>
+            <button style = {(filter == "HalalFriendly" ? {backgroundColor: "#f07585"} : {backgroundColor: "#dedede"})} onClick = {() => {setFilter("HalalFriendly")}}>Halal</button>
         </>
     )
 }
