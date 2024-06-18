@@ -7,6 +7,8 @@ import requests
 import json
 from fileManagement import update_menu_with_reviews
 
+diningHalls = ["North", "Y", "South"]
+
 fluff = ["Bacon Bits", "Diced Ham", "Diced Green Peppers", "Diced Onions", "Maple Syrup", "Shredded Cheddar Cheese", "Sliced Mushroom", "Spinach", "Tomatoes Diced", "Butter", "Ham Sliced", "Maple Syrup", "Mayonnaise", "Provolone Cheese Sliced", "Roasted Carrots and Red Onions", "Sliced Pepper Jack Cheese", "Sliced Roma Tomatoes", "Sugar Snap Peas and Red Peppers (purple)", "Turkey Sliced", "Balsamic Dressing", "Banana Peppers", "Bean Sprouts", "Broccoli", "Brown Rice", "Chopped Kale", "Cran Raisin", "Cucumber", "Diced Green Peppers", "Edamame", "Garbanzo Beans", "Guacamole", "Hummus", "Mixed Greens", "Potato Hamburger Roll", "Pumpkin Seeds", "Red Beans", "Red Pepper", "Shredded Carrots", "Sliced Jalapeno Peppers", "Sliced Mushroom", "Sliced Red Onion", "Sliced Roma Tomatoes", "Sourdough Bread", "Spinach", "Vegan Chipotle Mayonnaise", "Vegan Cream Cheese", "Vegan Mayonnaise", "Vegan Shredded Cheddar Cheese", "Vegan Shredded Pepper Jack Cheese", "Vegan Sliced Gouda Cheese", "Vegan Sliced Provolone Cheese", "Vegan Sour Cream", "Whole Grain Bread", "American Cheese Sliced", "Chipotle Mayonnaise", "Creamy Cole Slaw", "Dijon Mustard", "Fresh Bread Butter Pickles", "Fresh Dill Pickles", "Leaf Lettuce", "Mayonnaise", "Pullman Wheat Bread Sliced", "Sliced Red Onion", "Sliced Tomatoes", "Spicy Brown Mustard", "Turkey Sliced", "Chopped Cilantro", "Cotija Cheese", "Fresh Roasted Carrots", "Fresh Steamed Broccoli", "Fresh Steamed Green Beans", "Guacamole", "Lime Wedges", "Pickled Red Onions", "Pico de Gallo", "Salsa Roja", "Salsa Verde", "Shredded Cheddar Cheese", "Shredded Jack Cheedar Cheese", "Shredded Lettuce", "Sliced Jalapeno Peppers", "Sour Cream", "Hummus", "Marinated Cucumbers", "Marinated Grape Tomatoes", "Pickled Onions", "Red pepper Hummus", "Balsamic Dressing", "Balsamic Vinegar", "Blue Cheese Dressing", "Caesar Dressing", "Chopped Green Onions", "Chopped Kale", "Chopped Lettuce", "Chopped Romaine", "Corn", "Cottage Cheese", "Cran Raisin", "Crouton", "Cucumber", "Diced Green Pepper", "Eggs", "FF Italian", "Fried Shallot", "Garbanzo Beans", "Grapes", "Grated Parmesan Cheese", "Lite Soy Sauce", "Mixed Greens", "Oatmeal", "Olive Oil", "Oyster Crackers", "Peas", "Raisins", "Ranch Dressing", "Red Beans", "Red Pepper", "Red Wine Vinegar", "Roasted Corn", "Shredded Carrots", "Shredded Cheddar Cheese", "Shredded Jack Cheedar Cheese", "Sliced Black Olives", "Sliced Lemons", "Sliced Mushroom", "Sliced Red Onion", "Spinach", "Sunflower Seeds", "Thousand Island Dressing", "Tomatoes Diced", "Bagels", "Blueberry Muffin", "Butter", "Chocolate Muffin", "Cinnamon Scone", "Donuts", "M&M Pieces", "Maple Syrup", "Margarine", "Mini Croissant", "Oreo Pieces", "Plain Cream Cheese", "Rainbow Sprinkles", "Strawberry Topping", "Waffle", "Whipped Cream", "Alfredo Sauce", "Marinara Sauce", "Mushroom Bruschetta", "Tomato Bruschetta", "Baby Corn", "Bean Sprouts", "Broccoli", "Brown Rice", "Chopped Basil", "Chopped Cilantro", "Chopped Garlic", "Chopped Ginger", "Chopped Green Onions", "Chow Mein Ramen Noodles", "Diced Green Pepper", "Edamame", "Fried Rice", "General Tso's Sauce", "Green Beans", "Orange Sauce", "Shredded Cabbage", "Sliced Mushroom", "Sliced Red Onion", "Spinach", "Sticky Rice", "Sugar Snap Peas", "Sweet Sour Sauce (RTU)", "Teriyaki Sauce", "Water Chestnuts", "Parmesan Tomatoes and Button Mushrooms", "Roasted Carrots and Red Onions", "Grated Parmesan Cheese", "Ham Sliced", "Mayonnaise", "Provolone Cheese Sliced", "Sliced Pepper Jack Cheese", "Sliced Roma Tomatoes", "Sugar Snap Peas and Red Peppers (purple)", "Turkey Sliced", "Balsamic Dressing", "Balsamic Garlic Roasted Brussel Sprouts", "Banana Peppers", "Bean Sprouts", "Broccoli", "Brown Rice", "Chopped Kale", "Cran Raisin", "Cucumber", "Diced Green Peppers", "Edamame", "Garbanzo Beans", "Guacamole", "Hummus", "Potato Hamburger Roll", "Pumpkin Seeds", "Red Beans", "Red Pepper", "Roasted Garlic Sweet Potato", "Shredded Carrots", "Sliced Jalapeno Peppers", "Sliced Mushroom", "Sliced Red Onion", "Sliced Roma Tomatoes", "Sourdough Bread", "Spinach Tortilla 12\"", "Spinach", "Sticky Rice", "Vegan Chipotle Mayonnaise", "Vegan Mayonnaise", "Vegan Shredded Cheddar Cheese", "Vegan Shredded Pepper Jack Cheese", "Vegan Sliced Gouda Cheese", "Vegan Sliced Provolone Cheese", "Whole Grain Bread", "American Cheese Sliced", "BBQ Sauce", "Chipotle Mayonnaise", "Dijon Mustard", "Fresh Bread Butter Pickles", "Fresh Dill Pickles", "Leaf Lettuce", "Mayonnaise", "Pullman Wheat Bread Sliced", "Sliced Red Onion", "Sliced Tomatoes", "Spicy Brown Mustard", "Turkey Sliced", "Cuban Black Bean and Rice", "Chopped Cilantro", "Cotija Cheese", "Guacamole", "Lime Wedges", "Pico de Gallo", "Queso Blanco", "Salsa Roja", "Salsa Verde", "Shredded Jack Cheedar Cheese", "Shredded Lettuce", "Sliced Jalapeno Peppers", "Sour Cream", "Tortilla Chip", "Hummus", "Pickled Onions", "Red pepper Hummus", "Artichoke Hearts", "Balsamic Dressing", "Balsamic Vinegar", "Black Beans", "Blue Cheese Dressing", "Broccoli", "Caesar Dressing", "Chopped Kale", "Chopped Lettuce", "Chopped Romaine", "Chow Mein Noodles", "Corn", "Cran Raisin", "Crouton", "Cucumber", "Diced Green Pepper", "Eggs", "FF Italian", "Fresh Blueberry", "Fresh Strawberry", "Garbanzo Beans", "Garlic Chili Butternut Squash and Red Onions", "Grapes", "Grated Parmesan Cheese", "Mixed Greens", "Olive Oil", "Oyster Crackers", "Peaches in syrup", "Pears in syrup", "Peas", "Pineapple", "Plain Tuna", "Raisins", "Ranch Dressing", "Red Beans", "Red Pepper", "Red Wine Vinegar", "Shredded Carrots", "Shredded Cheddar Cheese", "Shredded Jack Cheedar Cheese", "Sliced Black Olives", "Sliced Mushroom", "Sliced Red Onion", "Spinach", "Sunflower Seeds", "Thousand Island Dressing", "Tomatoes Diced", "Alfredo Sauce", "Kale Caesar Salad", "Marinara Sauce", "Baby Corn", "Bean Sprouts", "Broccoli", "Brown Rice", "Chopped Basil", "Chopped Cilantro", "Chopped Garlic", "Chopped Ginger", "Chopped Green Onions", "Chow Mein Ramen Noodles", "Diced Green Pepper", "Edamame", "Fried Rice", "General Tso's Sauce", "Green Beans", "Orange Sauce", "Shredded Cabbage", "Sliced Mushroom", "Sliced Red Onion", "Spinach", "Sticky Rice", "Sugar Snap Peas", "Sweet Sour Sauce (RTU)", "Teriyaki Sauce", "Water Chestnuts"]
 
 origins = ["*"]
@@ -44,6 +46,9 @@ def calcRatings():
 # This function scrapes the menu on the UMD dining hall website 
 
 def getMenu(num):
+    ySections = ["Breakfast", "Good Food Gluten Free", "Sprouts", "Terp Comfort", "Salad Bar","Maryland Bakery", "Mezza", "Joe's Grill", "Terp Grain Bowl", "Woks"]
+    northSections = ["Smash Burger", "Harvest Greens", "Harvest Vegan-LUNCH", "Purple Zone", "Purple Zone-ALL DAY",  "Smash Deli", "Ciao All-Day", "Ciao Chilled Salads", "Ciao Pizza", "Ciao Pasta", "Ciao Entree", "Chef's Table Mains", "Chef's Table Extras",  "Chef's Table Vegetarian", "Halal at Chef's Table", "Harvest Entree", "Soups", "Scoops Homemade Ice Cream"]
+    southSections = ["Broiler Works", "Grill Works", "Chef's Table", "Salad Bar", "Waffle, Doughnut, Bagel Bar", "Purple Zone", "Roaster", "Pasta", "Pizza", "Soup Du Jour", "Deli+", "Deli", "Roma Vegan Salads and Panini", "Vegan Desserts", "Mongolian Grill", "Mongolian Grill Made to Ord"]
     url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=9/3/2023"
     # url = "https://nutrition.umd.edu/?locationNum=" + str(num)
     page = requests.get(url)
@@ -77,7 +82,8 @@ def getMenu(num):
                     itemTagsHTML = itemRow.find_all("img", class_="nutri-icon")
                     itemTags = []
                     for tag in itemTagsHTML:
-                        itemTags.append(tag.get("title").lower())
+                        itemTags.append(tag.get("title"))
+                    itemTags.append("Show All")
                     item["tags"] = itemTags
                     if(item["name"] in photos):
                         item["image"] = photos[item["name"]]
@@ -91,19 +97,6 @@ def getMenu(num):
                     # # item["reviews"].append(review2)
                     allItems.append(item)
                     menus[stationName.text.strip()] = allItems
-    
-    
-    favoriteItems = []
-    for i in range(0, 10):
-        currentMax = {"rating": -1}
-        for section in menus:
-            for item in menus[section]:
-                if (item["rating"] > currentMax["rating"]) and (item not in favoriteItems):
-                    currentMax = item
-        favoriteItems.append(currentMax)
-        
-    menus["Favorites"] = favoriteItems
-    print(favoriteItems)
 
     return menus
 
@@ -125,7 +118,8 @@ with open("menus.json", "w") as outfile:
 menus_file = 'menus.json'
 reviews_file = 'reviews.json'
 output_file = 'menus.json'
-update_menu_with_reviews(menus_file, reviews_file, output_file)
+for diningHall in diningHalls:
+    update_menu_with_reviews(menus_file, reviews_file, output_file, diningHall)
 
 class Review(BaseModel):
     hall: str
@@ -138,21 +132,21 @@ class Review(BaseModel):
 
 @app.get('/menu0')
 async def root():
-    update_menu_with_reviews(menus_file, reviews_file, output_file)
+    update_menu_with_reviews(menus_file, reviews_file, output_file, "North")
     with open('menus.json') as json_file:
         menus = json.load(json_file)
     return menus["North"]
 
 @app.get('/menu1')
 async def root():
-    update_menu_with_reviews(menus_file, reviews_file, output_file)
+    update_menu_with_reviews(menus_file, reviews_file, output_file, "Y")
     with open('menus.json') as json_file:
         menus = json.load(json_file)
     return menus["Y"]
 
 @app.get('/menu2')
 async def root():
-    update_menu_with_reviews(menus_file, reviews_file, output_file)
+    update_menu_with_reviews(menus_file, reviews_file, output_file, "South")
     with open('menus.json') as json_file:
         menus = json.load(json_file)
     return menus["South"]
