@@ -4,35 +4,15 @@ import NavButton from './components/NavButton.jsx'
 import './App.css'
 import HallSections from './components/HallSections.jsx'
 import RatingMenu from './components/RatingMenu.jsx'
-import FilterMenu from './components/FilterMenu.jsx'
-
+import Filters from './components/Filters.jsx'
 let lamborghini = {}
-const loadingY = {
+const loading = {
   "Loading...": [
       {
           "name": "Loading Items...",
           "tags": [],
           "image": "loading.gif"
       }
-  ]
-}
-
-const loadingSouth = {
-  "Loading...": [
-    {
-      "name": "Loading Items...",
-      "tags": [],
-      "image": "loading.gif"
-    }
-  ]}
-
-const loadingNorth = {
-  "Loading...": [
-    {
-      "name": "Loading Items...",
-      "tags": [],
-      "image": "loading.gif"
-    }
   ]
 }
 
@@ -50,15 +30,14 @@ function MenuCard({mItem, hall, section}){
 
   let tagList = "";
   mItem.tags.forEach((tag) => {
-    if(tag != "Show All"){
-      if(tag != "HalalFriendly"){
-        tagList += tag.charAt(0).toUpperCase() + tag.substring(1, tag.length);
-      }
-      else{
-        tagList+= "Halal Friendly"
-      }
-      tagList += ", "
+    console.log(tag)
+    if(tag != "halalfriendly"){
+      tagList += tag.charAt(0).toUpperCase() + tag.substring(1, tag.length);
     }
+    else{
+      tagList+= "Halal Friendly"
+    }
+    tagList += ", "
   })
 
   if(tagList == ""){
@@ -74,6 +53,7 @@ function MenuCard({mItem, hall, section}){
   } else{
     hallName = "South"
   }
+
   return(
     <>
       <div className="menuItem">
@@ -81,36 +61,48 @@ function MenuCard({mItem, hall, section}){
         <div className="menuItemNameHolder">
           <h1 className="menuItemName">{mItem.name}</h1>
         </div>
-        <div className="menuItemTagHolder">
-          <p>{tagList}</p>
-        </div>
-        <div>
-          <Star id = {1}></Star>
-          <Star id = {2}></Star>
-          <Star id = {3}></Star>
-          <Star id = {4}></Star>
-          <Star id = {5}></Star>
-          <button className="reviewButton" onClick={() => {
-            setPopupState(true)
-          }}>Review</button>
-        </div>
+        <MenuCardBody></MenuCardBody>
       </div>
-
-      <RatingMenu setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section}></RatingMenu>
     </>
   )
+
+
+
+  function MenuCardBody(){
+    return (mItem.name != "Loading Items..." && mItem.name != "No items matched your search") ? (
+      <>
+        <div className="menuItemTagHolder">
+              <p>{tagList}</p>
+        </div>
+            
+            
+            <div>
+              <Star id = {1}></Star>
+              <Star id = {2}></Star>
+              <Star id = {3}></Star>
+              <Star id = {4}></Star>
+              <Star id = {5}></Star>
+              <button className="reviewButton" onClick={() => {
+                setPopupState(true)
+              }}>Review</button>
+            </div>
+        <RatingMenu setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section}></RatingMenu>
+      </>
+    ): ""
+  }
 }
 
 function App() {
   const [diningHall, setDiningHall] = useState(1)
   const [section, setSection] = useState("Loading...")
-  const [menulist, setMenulist] = useState(loadingY)
+  const [menulist, setMenulist] = useState(loading)
   const [activeTab, setActiveTab] = useState(1)
   const [activeSection, setActiveSection] = useState(1)
   const [controller, setAbortController] = useState(new AbortController())
-  const [filter, setFilter] = useState("Show All")
+  const [filters, setFilters] = useState([])
 
-  const diningHalls = [{name: "North Dining", loading: loadingNorth, firstSection: "Smash Burger", id: 0}, {name: "The Y", loading: loadingY, firstSection: "Breakfast", id: 1}, {name: "South Dining", loading: loadingSouth, firstSection: "Broiler Works", id: 2}]
+  let mapped = false;
+  const diningHalls = [{name: "North Dining", firstSection: "Smash Burger", id: 0}, {name: "Yahentamitsi", firstSection: "Breakfast", id: 1}, {name: "South Dining", firstSection: "Broiler Works", id: 2}]
   const fetchMessages = async () => {
     const signal = controller.signal; 
     const response = await fetch("http://127.0.0.1:8000/menu" + diningHall, {signal: signal})
@@ -128,7 +120,7 @@ function App() {
         setMenulist(lamborghini[diningHall])
       }
       else{
-        setMenulist(diningHalls[diningHall].loading); 
+        setMenulist(loading); 
         setSection("Loading..."); 
         fetchMessages()
       }
@@ -138,6 +130,9 @@ function App() {
     }
   }, [diningHall])
 
+  useEffect(() => {
+    mapped = false;
+  }, [section, diningHall])
 
   return (
     <>
@@ -148,9 +143,11 @@ function App() {
       </div>
       <div className="wrapper">
         <div className="favWrapper">
-          <button className="favoriteBtn">Favorites</button>
+          <button className="favoriteBtn" onClick = {() => setSection("Favorites")}>Favorites</button>
         </div>
+
         <h1 className="sectionTitle">{section}</h1>
+  
         <div className="redBorder">
           <div className="sidebar">
             <HallSections menulist = {menulist} hall={diningHall} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection} setActiveTab = {setActiveTab}></HallSections>
@@ -158,12 +155,34 @@ function App() {
         </div>
         <div className="sideWrapper">
           <div className="filterWrapper">
-            <FilterMenu filter={filter} setFilter={setFilter}></FilterMenu>
+            <Filters filters = {filters} setFilters = {setFilters}></Filters>
           </div>
           <div className="menu">
-            {/* <p>{menulist[section][0].name}</p> */}
-            {menulist[section].map((menuItem) => ((menuItem.tags.indexOf(filter) > -1) ? (<MenuCard mItem={menuItem} hall={diningHall} section={section}></MenuCard>): ""))}
-          </div>
+          {menulist[section].map((menuItem) => {
+            let validItem = true;
+            if(filters.length > 0){
+              filters.forEach((filter) =>{
+                if(!menuItem.tags.includes(filter)){
+                  validItem = false;
+                }
+              })
+            }
+            if(validItem){
+              mapped = true;
+              return <MenuCard mItem={menuItem} hall={diningHall} section={section}></MenuCard>
+            }
+            else{
+              if(menuItem === menulist[section][menulist[section].length -1] && !mapped){
+                let noSuchItems =  {
+                  "name": "No items matched your search",
+                  "tags": [],
+                  "image": "none.jpg"
+              }
+                return <MenuCard mItem={noSuchItems} hall={diningHall} section={section}></MenuCard>
+              }
+            }
+          })}
+        </div>
         </div>
       </div>
     </>

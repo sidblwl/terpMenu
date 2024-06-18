@@ -3,27 +3,21 @@
         "Smash Burger": [
             {
                 "name": "Bacon",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
             },
             {
                 "name": "Beef Burger",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
             },
             {
                 "name": "Beef Chili with Beans",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -31,10 +25,9 @@
             {
                 "name": "Cheese Sauce",
                 "tags": [
-                    "Contains dairy",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -44,8 +37,7 @@
                 "name": "Chipotle Lime BBQ Sauce",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -55,8 +47,7 @@
                 "name": "Fresh French Fries",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -65,8 +56,7 @@
             {
                 "name": "Grilled  Chicken",
                 "tags": [
-                    "Contains soy",
-                    "Show All"
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -74,9 +64,7 @@
             },
             {
                 "name": "Grilled Hot Dog",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -85,8 +73,7 @@
                 "name": "Grilled Mushrooms",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -96,8 +83,7 @@
                 "name": "Grilled Onions",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -106,9 +92,8 @@
             {
                 "name": "Over Hard Fried Eggs",
                 "tags": [
-                    "Contains egg",
-                    "vegetarian",
-                    "Show All"
+                    "contains egg",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -117,11 +102,10 @@
             {
                 "name": "Potato Hot Dog Roll",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -130,10 +114,9 @@
             {
                 "name": "Sock It 2 Me Sauce",
                 "tags": [
-                    "Contains egg",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains egg",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -142,10 +125,9 @@
             {
                 "name": "Tabasco Onions",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -157,8 +139,7 @@
                 "name": "Avocado Sliced",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -168,8 +149,7 @@
                 "name": "Banana",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -178,9 +158,8 @@
             {
                 "name": "Butter Sage Roasted Brussel Sprouts",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -189,9 +168,8 @@
             {
                 "name": "Candied Pumkin Seeds",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -200,11 +178,10 @@
             {
                 "name": "Chipotle Farm House",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -213,8 +190,7 @@
             {
                 "name": "Chipotle Vinagrette",
                 "tags": [
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -223,11 +199,10 @@
             {
                 "name": "Cilantro Lime Coleslaw",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -237,8 +212,7 @@
                 "name": "Corn Nuts",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -248,8 +222,7 @@
                 "name": "Crisp CornTortilla Strips",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -258,11 +231,10 @@
             {
                 "name": "Elbow Macaroni Salad",
                 "tags": [
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -271,10 +243,9 @@
             {
                 "name": "Farro Roasted Mushroom Salad",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -283,9 +254,8 @@
             {
                 "name": "Feta Cheese",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -294,10 +264,9 @@
             {
                 "name": "Flax Seeds",
                 "tags": [
-                    "Contains nuts",
+                    "contains nuts",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -307,8 +276,7 @@
                 "name": "Grape Tomatoes",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -317,10 +285,9 @@
             {
                 "name": "Greek Dressing",
                 "tags": [
-                    "Contains dairy",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -330,8 +297,7 @@
                 "name": "Herb Garlic Mushrooms",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -341,8 +307,7 @@
                 "name": "Honey Roasted Butternut Squash",
                 "tags": [
                     "smartchoice",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -352,8 +317,7 @@
                 "name": "Lemon Mint Vinaigrette",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -362,9 +326,8 @@
             {
                 "name": "Quinoa Feta Mint Salad",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -375,8 +338,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -385,10 +347,9 @@
             {
                 "name": "Roasted Garlic Chili Broccoli",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -397,9 +358,8 @@
             {
                 "name": "Shredded Parmesan Cheese",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -409,8 +369,7 @@
                 "name": "Shredded Red Cabbage",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -419,15 +378,14 @@
             {
                 "name": "Spicy Roasted Sunflower Seeds",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -436,10 +394,9 @@
             {
                 "name": "Wild Rice Cranberries Apples Salad",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -453,8 +410,7 @@
                     "smartchoice",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -463,11 +419,10 @@
             {
                 "name": "Breaded Eggplant Parmesan Casserole",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -476,12 +431,11 @@
             {
                 "name": "Vegan Teriyaki Tofu Stir Fry",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -492,8 +446,7 @@
             {
                 "name": "Arugula & Tomato Braised Chicken",
                 "tags": [
-                    "smartchoice",
-                    "Show All"
+                    "smartchoice"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -503,8 +456,7 @@
                 "name": "Baked Potato",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -514,8 +466,7 @@
                 "name": "French Fries (Purple)",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -525,8 +476,7 @@
                 "name": "Garlic Broccolini",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -536,8 +486,7 @@
                 "name": "Garlic Herb Roasted Zucchini and Yellow Squash",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -545,9 +494,7 @@
             },
             {
                 "name": "Grilled Chicken Breast",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -555,8 +502,7 @@
             {
                 "name": "Grilled Garlic Basil Chicken Alfredo (purple)",
                 "tags": [
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -566,8 +512,7 @@
                 "name": "Lemon Basil Alfredo Sauce",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -577,8 +522,7 @@
                 "name": "Red Lentil Penne Pasta",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -588,8 +532,7 @@
                 "name": "Vegan Margherita Pizza",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -601,8 +544,7 @@
                 "name": "Annie's Balsamic Vinaigrette (purple)",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -612,8 +554,7 @@
                 "name": "Annie's French Dressing (purple)",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -623,8 +564,7 @@
                 "name": "Annie's Lite Raspberry Vinaigrette (purple)",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -634,8 +574,7 @@
                 "name": "Arugula",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -645,8 +584,7 @@
                 "name": "Roasted Red Pepper",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -657,10 +595,9 @@
             {
                 "name": "Cheese Quesadilla",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -671,11 +608,10 @@
             {
                 "name": "Garlic Mozzeralla Herb Cheesy Bread",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -686,8 +622,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -698,8 +633,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -709,8 +643,7 @@
                 "name": "Roasted Green Beans with Red Onions",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -720,8 +653,7 @@
                 "name": "Whole Grain Mustard Roasted Button Mushrooms",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -732,11 +664,10 @@
             {
                 "name": "Basil Pesto Roasted Red pepper Pasta Salad",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -745,9 +676,8 @@
             {
                 "name": "Grape Tomato Fresh Mozzarella Fried Basil Salad",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -757,8 +687,7 @@
                 "name": "Italian Potato Salad",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -768,8 +697,7 @@
                 "name": "Mixed Fruit with Mint",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -778,10 +706,9 @@
             {
                 "name": "Three Bean Salad",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -792,12 +719,11 @@
             {
                 "name": "Cheese Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -806,12 +732,11 @@
             {
                 "name": "Crispy Pan Vegetable Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -820,11 +745,10 @@
             {
                 "name": "Italian Sausage Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -833,11 +757,10 @@
             {
                 "name": "Pepperoni Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -848,11 +771,10 @@
             {
                 "name": "Assorted Mini Rolls",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -861,12 +783,11 @@
             {
                 "name": "Grandma's Baked Macaroni and Cheese",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -877,8 +798,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -887,9 +807,8 @@
             {
                 "name": "Meat Loaf",
                 "tags": [
-                    "Contains egg",
-                    "Contains gluten",
-                    "Show All"
+                    "contains egg",
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -899,8 +818,7 @@
                 "name": "Roasted Garlic Thyme Mushrooms",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -910,8 +828,7 @@
                 "name": "Roasted Green Beans with Red Onions",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -920,11 +837,10 @@
             {
                 "name": "Roasted Red Pepper,Portobello, Penne & Pecorino Cheese",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -935,8 +851,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -948,8 +863,7 @@
                 "name": "Garlic Crushed Red Pepper Roasted New Potatoes",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -960,8 +874,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -970,9 +883,8 @@
             {
                 "name": "Seared Garlic Chili Roasted Tilapia",
                 "tags": [
-                    "Contains fish",
-                    "Contains soy",
-                    "Show All"
+                    "contains fish",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -981,10 +893,9 @@
             {
                 "name": "Semolina Pasta Cooked",
                 "tags": [
-                    "Contains egg",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains egg",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -995,10 +906,9 @@
             {
                 "name": "Bang bang shrimp",
                 "tags": [
-                    "Contains Shellfish",
-                    "Contains egg",
-                    "Contains soy",
-                    "Show All"
+                    "contains shellfish",
+                    "contains egg",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1007,8 +917,7 @@
             {
                 "name": "Jerk Chicken",
                 "tags": [
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1020,8 +929,7 @@
                 "name": "AT CABBAGE MIX",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1031,8 +939,7 @@
                 "name": "Bibb Lettuce",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1041,9 +948,8 @@
             {
                 "name": "Creamy Jerk Sauce",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1053,8 +959,7 @@
                 "name": "Crispy Rice Noodle",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1063,10 +968,9 @@
             {
                 "name": "Fried Wonton Strips",
                 "tags": [
-                    "Contains egg",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains egg",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1075,12 +979,11 @@
             {
                 "name": "Gochujang Bbq Sauce",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1090,8 +993,7 @@
                 "name": "Jasmine Rice",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1100,12 +1002,11 @@
             {
                 "name": "Kimchi",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1113,9 +1014,7 @@
             },
             {
                 "name": "Limes",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -1123,11 +1022,10 @@
             {
                 "name": "Pickled Garlic",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1137,8 +1035,7 @@
                 "name": "Pineapple Mango Mix",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1148,8 +1045,7 @@
                 "name": "Quinoa Pilaf",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1158,10 +1054,9 @@
             {
                 "name": "Spicy Mayo",
                 "tags": [
-                    "Contains egg",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains egg",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1171,8 +1066,7 @@
                 "name": "Sweet Thai Chili Sauce",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1183,12 +1077,11 @@
             {
                 "name": "Korean Bbq Cauliflower",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1199,8 +1092,7 @@
                 "tags": [
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1211,8 +1103,7 @@
             {
                 "name": "Jerk Chicken",
                 "tags": [
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1223,9 +1114,8 @@
             {
                 "name": "Grilled  Basil Pesto Chicken Thigh",
                 "tags": [
-                    "Contains dairy",
-                    "HalalFriendly",
-                    "Show All"
+                    "contains dairy",
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1237,8 +1127,7 @@
                 "name": "10 Vegetable Soup",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1247,10 +1136,9 @@
             {
                 "name": "Broccoli Cheddar Cheese Soup",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1259,11 +1147,10 @@
             {
                 "name": "Buffalo Style Chicken Soup",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1274,10 +1161,9 @@
             {
                 "name": "Caramel Sauce",
                 "tags": [
-                    "Contains dairy",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1287,8 +1173,7 @@
                 "name": "Cherry Sorbet Soft Serve",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1297,10 +1182,9 @@
             {
                 "name": "Chocolate Chips",
                 "tags": [
-                    "Contains dairy",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1309,12 +1193,11 @@
             {
                 "name": "Chocolate Ice Cream",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1323,13 +1206,12 @@
             {
                 "name": "Chocolate Soft Serve Ice Cream",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1338,10 +1220,9 @@
             {
                 "name": "Chocolate Sprinkles",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1351,8 +1232,7 @@
                 "name": "Maraschino Cherries",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1361,12 +1241,11 @@
             {
                 "name": "Vanilla Ice Cream",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1375,13 +1254,12 @@
             {
                 "name": "Vanilla Soft Serve Ice Cream",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1390,13 +1268,12 @@
             {
                 "name": "Warm Apple Cobbler",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1405,13 +1282,12 @@
             {
                 "name": "Warm Brownie Cheesecake",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1420,13 +1296,102 @@
             {
                 "name": "Warm Brownie",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            }
+        ],
+        "Favorites": [
+            {
+                "name": "Bacon",
+                "tags": [],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Beef Burger",
+                "tags": [],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Beef Chili with Beans",
+                "tags": [],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Cheese Sauce",
+                "tags": [
+                    "contains dairy",
+                    "contains soy",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Chipotle Lime BBQ Sauce",
+                "tags": [
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Fresh French Fries",
+                "tags": [
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Grilled  Chicken",
+                "tags": [
+                    "contains soy"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Grilled Hot Dog",
+                "tags": [],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Grilled Mushrooms",
+                "tags": [
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Grilled Onions",
+                "tags": [
+                    "vegan",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1439,30 +1404,28 @@
             {
                 "name": "American Grilled Cheese Sandwich",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "public/grilledCheese.jpeg",
                 "reviews": [
                     {
-                        "rating": 3,
+                        "rating": 5,
                         "name": "Anonymous",
-                        "date": "6/16/2024",
-                        "text": "tastes aight"
+                        "date": "6/18/2024",
+                        "text": "e"
                     }
                 ],
-                "rating": 3.0
+                "rating": 5.0
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "public/bbqChicken.jpeg",
                 "reviews": [],
@@ -1471,10 +1434,9 @@
             {
                 "name": "Cream of Tomato Soup",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1485,8 +1447,7 @@
             {
                 "name": "Honey Dijon Grilled Chicken Breast (purple)",
                 "tags": [
-                    "smartchoice",
-                    "Show All"
+                    "smartchoice"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1495,9 +1456,8 @@
             {
                 "name": "Mediterranean Grilled Cod",
                 "tags": [
-                    "Contains fish",
-                    "smartchoice",
-                    "Show All"
+                    "contains fish",
+                    "smartchoice"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1508,11 +1468,10 @@
             {
                 "name": "Breaded Chicken Cutlet",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1521,12 +1480,11 @@
             {
                 "name": "Garlic Buffalo Tofu",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1535,10 +1493,9 @@
             {
                 "name": "Tempura Mushrooms",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1547,27 +1504,38 @@
             {
                 "name": "Vegan Sweet and Sour Chicken Stir Fry",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "smartchoice",
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sgdfg"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": ""
+                    }
+                ],
+                "rating": 2.5
             },
             {
                 "name": "Vegan Tofu & Spinach Lasagna",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "smartchoice",
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1579,8 +1547,7 @@
                 "name": "Cantaloupe",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1589,10 +1556,9 @@
             {
                 "name": "Cereal Granola",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1603,8 +1569,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1615,8 +1580,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1626,8 +1590,7 @@
                 "name": "Sliced Apples",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1636,10 +1599,9 @@
             {
                 "name": "Special K Berry",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1648,9 +1610,8 @@
             {
                 "name": "Vanilla Greek Yogurt",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1660,8 +1621,7 @@
                 "name": "Watermelon",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1670,9 +1630,8 @@
             {
                 "name": "Yogurt Plain",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1683,25 +1642,30 @@
             {
                 "name": "BBQ Havarti Burger with Maple Sweet Potato Straws",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "ev",
+                        "date": "6/18/2024",
+                        "text": "sefsf"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Chicken Piccatta Brioche Provolone Lemon Basil Aioli",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "HalalFriendly",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1712,8 +1676,7 @@
             {
                 "name": "Grilled Chipotle Lime Chicken",
                 "tags": [
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1722,10 +1685,9 @@
             {
                 "name": "Old Fashioned Texas Fried Chicken",
                 "tags": [
-                    "Contains egg",
-                    "Contains gluten",
-                    "HalalFriendly",
-                    "Show All"
+                    "contains egg",
+                    "contains gluten",
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1734,11 +1696,10 @@
             {
                 "name": "One Pot Vegetable Biryani",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1747,9 +1708,8 @@
             {
                 "name": "Tandoori Chicken",
                 "tags": [
-                    "Contains dairy",
-                    "HalalFriendly",
-                    "Show All"
+                    "contains dairy",
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1757,9 +1717,7 @@
             },
             {
                 "name": "Tequila Lime Chicken",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -1769,10 +1727,9 @@
             {
                 "name": "Amaranth Corn Chayote Tomato Cilantro Salad",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1782,8 +1739,7 @@
                 "name": "Bamboo Rice Toasted Cumin Cilantro Lime Salad",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1792,10 +1748,9 @@
             {
                 "name": "Bolitas de Yuca con Azucar Cassava Balls",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1804,10 +1759,9 @@
             {
                 "name": "Bulgur Wheat Shitake Mushroom Heb Goat Cheese Salad",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1816,8 +1770,7 @@
             {
                 "name": "Chickpea Broccoli Arugula Roasted Shallot Salad",
                 "tags": [
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1828,8 +1781,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1838,8 +1790,7 @@
             {
                 "name": "Grilled Chipotle Lime Chicken",
                 "tags": [
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1848,9 +1799,8 @@
             {
                 "name": "Grilled Corn with Manchego Cheese",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1858,9 +1808,7 @@
             },
             {
                 "name": "Pork Carnitas",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -1870,8 +1818,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1882,8 +1829,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1894,9 +1840,8 @@
             {
                 "name": "Banana Coconut Yogurt Smoothie",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1906,8 +1851,7 @@
                 "name": "Cantaloupe",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1916,8 +1860,7 @@
             {
                 "name": "Chicken Strips",
                 "tags": [
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1926,9 +1869,8 @@
             {
                 "name": "Grilled Candied Beets and Broccili",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1938,8 +1880,7 @@
                 "name": "Kale Apple Orange Smoothie",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1949,8 +1890,7 @@
                 "name": "Watermelon",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1961,8 +1901,7 @@
             {
                 "name": "Brick Oven Roasted BBQ Spiced Chicken Legs",
                 "tags": [
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1971,11 +1910,10 @@
             {
                 "name": "Broccoli Cheddar Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1984,12 +1922,11 @@
             {
                 "name": "Cheese Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1998,11 +1935,10 @@
             {
                 "name": "Chicken Parmesan Ricotta Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2011,10 +1947,9 @@
             {
                 "name": "Chicken Tetrazzini",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2023,11 +1958,10 @@
             {
                 "name": "Crusty Baked Shells and Cauliflower",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2035,9 +1969,7 @@
             },
             {
                 "name": "Italian Sausage and Peppers",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -2045,11 +1977,10 @@
             {
                 "name": "Pepperoni Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2058,9 +1989,8 @@
             {
                 "name": "Pesto Tilapia Roasted Potaoes Sundried Pesto",
                 "tags": [
-                    "Contains dairy",
-                    "Contains fish",
-                    "Show All"
+                    "contains dairy",
+                    "contains fish"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2069,11 +1999,10 @@
             {
                 "name": "Pork Carnitas Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2082,12 +2011,11 @@
             {
                 "name": "Vegetable Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2097,9 +2025,7 @@
         "Woks": [
             {
                 "name": "Asian Beef Mongolian Grill",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -2107,8 +2033,7 @@
             {
                 "name": "Asian Chicken Mongolian Grill",
                 "tags": [
-                    "smartchoice",
-                    "Show All"
+                    "smartchoice"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2117,11 +2042,10 @@
             {
                 "name": "Asian Crispy Brussels Sprouts Salad",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2130,12 +2054,11 @@
             {
                 "name": "Asian Slaw with Ginger Sesame Dressing",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2144,9 +2067,8 @@
             {
                 "name": "Chicken Pad Thai",
                 "tags": [
-                    "Contains egg",
-                    "Contains fish",
-                    "Show All"
+                    "contains egg",
+                    "contains fish"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2155,11 +2077,10 @@
             {
                 "name": "Chicken Teryaki Fried Rice",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
-                    "Contains sesame",
-                    "HalalFriendly",
-                    "Show All"
+                    "contains gluten",
+                    "contains soy",
+                    "contains sesame",
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2168,10 +2089,9 @@
             {
                 "name": "General Tso's Chicken",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
-                    "Contains sesame",
-                    "Show All"
+                    "contains gluten",
+                    "contains soy",
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2181,8 +2101,7 @@
                 "name": "Pad Thai Noodle Mongolian Grill",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2191,12 +2110,11 @@
             {
                 "name": "Seasame Sauce",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2205,12 +2123,11 @@
             {
                 "name": "Sesame Tofu Salad",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2219,12 +2136,11 @@
             {
                 "name": "Stir Fry Squash & Peppers",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "smartchoice",
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2233,10 +2149,9 @@
             {
                 "name": "Sweet and Sour Pork",
                 "tags": [
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2245,10 +2160,9 @@
             {
                 "name": "TOFU",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2257,23 +2171,173 @@
             {
                 "name": "Vegetable Lo Mein Noodle",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "smartchoice",
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
+                ],
+                "image": "none.jpg",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "dfsf"
+                    }
+                ],
+                "rating": 5.0
+            },
+            {
+                "name": "Vietnamese Rice Noodle Salad",
+                "tags": [
+                    "contains fish"
+                ],
+                "image": "none.jpg",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "nice"
+                    }
+                ],
+                "rating": 5.0
+            }
+        ],
+        "Favorites": [
+            {
+                "name": "American Grilled Cheese Sandwich",
+                "tags": [
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
+                ],
+                "image": "public/grilledCheese.jpeg",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "e"
+                    }
+                ],
+                "rating": 5.0
+            },
+            {
+                "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
+                "tags": [
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy"
+                ],
+                "image": "public/bbqChicken.jpeg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Cream of Tomato Soup",
+                "tags": [
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
             },
             {
-                "name": "Vietnamese Rice Noodle Salad",
+                "name": "Honey Dijon Grilled Chicken Breast (purple)",
                 "tags": [
-                    "Contains fish",
-                    "Show All"
+                    "smartchoice"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Mediterranean Grilled Cod",
+                "tags": [
+                    "contains fish",
+                    "smartchoice"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Breaded Chicken Cutlet",
+                "tags": [
+                    "contains gluten",
+                    "contains soy",
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Garlic Buffalo Tofu",
+                "tags": [
+                    "contains gluten",
+                    "contains soy",
+                    "vegan",
+                    "vegetarian",
+                    "contains sesame"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Tempura Mushrooms",
+                "tags": [
+                    "contains gluten",
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Vegan Sweet and Sour Chicken Stir Fry",
+                "tags": [
+                    "contains gluten",
+                    "smartchoice",
+                    "contains soy",
+                    "vegan",
+                    "vegetarian",
+                    "contains sesame"
+                ],
+                "image": "none.jpg",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sgdfg"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": ""
+                    }
+                ],
+                "rating": 2.5
+            },
+            {
+                "name": "Vegan Tofu & Spinach Lasagna",
+                "tags": [
+                    "contains gluten",
+                    "smartchoice",
+                    "contains soy",
+                    "vegan",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2286,9 +2350,8 @@
             {
                 "name": "Cheeseburger with American Cheese",
                 "tags": [
-                    "Contains dairy",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2296,18 +2359,14 @@
             },
             {
                 "name": "Grilled Chicken Breast",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
             },
             {
                 "name": "Grilled Hot Dog",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -2317,10 +2376,9 @@
             {
                 "name": "Caramelized Red Onion Pepperjack Quesadilla",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2329,9 +2387,8 @@
             {
                 "name": "Cheese Burger Quesadilla",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2340,10 +2397,9 @@
             {
                 "name": "Cheese Quesadilla",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2354,8 +2410,7 @@
             {
                 "name": "Rotisserie Chicken",
                 "tags": [
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2366,11 +2421,10 @@
             {
                 "name": "Aussie Meat Pie",
                 "tags": [
-                    "Contains egg",
-                    "Contains fish",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains egg",
+                    "contains fish",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2379,8 +2433,7 @@
             {
                 "name": "Grilled Harissa Wild Blue Catfish",
                 "tags": [
-                    "Contains fish",
-                    "Show All"
+                    "contains fish"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2389,9 +2442,8 @@
             {
                 "name": "Wild Mushroom Caramelized Onion Sheperd's Pie",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2402,12 +2454,11 @@
             {
                 "name": "Baked Four Cheese Spaghetti",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2416,12 +2467,11 @@
             {
                 "name": "Gnocchi w/ Mushroom & Spinach",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2430,11 +2480,10 @@
             {
                 "name": "Parmesan Garlic Bread",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2445,11 +2494,10 @@
             {
                 "name": "Pan Cheese Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2458,11 +2506,10 @@
             {
                 "name": "Pan Cheeseburger Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2471,11 +2518,10 @@
             {
                 "name": "Pan Italian Sausage Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2484,11 +2530,10 @@
             {
                 "name": "Pan Mexican Chorizo Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2497,11 +2542,10 @@
             {
                 "name": "Pan Pepperoni Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2510,12 +2554,11 @@
             {
                 "name": "Pan Vegetable Pizza",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2527,8 +2570,7 @@
                 "name": "Baba Ghanoush",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2538,8 +2580,7 @@
                 "name": "Beets",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2549,8 +2590,7 @@
                 "name": "Cantaloupe",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2560,8 +2600,7 @@
                 "name": "Celery Sticks",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2571,8 +2610,7 @@
                 "name": "Chipotle Hummus",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2582,8 +2620,7 @@
                 "name": "Corn Nuts",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2592,10 +2629,9 @@
             {
                 "name": "Flax Seeds",
                 "tags": [
-                    "Contains nuts",
+                    "contains nuts",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2604,10 +2640,9 @@
             {
                 "name": "French Dressing",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2616,10 +2651,9 @@
             {
                 "name": "Greek Dressing",
                 "tags": [
-                    "Contains dairy",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2628,11 +2662,10 @@
             {
                 "name": "Greek Pita Flat Bread",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2641,10 +2674,9 @@
             {
                 "name": "Italian Creamy",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2654,8 +2686,7 @@
                 "name": "Italian Hummus",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2664,10 +2695,9 @@
             {
                 "name": "Lite Caesar Dressing",
                 "tags": [
-                    "Contains dairy",
-                    "Contains fish",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains fish",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2676,11 +2706,10 @@
             {
                 "name": "Lite Ranch Dressing",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2689,9 +2718,8 @@
             {
                 "name": "Parmesan Cheese",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2700,11 +2728,10 @@
             {
                 "name": "Parmesan Peppercorn Dressing",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2713,10 +2740,9 @@
             {
                 "name": "Raspberry Vinaigrette Lite",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2725,12 +2751,11 @@
             {
                 "name": "Sesame Oriental Dressing",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2739,10 +2764,9 @@
             {
                 "name": "TOFU",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2750,9 +2774,7 @@
             },
             {
                 "name": "Tomato Wedges",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -2761,8 +2783,7 @@
                 "name": "Watermelon",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2771,9 +2792,8 @@
             {
                 "name": "Yogurt",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2785,8 +2805,7 @@
                 "name": "Apple",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2795,9 +2814,8 @@
             {
                 "name": "Banana Coconut Yogurt Smoothie",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2807,8 +2825,7 @@
                 "name": "Banana",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2817,10 +2834,9 @@
             {
                 "name": "Caramel Sauce",
                 "tags": [
-                    "Contains dairy",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2830,8 +2846,7 @@
                 "name": "Cherry Sorbet Soft Serve",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2840,12 +2855,11 @@
             {
                 "name": "Chocolate Chip Cookie",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2854,13 +2868,12 @@
             {
                 "name": "Chocolate Soft Serve Ice Cream",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2870,8 +2883,7 @@
                 "name": "Dole Mango Sorbet Soft Serve",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2881,8 +2893,7 @@
                 "name": "Dole Pinapple Sorbet Soft Serve",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2892,8 +2903,7 @@
                 "name": "Dole Raspberry Sorbet Soft Serve",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2902,10 +2912,9 @@
             {
                 "name": "Hot Fudge Sauce",
                 "tags": [
-                    "Contains dairy",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2915,8 +2924,7 @@
                 "name": "Kale Apple Orange Smoothie",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2925,12 +2933,11 @@
             {
                 "name": "M&M Candy Cookie",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2939,12 +2946,11 @@
             {
                 "name": "Oatmeal Raisin Cookie",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2955,8 +2961,7 @@
                 "tags": [
                     "smartchoice",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2965,13 +2970,12 @@
             {
                 "name": "Salted Caramel Soft Serve Ice Cream",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2980,12 +2984,11 @@
             {
                 "name": "Sugar Cookie",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -2994,13 +2997,12 @@
             {
                 "name": "Vanilla Soft Serve Ice Cream",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3009,13 +3011,12 @@
             {
                 "name": "Warm Brownie Cheesecake",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3024,13 +3025,12 @@
             {
                 "name": "Warm Brownie",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3039,13 +3039,12 @@
             {
                 "name": "White Chocolate Macadamia Nut Cookie",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains nuts",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains nuts",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3056,9 +3055,8 @@
             {
                 "name": "Cream Cheese Onion and Chive",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3067,9 +3065,8 @@
             {
                 "name": "Strawberry Cream Cheese",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3080,10 +3077,9 @@
             {
                 "name": "Broccoli Cheddar Cheese Soup",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3092,11 +3088,10 @@
             {
                 "name": "Buffalo Style Chicken Soup",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3105,9 +3100,8 @@
             {
                 "name": "Butternut Squash and Cranberry Bisque",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3116,11 +3110,10 @@
             {
                 "name": "Minestrone Soup",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3131,10 +3124,9 @@
             {
                 "name": "6\" Flour Tortilla",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3144,8 +3136,7 @@
                 "name": "Aji Amarillo Rice",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3155,8 +3146,7 @@
                 "name": "CIlantro",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3166,8 +3156,7 @@
                 "name": "Caraotas Negras",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3177,8 +3166,7 @@
                 "name": "Limes",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3186,9 +3174,7 @@
             },
             {
                 "name": "Red Onion Diced 1/2\"",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -3196,11 +3182,10 @@
             {
                 "name": "Roasted Grape Tomato Yellow Squash Verde Taco",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3209,10 +3194,9 @@
             {
                 "name": "Salsa Verde Chicken Street Taco",
                 "tags": [
-                    "Contains dairy",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3222,8 +3206,7 @@
                 "name": "Taco Shell",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3235,8 +3218,7 @@
                 "name": "Carrot Sticks",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3246,8 +3228,7 @@
                 "name": "Celery Sticks",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3256,9 +3237,8 @@
             {
                 "name": "Cheddar Cheese Sliced",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3267,9 +3247,8 @@
             {
                 "name": "Chicken Salad",
                 "tags": [
-                    "Contains egg",
-                    "Contains soy",
-                    "Show All"
+                    "contains egg",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3278,12 +3257,11 @@
             {
                 "name": "Deli Wheat Bread Sliced",
                 "tags": [
-                    "Contains dairy",
-                    "Contains egg",
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3293,8 +3271,7 @@
                 "name": "Jalapenos",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3303,11 +3280,10 @@
             {
                 "name": "Multi-grain Bread",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3315,9 +3291,7 @@
             },
             {
                 "name": "Pepperoni Sliced",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -3326,8 +3300,7 @@
                 "name": "Pickle Slice",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3336,10 +3309,9 @@
             {
                 "name": "Plain Tortilla 12\"",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3349,8 +3321,7 @@
                 "name": "Potato Chips",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3359,11 +3330,10 @@
             {
                 "name": "Pullman White Bread Sliced",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3372,11 +3342,10 @@
             {
                 "name": "Rye Bread",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3384,9 +3353,7 @@
             },
             {
                 "name": "Salami Sliced",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -3394,9 +3361,8 @@
             {
                 "name": "Swiss Cheese Sliced",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3405,10 +3371,9 @@
             {
                 "name": "Tomato Tortilla 12\"",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3417,10 +3382,9 @@
             {
                 "name": "Tuna Salad",
                 "tags": [
-                    "Contains egg",
-                    "Contains fish",
-                    "Contains soy",
-                    "Show All"
+                    "contains egg",
+                    "contains fish",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3429,10 +3393,9 @@
             {
                 "name": "Wheat Tortilla 12\"",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3442,8 +3405,7 @@
                 "name": "Yellow Mustard",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3455,8 +3417,7 @@
                 "name": "Chana Masala",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3466,8 +3427,7 @@
                 "name": "Chicken Tikka Masala",
                 "tags": [
                     "smartchoice",
-                    "HalalFriendly",
-                    "Show All"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3478,10 +3438,9 @@
             {
                 "name": "Black Bean Burger",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3490,12 +3449,11 @@
             {
                 "name": "Garlic Buffalo Tofu",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3504,12 +3462,11 @@
             {
                 "name": "Vegan Tofu & Spinach Lasagna",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "smartchoice",
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3521,8 +3478,7 @@
                 "name": "Vegan Cheesecake New York",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3532,8 +3488,7 @@
                 "name": "Vegan Chocolate Cheesecake",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3543,8 +3498,7 @@
                 "name": "Vegan Key Lime Cheesecake",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3554,8 +3508,7 @@
                 "name": "Vegan Strawberry Cheesecake",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3566,11 +3519,10 @@
             {
                 "name": "Asian Glazed Brussels Sprouts",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3580,8 +3532,7 @@
                 "name": "Blistered Shishito Pepperes",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3590,10 +3541,9 @@
             {
                 "name": "Crispy Chili Oil",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
-                    "vegetarian",
-                    "Show All"
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3603,8 +3553,7 @@
                 "name": "Crispy Scallions",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3613,10 +3562,9 @@
             {
                 "name": "Fried Wonton Strips",
                 "tags": [
-                    "Contains egg",
-                    "Contains gluten",
-                    "vegetarian",
-                    "Show All"
+                    "contains egg",
+                    "contains gluten",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3625,11 +3573,10 @@
             {
                 "name": "Mushroom Chicken",
                 "tags": [
-                    "Contains gluten",
+                    "contains gluten",
                     "smartchoice",
-                    "Contains soy",
-                    "Contains sesame",
-                    "Show All"
+                    "contains soy",
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3638,9 +3585,8 @@
             {
                 "name": "Shawarma Rice",
                 "tags": [
-                    "Contains dairy",
-                    "vegetarian",
-                    "Show All"
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3649,11 +3595,10 @@
             {
                 "name": "Spicy Mushroom Stir Fry",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3662,12 +3607,11 @@
             {
                 "name": "Spicy Sesame Ginger Bok Choy with Bean Sprouts and Carrots",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
                     "vegetarian",
-                    "Contains sesame",
-                    "Show All"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3676,10 +3620,9 @@
             {
                 "name": "Steamed Edamame Pods",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3688,11 +3631,10 @@
             {
                 "name": "Yaki Hakka Noodles",
                 "tags": [
-                    "Contains dairy",
-                    "Contains fish",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Show All"
+                    "contains dairy",
+                    "contains fish",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3702,9 +3644,7 @@
         "Mongolian Grill Made to Ord": [
             {
                 "name": "Asian Beef Mongolian Grill",
-                "tags": [
-                    "Show All"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -3712,8 +3652,7 @@
             {
                 "name": "Asian Chicken Mongolian Grill",
                 "tags": [
-                    "smartchoice",
-                    "Show All"
+                    "smartchoice"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3722,9 +3661,8 @@
             {
                 "name": "Asian Shrimp Mongolian Grill",
                 "tags": [
-                    "Contains Shellfish",
-                    "smartchoice",
-                    "Show All"
+                    "contains shellfish",
+                    "smartchoice"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3733,11 +3671,10 @@
             {
                 "name": "Cooked Lo Mein",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3747,8 +3684,7 @@
                 "name": "Pad Thai Noodle Mongolian Grill",
                 "tags": [
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3757,11 +3693,10 @@
             {
                 "name": "Sauce Plum (RTU)",
                 "tags": [
-                    "Contains gluten",
-                    "Contains soy",
+                    "contains gluten",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3770,12 +3705,11 @@
             {
                 "name": "Stir Fry Sauce (RTU)",
                 "tags": [
-                    "Contains Shellfish",
-                    "Contains fish",
-                    "Contains gluten",
-                    "Contains soy",
-                    "Contains sesame",
-                    "Show All"
+                    "contains shellfish",
+                    "contains fish",
+                    "contains gluten",
+                    "contains soy",
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3784,10 +3718,107 @@
             {
                 "name": "TOFU",
                 "tags": [
-                    "Contains soy",
+                    "contains soy",
                     "vegan",
-                    "vegetarian",
-                    "Show All"
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            }
+        ],
+        "Favorites": [
+            {
+                "name": "Cheeseburger with American Cheese",
+                "tags": [
+                    "contains dairy",
+                    "contains soy"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Grilled Chicken Breast",
+                "tags": [],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Grilled Hot Dog",
+                "tags": [],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Caramelized Red Onion Pepperjack Quesadilla",
+                "tags": [
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Cheese Burger Quesadilla",
+                "tags": [
+                    "contains dairy",
+                    "contains gluten"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Cheese Quesadilla",
+                "tags": [
+                    "contains dairy",
+                    "contains gluten",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Rotisserie Chicken",
+                "tags": [
+                    "halalfriendly"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Aussie Meat Pie",
+                "tags": [
+                    "contains egg",
+                    "contains fish",
+                    "contains gluten",
+                    "contains soy"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Grilled Harissa Wild Blue Catfish",
+                "tags": [
+                    "contains fish"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Wild Mushroom Caramelized Onion Sheperd's Pie",
+                "tags": [
+                    "contains dairy",
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],

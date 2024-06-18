@@ -44,9 +44,6 @@ def calcRatings():
 # This function scrapes the menu on the UMD dining hall website 
 
 def getMenu(num):
-    ySections = ["Breakfast", "Good Food Gluten Free", "Sprouts", "Terp Comfort", "Salad Bar","Maryland Bakery", "Mezza", "Joe's Grill", "Terp Grain Bowl", "Woks"]
-    northSections = ["Smash Burger", "Harvest Greens", "Harvest Vegan-LUNCH", "Purple Zone", "Purple Zone-ALL DAY",  "Smash Deli", "Ciao All-Day", "Ciao Chilled Salads", "Ciao Pizza", "Ciao Pasta", "Ciao Entree", "Chef's Table Mains", "Chef's Table Extras",  "Chef's Table Vegetarian", "Halal at Chef's Table", "Harvest Entree", "Soups", "Scoops Homemade Ice Cream"]
-    southSections = ["Broiler Works", "Grill Works", "Chef's Table", "Salad Bar", "Waffle, Doughnut, Bagel Bar", "Purple Zone", "Roaster", "Pasta", "Pizza", "Soup Du Jour", "Deli+", "Deli", "Roma Vegan Salads and Panini", "Vegan Desserts", "Mongolian Grill", "Mongolian Grill Made to Ord"]
     url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=9/3/2023"
     # url = "https://nutrition.umd.edu/?locationNum=" + str(num)
     page = requests.get(url)
@@ -80,8 +77,7 @@ def getMenu(num):
                     itemTagsHTML = itemRow.find_all("img", class_="nutri-icon")
                     itemTags = []
                     for tag in itemTagsHTML:
-                        itemTags.append(tag.get("title"))
-                    itemTags.append("Show All")
+                        itemTags.append(tag.get("title").lower())
                     item["tags"] = itemTags
                     if(item["name"] in photos):
                         item["image"] = photos[item["name"]]
@@ -95,6 +91,19 @@ def getMenu(num):
                     # # item["reviews"].append(review2)
                     allItems.append(item)
                     menus[stationName.text.strip()] = allItems
+    
+    
+    favoriteItems = []
+    for i in range(0, 10):
+        currentMax = {"rating": -1}
+        for section in menus:
+            for item in menus[section]:
+                if (item["rating"] > currentMax["rating"]) and (item not in favoriteItems):
+                    currentMax = item
+        favoriteItems.append(currentMax)
+        
+    menus["Favorites"] = favoriteItems
+    print(favoriteItems)
 
     return menus
 

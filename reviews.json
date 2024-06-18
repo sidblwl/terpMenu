@@ -1322,13 +1322,13 @@
                 "image": "public/grilledCheese.jpeg",
                 "reviews": [
                     {
-                        "rating": 3,
+                        "rating": 5,
                         "name": "Anonymous",
-                        "date": "6/16/2024",
-                        "text": "tastes aight"
+                        "date": "6/18/2024",
+                        "text": "e"
                     }
                 ],
-                "rating": 3.0
+                "rating": 5.0
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -1422,8 +1422,21 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sgdfg"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": ""
+                    }
+                ],
+                "rating": 2.5
             },
             {
                 "name": "Vegan Tofu & Spinach Lasagna",
@@ -1435,8 +1448,45 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sefsf"
+                    },
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sefsf"
+                    },
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sdfsdf"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sfs"
+                    },
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sfsf"
+                    },
+                    {
+                        "rating": 5,
+                        "name": "evan",
+                        "date": "6/18/2024",
+                        "text": "great"
+                    }
+                ],
+                "rating": 4.166666666666667
             }
         ],
         "Chef's Corner": [
@@ -1545,8 +1595,15 @@
                     "Contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "ev",
+                        "date": "6/18/2024",
+                        "text": "sefsf"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Chicken Piccatta Brioche Provolone Lemon Basil Aioli",
@@ -1569,8 +1626,21 @@
                     "HalalFriendly"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "ef",
+                        "date": "6/18/2024",
+                        "text": "sefsf"
+                    },
+                    {
+                        "rating": 5,
+                        "name": "nice",
+                        "date": "6/18/2024",
+                        "text": "bad"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Old Fashioned Texas Fried Chicken",
@@ -1734,8 +1804,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "ev",
+                        "date": "6/18/2024",
+                        "text": "amazingf"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Cantaloupe",
@@ -1917,8 +1994,15 @@
                 "name": "Asian Beef Mongolian Grill",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "sdfsdf"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Asian Chicken Mongolian Grill",
@@ -2069,8 +2153,15 @@
                     "Contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "dfsf"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Vietnamese Rice Noodle Salad",
@@ -2078,8 +2169,15 @@
                     "Contains fish"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "Anonymous",
+                        "date": "6/18/2024",
+                        "text": "nice"
+                    }
+                ],
+                "rating": 5.0
             }
         ]
     },

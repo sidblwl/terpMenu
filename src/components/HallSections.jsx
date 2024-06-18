@@ -2,9 +2,9 @@ import '../App.css'
 import React, { useState } from "react";
 
 function HallSection({section, change, activeSection, setActiveSection}){
-    return(
+    return (section.name != "Favorites") ? (
        <button style={section.key == activeSection ? {backgroundColor: "lightgray"} : {backgroundColor: "white"}} className="sidebarBtn" onClick={() => {setActiveSection(section.key); change(section.name)}}>{section.name}</button>
-    )
+    ) : ""
 }
 
 export default function HallSections({menulist, hall, change, activeSection, setActiveSection}){
