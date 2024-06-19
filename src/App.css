@@ -192,6 +192,60 @@
   margin: 0;
 }
 
+.submitAnimation{
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  height: 10%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(154, 213, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #008000;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.submitAnimationInner{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  img{
+    width: 30%;
+    transform: translate(0, -15%);
+  }
+
+  p{
+    font-size: 20px;
+    font-weight: bold;
+    color:  #008000;
+  }
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0%
+  }
+  40%{
+    opacity: 100%;
+  }
+  90%{
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+
 .review-input{
   height: 7.5rem;
   width: 70%;

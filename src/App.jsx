@@ -20,6 +20,7 @@ let dontLoadFirstRender = false;
 
 function MenuCard({mItem, hall, section}){ 
   const [popupState, setPopupState] = useState(false);
+  const [submitState, setSubmitState] = useState(false);
 
   function Star({id}){
     return(
@@ -30,7 +31,6 @@ function MenuCard({mItem, hall, section}){
 
   let tagList = "";
   mItem.tags.forEach((tag) => {
-    console.log(tag)
     if(tag != "halalfriendly"){
       tagList += tag.charAt(0).toUpperCase() + tag.substring(1, tag.length);
     }
@@ -61,14 +61,15 @@ function MenuCard({mItem, hall, section}){
         <div className="menuItemNameHolder">
           <h1 className="menuItemName">{mItem.name}</h1>
         </div>
-        <MenuCardBody></MenuCardBody>
+        <MenuCardBody submitState = {submitState} setSubmitState = {setSubmitState}></MenuCardBody>
       </div>
     </>
   )
 
 
 
-  function MenuCardBody(){
+  function MenuCardBody({submitState, setSubmitState}){
+  
     return (mItem.name != "Loading Items..." && mItem.name != "No items matched your search") ? (
       <>
         <div className="menuItemTagHolder">
@@ -83,13 +84,26 @@ function MenuCard({mItem, hall, section}){
               <Star id = {4}></Star>
               <Star id = {5}></Star>
               <button className="reviewButton" onClick={() => {
+                setSubmitState(false)
                 setPopupState(true)
               }}>Review</button>
             </div>
-        <RatingMenu setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section}></RatingMenu>
+        <RatingMenu setSubmitState = {setSubmitState} setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section}></RatingMenu>
+        <SubmitAnimation submitState = {submitState} setSubmitState={setSubmitState}></SubmitAnimation>
       </>
     ): ""
   }
+}
+
+function SubmitAnimation({submitState, setSubmitState}){
+  return (submitState) ? (          
+      <div className = "submitAnimation">
+          <div className = "submitAnimationInner">
+            <p>Submitted</p>
+            <img src = "public/checkmark.png"></img>
+          </div>
+      </div>
+  ): ""
 }
 
 function App() {
@@ -100,7 +114,7 @@ function App() {
   const [activeSection, setActiveSection] = useState(1)
   const [controller, setAbortController] = useState(new AbortController())
   const [filters, setFilters] = useState([])
-
+  
   let mapped = false;
   const diningHalls = [{name: "North Dining", firstSection: "Smash Burger", id: 0}, {name: "Yahentamitsi", firstSection: "Breakfast", id: 1}, {name: "South Dining", firstSection: "Broiler Works", id: 2}]
   const fetchMessages = async () => {
@@ -130,6 +144,7 @@ function App() {
     }
   }, [diningHall])
 
+  //reset mapped variable to false for the filters 
   useEffect(() => {
     mapped = false;
   }, [section, diningHall])
@@ -143,7 +158,7 @@ function App() {
       </div>
       <div className="wrapper">
         <div className="favWrapper">
-          <button className="favoriteBtn" onClick = {() => setSection("Favorites")}>Favorites</button>
+          <button style = {activeSection == 0 ? {backgroundColor: "lightgray"}: {backgroundColor: "white"}} className="favoriteBtn" onClick = {() => {setSection("Favorites"); setActiveSection(0)}}>Favorites</button>
         </div>
 
         <h1 className="sectionTitle">{section}</h1>

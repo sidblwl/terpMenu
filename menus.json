@@ -1307,96 +1307,6 @@
                 "reviews": [],
                 "rating": 0
             }
-        ],
-        "Favorites": [
-            {
-                "name": "Bacon",
-                "tags": [],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Beef Burger",
-                "tags": [],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Beef Chili with Beans",
-                "tags": [],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Cheese Sauce",
-                "tags": [
-                    "contains dairy",
-                    "contains soy",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Chipotle Lime BBQ Sauce",
-                "tags": [
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Fresh French Fries",
-                "tags": [
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Grilled  Chicken",
-                "tags": [
-                    "contains soy"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Grilled Hot Dog",
-                "tags": [],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Grilled Mushrooms",
-                "tags": [
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Grilled Onions",
-                "tags": [
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            }
         ]
     },
     "Y": {
@@ -1413,12 +1323,24 @@
                 "reviews": [
                     {
                         "rating": 5,
-                        "name": "Anonymous",
-                        "date": "6/18/2024",
-                        "text": "e"
+                        "name": "grilled_cheese_lover",
+                        "date": "6/19/2024",
+                        "text": "this is great"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "grilled_cheese_hater",
+                        "date": "6/19/2024",
+                        "text": "grilled_cheese_lover is stupid"
+                    },
+                    {
+                        "rating": 3,
+                        "name": "grilled_cheese_neutralist",
+                        "date": "6/19/2024",
+                        "text": "i am neutral"
                     }
                 ],
-                "rating": 5.0
+                "rating": 2.6666666666666665
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -1512,21 +1434,8 @@
                     "contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": [
-                    {
-                        "rating": 5,
-                        "name": "Anonymous",
-                        "date": "6/18/2024",
-                        "text": "sgdfg"
-                    },
-                    {
-                        "rating": 0,
-                        "name": "Anonymous",
-                        "date": "6/18/2024",
-                        "text": ""
-                    }
-                ],
-                "rating": 2.5
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vegan Tofu & Spinach Lasagna",
@@ -1648,15 +1557,8 @@
                     "contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": [
-                    {
-                        "rating": 5,
-                        "name": "ev",
-                        "date": "6/18/2024",
-                        "text": "sefsf"
-                    }
-                ],
-                "rating": 5.0
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chicken Piccatta Brioche Provolone Lemon Basil Aioli",
@@ -2179,165 +2081,13 @@
                     "contains sesame"
                 ],
                 "image": "none.jpg",
-                "reviews": [
-                    {
-                        "rating": 5,
-                        "name": "Anonymous",
-                        "date": "6/18/2024",
-                        "text": "dfsf"
-                    }
-                ],
-                "rating": 5.0
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Vietnamese Rice Noodle Salad",
                 "tags": [
                     "contains fish"
-                ],
-                "image": "none.jpg",
-                "reviews": [
-                    {
-                        "rating": 5,
-                        "name": "Anonymous",
-                        "date": "6/18/2024",
-                        "text": "nice"
-                    }
-                ],
-                "rating": 5.0
-            }
-        ],
-        "Favorites": [
-            {
-                "name": "American Grilled Cheese Sandwich",
-                "tags": [
-                    "contains dairy",
-                    "contains gluten",
-                    "contains soy",
-                    "vegetarian"
-                ],
-                "image": "public/grilledCheese.jpeg",
-                "reviews": [
-                    {
-                        "rating": 5,
-                        "name": "Anonymous",
-                        "date": "6/18/2024",
-                        "text": "e"
-                    }
-                ],
-                "rating": 5.0
-            },
-            {
-                "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
-                "tags": [
-                    "contains dairy",
-                    "contains gluten",
-                    "contains soy"
-                ],
-                "image": "public/bbqChicken.jpeg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Cream of Tomato Soup",
-                "tags": [
-                    "contains dairy",
-                    "contains gluten",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Honey Dijon Grilled Chicken Breast (purple)",
-                "tags": [
-                    "smartchoice"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Mediterranean Grilled Cod",
-                "tags": [
-                    "contains fish",
-                    "smartchoice"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Breaded Chicken Cutlet",
-                "tags": [
-                    "contains gluten",
-                    "contains soy",
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Garlic Buffalo Tofu",
-                "tags": [
-                    "contains gluten",
-                    "contains soy",
-                    "vegan",
-                    "vegetarian",
-                    "contains sesame"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Tempura Mushrooms",
-                "tags": [
-                    "contains gluten",
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Vegan Sweet and Sour Chicken Stir Fry",
-                "tags": [
-                    "contains gluten",
-                    "smartchoice",
-                    "contains soy",
-                    "vegan",
-                    "vegetarian",
-                    "contains sesame"
-                ],
-                "image": "none.jpg",
-                "reviews": [
-                    {
-                        "rating": 5,
-                        "name": "Anonymous",
-                        "date": "6/18/2024",
-                        "text": "sgdfg"
-                    },
-                    {
-                        "rating": 0,
-                        "name": "Anonymous",
-                        "date": "6/18/2024",
-                        "text": ""
-                    }
-                ],
-                "rating": 2.5
-            },
-            {
-                "name": "Vegan Tofu & Spinach Lasagna",
-                "tags": [
-                    "contains gluten",
-                    "smartchoice",
-                    "contains soy",
-                    "vegan",
-                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -3720,104 +3470,6 @@
                 "tags": [
                     "contains soy",
                     "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            }
-        ],
-        "Favorites": [
-            {
-                "name": "Cheeseburger with American Cheese",
-                "tags": [
-                    "contains dairy",
-                    "contains soy"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Grilled Chicken Breast",
-                "tags": [],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Grilled Hot Dog",
-                "tags": [],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Caramelized Red Onion Pepperjack Quesadilla",
-                "tags": [
-                    "contains dairy",
-                    "contains gluten",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Cheese Burger Quesadilla",
-                "tags": [
-                    "contains dairy",
-                    "contains gluten"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Cheese Quesadilla",
-                "tags": [
-                    "contains dairy",
-                    "contains gluten",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Rotisserie Chicken",
-                "tags": [
-                    "halalfriendly"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Aussie Meat Pie",
-                "tags": [
-                    "contains egg",
-                    "contains fish",
-                    "contains gluten",
-                    "contains soy"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Grilled Harissa Wild Blue Catfish",
-                "tags": [
-                    "contains fish"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Wild Mushroom Caramelized Onion Sheperd's Pie",
-                "tags": [
-                    "contains dairy",
                     "vegetarian"
                 ],
                 "image": "none.jpg",

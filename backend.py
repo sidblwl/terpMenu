@@ -23,6 +23,8 @@ app.add_middleware(
 
 photos = {"American Grilled Cheese Sandwich": "public/grilledCheese.jpeg", "BBQ Chicken Pepperjack Grilled Cheese Sandwich": "public/bbqChicken.jpeg"}
 
+
+
 def calcRatings():
     with open("reviews.json", 'r') as rf:
         reviews = json.load(rf)
@@ -46,9 +48,6 @@ def calcRatings():
 # This function scrapes the menu on the UMD dining hall website 
 
 def getMenu(num):
-    ySections = ["Breakfast", "Good Food Gluten Free", "Sprouts", "Terp Comfort", "Salad Bar","Maryland Bakery", "Mezza", "Joe's Grill", "Terp Grain Bowl", "Woks"]
-    northSections = ["Smash Burger", "Harvest Greens", "Harvest Vegan-LUNCH", "Purple Zone", "Purple Zone-ALL DAY",  "Smash Deli", "Ciao All-Day", "Ciao Chilled Salads", "Ciao Pizza", "Ciao Pasta", "Ciao Entree", "Chef's Table Mains", "Chef's Table Extras",  "Chef's Table Vegetarian", "Halal at Chef's Table", "Harvest Entree", "Soups", "Scoops Homemade Ice Cream"]
-    southSections = ["Broiler Works", "Grill Works", "Chef's Table", "Salad Bar", "Waffle, Doughnut, Bagel Bar", "Purple Zone", "Roaster", "Pasta", "Pizza", "Soup Du Jour", "Deli+", "Deli", "Roma Vegan Salads and Panini", "Vegan Desserts", "Mongolian Grill", "Mongolian Grill Made to Ord"]
     url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=9/3/2023"
     # url = "https://nutrition.umd.edu/?locationNum=" + str(num)
     page = requests.get(url)
@@ -82,8 +81,7 @@ def getMenu(num):
                     itemTagsHTML = itemRow.find_all("img", class_="nutri-icon")
                     itemTags = []
                     for tag in itemTagsHTML:
-                        itemTags.append(tag.get("title"))
-                    itemTags.append("Show All")
+                        itemTags.append(tag.get("title").lower())
                     item["tags"] = itemTags
                     if(item["name"] in photos):
                         item["image"] = photos[item["name"]]
@@ -130,11 +128,30 @@ class Review(BaseModel):
     date: str
     text: str
 
+def generateFavorites(menus, hall):
+    favoriteItems = []
+    for i in range(1, 10):
+        currentMax = {"rating": 0}
+        for section in menus[hall]:
+            for item in menus[hall][section]:
+                if (item["rating"] > currentMax["rating"]) and (item not in favoriteItems):
+                    currentMax = item
+        
+        if currentMax != {"rating": 0}:
+            favoriteItems.append(currentMax)
+        else:
+            break
+    
+    menus["Favorites"] = favoriteItems
+    return menus["Favorites"]
+
+
 @app.get('/menu0')
 async def root():
     update_menu_with_reviews(menus_file, reviews_file, output_file, "North")
     with open('menus.json') as json_file:
         menus = json.load(json_file)
+        menus["North"]["Favorites"] = generateFavorites(menus, "North")
     return menus["North"]
 
 @app.get('/menu1')
@@ -142,6 +159,7 @@ async def root():
     update_menu_with_reviews(menus_file, reviews_file, output_file, "Y")
     with open('menus.json') as json_file:
         menus = json.load(json_file)
+        menus["Y"]["Favorites"] = generateFavorites(menus, "Y")
     return menus["Y"]
 
 @app.get('/menu2')
@@ -149,6 +167,7 @@ async def root():
     update_menu_with_reviews(menus_file, reviews_file, output_file, "South")
     with open('menus.json') as json_file:
         menus = json.load(json_file)
+        menus["South"]["Favorites"] = generateFavorites(menus, "South")
     return menus["South"]
 
 @app.post('/addReview')
@@ -178,6 +197,5 @@ async def clear_reviews():
     with open("reviews.json", "w") as outfile:
         outfile.write(json_object)
     return {'message': 'success'}
-
 
     
