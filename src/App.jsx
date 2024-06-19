@@ -84,7 +84,6 @@ function MenuCard({mItem, hall, section}){
               <Star id = {4}></Star>
               <Star id = {5}></Star>
               <button className="reviewButton" onClick={() => {
-                setSubmitState(false)
                 setPopupState(true)
               }}>Review</button>
             </div>
@@ -97,7 +96,7 @@ function MenuCard({mItem, hall, section}){
 
 function SubmitAnimation({submitState, setSubmitState}){
   return (submitState) ? (          
-      <div className = "submitAnimation">
+      <div className = "submitAnimation" onAnimationEnd={() => {setSubmitState(false)}}>
           <div className = "submitAnimationInner">
             <p>Submitted</p>
             <img src = "public/checkmark.png"></img>

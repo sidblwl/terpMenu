@@ -1338,9 +1338,15 @@
                         "name": "grilled_cheese_neutralist",
                         "date": "6/19/2024",
                         "text": "i am neutral"
+                    },
+                    {
+                        "rating": 5,
+                        "name": "e",
+                        "date": "6/19/2024",
+                        "text": "e"
                     }
                 ],
-                "rating": 2.6666666666666665
+                "rating": 3.25
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -1350,8 +1356,15 @@
                     "contains soy"
                 ],
                 "image": "public/bbqChicken.jpeg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "e",
+                        "date": "6/19/2024",
+                        "text": "3"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Cream of Tomato Soup",
@@ -1361,8 +1374,15 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "e",
+                        "date": "6/19/2024",
+                        "text": "e"
+                    }
+                ],
+                "rating": 5.0
             }
         ],
         "Good Food Gluten Free": [
@@ -1557,8 +1577,15 @@
                     "contains soy"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "ev",
+                        "date": "6/19/2024",
+                        "text": "amazing"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Chicken Piccatta Brioche Provolone Lemon Basil Aioli",
