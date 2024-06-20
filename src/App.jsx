@@ -114,6 +114,7 @@ function App() {
   const [controller, setAbortController] = useState(new AbortController())
   const [filters, setFilters] = useState([])
   const [submitState, setSubmitState] = useState(false);
+  const [filterState, setFilterState] = useState(false)
   
   let mapped = false;
   const diningHalls = [{name: "North Dining", firstSection: "Smash Burger", id: 0}, {name: "Yahentamitsi", firstSection: "Breakfast", id: 1}, {name: "South Dining", firstSection: "Broiler Works", id: 2}]
@@ -170,7 +171,7 @@ function App() {
         </div>
         <div className="sideWrapper">
           <div className="filterWrapper">
-            <Filters setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
+            <Filters filterState = {filterState} setFilterState = {setFilterState} setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
           </div>
           <div className="menu">
           {menulist[section].map((menuItem) => {

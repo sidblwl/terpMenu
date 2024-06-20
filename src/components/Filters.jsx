@@ -1,15 +1,37 @@
+import close from "../assets/close.png";
 const allFilters = ["Vegetarian", "Contains Dairy", "Contains Gluten", "Contains Soy", "Contains Egg", "Halal Friendly", "Probability Stasis", "Vegan", "Contains Fish", "Smartchoice", "Contains Nuts", "Contains Shellfish", "Contains Sesame", "Locally Grown"]
-const selected = []
 
-export default function Filters({filters, setFilters, setSubmitState}){
+
+
+export default function Filters({filterState, setFilterState, filters, setFilters, setSubmitState}){
+    return (filterState) ? (
+        <>
+            <div className="popup">
+                <div className="popup-inner">
+                    <div className = "closeButtonContainer">
+                        <img className="close-popup" src={close} onClick = {() => setFilterState(false)}></img>
+                    </div>
+                    <h1 className="popupTitle">Filters:</h1>
+                    <FilterButtons filters = {filters} setFilters = {setFilters} setSubmitState = {setSubmitState}></FilterButtons>
+                    <button className = "filterButton" onClick = {() => {
+                        setFilters([])
+                    }}>Reset Filters</button>
+                </div>
+            </div>
+        </>
+    ): <button className = "filterButton" onClick={()=> {setFilterState(true)}}>Set Filters</button>
+}
+
+function FilterButtons({filters, setFilters, setSubmitState}){
 
 
     return(
         <>
-            <h3>Filters:</h3>
-            {allFilters.map(filterName => 
-                <FilterButton setSubmitState = {setSubmitState} filterName = {filterName} filters = {filters} setFilters = {setFilters}></FilterButton>
-            )}
+            <div className = "filterButtonsContainer">
+                {allFilters.map(filterName => 
+                    <FilterButton setSubmitState = {setSubmitState} filterName = {filterName} filters = {filters} setFilters = {setFilters}></FilterButton>
+                )}
+            </div>
         </>
     )
 }

@@ -115,7 +115,9 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
         <>
             <div className="popup">
                 <div className="popup-inner">
-                    <img className="close-popup" src={close} onClick = {() => setPopupState(false)}></img>
+                    <div className = "closeButtonContainer">
+                        <img className="close-popup" src={close} onClick = {() => setPopupState(false)}></img>
+                    </div>
                     <h1 className="popupTitle">{mItem.name}</h1>
                     <h2 className="ratingTitle">Add your own review</h2>
                     <div className="rating-section">

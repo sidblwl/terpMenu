@@ -147,7 +147,7 @@
 }
 
 .favoriteBtn{
-  border: 1px solid transparent;
+  border: 1px solid #c2c2c2;
   box-shadow: 1px 1px 5px lightgray;
   background-color: white;
   border-radius: 5px;
@@ -169,7 +169,11 @@
   border: 1px solid transparent;
   background-color: rgba(255,255,255,1);
   overflow-y: scroll;
-  text-align: right;
+}
+
+.closeButtonContainer{
+  display: flex;
+  justify-content: end;
 }
 
 .popup{
@@ -266,6 +270,16 @@
   margin-right: 60px;
 }
 
+.filterButtonsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  column-gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 .ratingStar{
   font-size: 40px;
   margin-bottom: 5px;
@@ -338,10 +352,12 @@
 }
 
 .filterWrapper{
+  display: flex;
   margin-bottom: 20px;
+  justify-content: center;
 }
 
-.filterWrapper > button{
+.filterButton{
   border: none;
   color: black;
   padding: 10px 25px;
@@ -352,4 +368,9 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px;
+  background-color: gainsboro;
+}
+
+.filterButton:hover{
+  background-color: rgb(176, 176, 176) !important;
 }
