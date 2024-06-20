@@ -18,10 +18,9 @@ const loading = {
 
 let dontLoadFirstRender = false;
 
-function MenuCard({mItem, hall, section}){ 
+function MenuCard({mItem, hall, section, submitState, setSubmitState}){ 
   const [popupState, setPopupState] = useState(false);
-  const [submitState, setSubmitState] = useState(false);
-
+  
   function Star({id}){
     return(
       <div style = {(id <= mItem.rating ? {color: "orange"} : {color: "black"})} className="fa fa-star"></div>
@@ -85,6 +84,7 @@ function MenuCard({mItem, hall, section}){
               <Star id = {5}></Star>
               <button className="reviewButton" onClick={() => {
                 setPopupState(true)
+                setSubmitState(false)
               }}>Review</button>
             </div>
         <RatingMenu setSubmitState = {setSubmitState} setPopupState = {setPopupState} popupState={popupState} mItem={mItem} hall={hallName} section={section}></RatingMenu>
@@ -113,6 +113,7 @@ function App() {
   const [activeSection, setActiveSection] = useState(1)
   const [controller, setAbortController] = useState(new AbortController())
   const [filters, setFilters] = useState([])
+  const [submitState, setSubmitState] = useState(false);
   
   let mapped = false;
   const diningHalls = [{name: "North Dining", firstSection: "Smash Burger", id: 0}, {name: "Yahentamitsi", firstSection: "Breakfast", id: 1}, {name: "South Dining", firstSection: "Broiler Works", id: 2}]
@@ -126,7 +127,6 @@ function App() {
   }
 
   useEffect(() => { 
-
     if(dontLoadFirstRender){
       if(lamborghini[diningHall] != undefined){
         setSection(diningHalls[diningHall].firstSection)
@@ -143,8 +143,9 @@ function App() {
     }
   }, [diningHall])
 
-  //reset mapped variable to false for the filters 
+  //reset mapped variable and submit animation to false for the filters 
   useEffect(() => {
+    setSubmitState(false)
     mapped = false;
   }, [section, diningHall])
 
@@ -169,7 +170,7 @@ function App() {
         </div>
         <div className="sideWrapper">
           <div className="filterWrapper">
-            <Filters filters = {filters} setFilters = {setFilters}></Filters>
+            <Filters setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
           </div>
           <div className="menu">
           {menulist[section].map((menuItem) => {
@@ -183,7 +184,7 @@ function App() {
             }
             if(validItem){
               mapped = true;
-              return <MenuCard mItem={menuItem} hall={diningHall} section={section}></MenuCard>
+              return <MenuCard submitState = {submitState} setSubmitState = {setSubmitState} mItem={menuItem} hall={diningHall} section={section}></MenuCard>
             }
             else{
               if(menuItem === menulist[section][menulist[section].length -1] && !mapped){
@@ -191,7 +192,7 @@ function App() {
                   "name": "No items matched your search",
                   "tags": [],
                   "image": "none.jpg"
-              }
+                }
                 return <MenuCard mItem={noSuchItems} hall={diningHall} section={section}></MenuCard>
               }
             }
