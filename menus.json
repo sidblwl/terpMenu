@@ -55,9 +55,7 @@
             },
             {
                 "name": "Grilled  Chicken",
-                "tags": [
-                    "contains soy"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -403,7 +401,7 @@
                 "rating": 0
             }
         ],
-        "Harvest Vegan-LUNCH": [
+        "Harvest Vegan-BREAKFAST": [
             {
                 "name": "Bok Choy and Peppers",
                 "tags": [
@@ -593,11 +591,10 @@
         ],
         "Smash Deli": [
             {
-                "name": "Cheese Quesadilla",
+                "name": "Jalapeno Popper Quesadilla",
                 "tags": [
                     "contains dairy",
-                    "contains gluten",
-                    "vegetarian"
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1320,8 +1317,21 @@
                     "vegetarian"
                 ],
                 "image": "public/grilledCheese.jpeg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "ev",
+                        "date": "6/24/2024",
+                        "text": "great"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "ev",
+                        "date": "6/24/2024",
+                        "text": "bad"
+                    }
+                ],
+                "rating": 2.5
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -2915,7 +2925,6 @@
                 "tags": [
                     "contains dairy",
                     "contains gluten",
-                    "contains soy",
                     "vegetarian"
                 ],
                 "image": "none.jpg",
@@ -2926,8 +2935,7 @@
                 "name": "Salsa Verde Chicken Street Taco",
                 "tags": [
                     "contains dairy",
-                    "contains gluten",
-                    "contains soy"
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],

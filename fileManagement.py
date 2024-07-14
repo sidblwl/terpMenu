@@ -2,6 +2,7 @@ import json
 
 def update_menu_with_reviews(menus_file, reviews_file, output_file, hall):
     # Load the JSON files
+    print("menus now")
     with open(menus_file, 'r') as mf:
         menus = json.load(mf)
 

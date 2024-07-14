@@ -15,7 +15,7 @@
 .wrapper{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 0vw 5vw 5vw 5vw;
+  margin: 0vw 0vw 5vw 5vw;
 }
 
 .topNav > button{
@@ -27,7 +27,7 @@
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.25s;
-  background-color: red;
+  background-color:  #e21833;
   color: white;
   height: 100%;
 }
@@ -76,9 +76,12 @@
 }
 
 .menu{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: start;
   height: fit-content;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: calc(2vw)
 }
 
 .menuItem{
@@ -86,7 +89,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  /* border: 1px solid red; */
+  width: 280px;
 }
 
 .menuItemImage{
@@ -101,7 +104,6 @@
 
 .menuItemNameHolder{
   height: 70px;
-  width: 100%;
   margin: 0;
 }
 
@@ -109,9 +111,8 @@
   font-size: 3vh;
   margin: 0;
 }
-
 .menuItemTagHolder{
-  width: 90%;
+  width: 85%;
 }
 .reviewButtonHolder{
   display: flex;
@@ -372,5 +373,61 @@
 }
 
 .filterButton:hover{
-  background-color: rgb(176, 176, 176) !important;
+  opacity: 70%;
+}
+
+.mobile{
+  display: none;
+}
+
+.mobileWrapper{
+  display: none;
+}
+@media screen and (max-width: 1268px) {
+  .menu{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+    justify-content: center;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+  .topNav > button{
+    border-radius: 0px;
+    border: 1px solid transparent;
+    margin: 0px;
+    font-size: 2em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    background-color:  #e21833;
+    color: white;
+    height: 100%;
+  }
+  .mobileWrapper{
+    display: block;
+  }
+  .sectionTitle{
+    grid-column: 2 / span 3;
+    font-size: 6vh;
+    text-align: center;
+    text-decoration: underline 4px black;
+    text-underline-offset: 5px;
+  }  
 }

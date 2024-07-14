@@ -1320,8 +1320,21 @@
                     "vegetarian"
                 ],
                 "image": "public/grilledCheese.jpeg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "name": "ev",
+                        "date": "6/24/2024",
+                        "text": "great"
+                    },
+                    {
+                        "rating": 0,
+                        "name": "ev",
+                        "date": "6/24/2024",
+                        "text": "bad"
+                    }
+                ],
+                "rating": 2.5
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",

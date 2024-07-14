@@ -5,6 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 import requests
 import json
+import schedule
+import time
 from fileManagement import update_menu_with_reviews
 
 diningHalls = ["North", "Y", "South"]
@@ -103,12 +105,14 @@ def getMenu(num):
 
 menus = {}
 reviews = {}
+
+
 menus["North"] = getMenu(51)
 menus["Y"] = (getMenu(19))
 menus["South"] = (getMenu(16))
 
 json_object = json.dumps(menus, indent=4)
- 
+
 # Writing to sample.json
 with open("menus.json", "w") as outfile:
     outfile.write(json_object)
@@ -118,6 +122,9 @@ reviews_file = 'reviews.json'
 output_file = 'menus.json'
 for diningHall in diningHalls:
     update_menu_with_reviews(menus_file, reviews_file, output_file, diningHall)
+
+
+
 
 class Review(BaseModel):
     hall: str
