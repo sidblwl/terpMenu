@@ -7,6 +7,8 @@ import RatingMenu from './components/RatingMenu.jsx'
 import Filters from './components/Filters.jsx'
 import Menu from './components/Menu.jsx'
 import MobileMenu from './components/MobileMenu.jsx'
+import NavIcon from './components/NavIcon.jsx'
+import MobileNav from './components/MobileNav.jsx'
 let lamborghini = {}
 const loading = {
   "Loading...": [
@@ -76,8 +78,8 @@ function App() {
           ))}
         </div>
 
-        <div className = "mobile topNav">
-          <button>Terp Eats</button>
+        <div className = "mobile">
+          <MobileNav></MobileNav>
         </div>
 
       </div>
