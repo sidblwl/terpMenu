@@ -197,5 +197,3 @@ async def clear_reviews():
     with open("reviews.json", "w") as outfile:
         outfile.write(json_object)
     return {'message': 'success'}
-
-    

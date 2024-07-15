@@ -18,16 +18,14 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
         myHeaders.append("Content-Type", "application/json");
         
         const raw = JSON.stringify({
-        "hall": hall,
-        "station": section,
-        "itemName": mItem.name,
-        "rating": rating,
-        "name": name,
-        "date": getDate(),
-        "text": review
+            "menuItem": mItem.name,
+            "section": section,
+            "diningHall": hall,
+            "name": name,
+            "date": getDate(),
+            "rating": rating,
+            "text": review,
         });
-
-    
 
         const requestOptions = {
         method: "POST",
@@ -36,15 +34,15 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
         redirect: "follow"
         };
 
-        const response = await fetch("http://127.0.0.1:8000/addReview", requestOptions)
+        const response = await fetch("http://127.0.0.1:8000/review", requestOptions)
         mItem.reviews.push({
-            "hall": hall,
-            "station": section,
-            "itemName": mItem.name,
-            "rating": rating,
+            "menuItem": mItem.name,
+            "section": section,
+            "diningHall": hall,
             "name": name,
             "date": getDate(),
-            "text": review
+            "rating": rating,
+            "text": review,
             })
 
             let ratingSum = 0
@@ -54,7 +52,6 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
                 numRatings++;
             })
             let newRating = ratingSum/numRatings
-            console.log(newRating)
             mItem.rating = newRating
             setSubmitState(true)
             setPopupState(false)

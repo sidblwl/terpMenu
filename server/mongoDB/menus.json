@@ -12,8 +12,39 @@
                 "name": "Beef Burger",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "id": "669591ec638dadbbdb1c42d5",
+                        "menuItem": "Beef Burger",
+                        "diningHall": "North",
+                        "section": "Smash Burger",
+                        "name": "Sid",
+                        "date": "07/15/24",
+                        "rating": 4,
+                        "text": "om nom nom i love beef boiger"
+                    },
+                    {
+                        "id": "6695a701cb6637f30d4e5c53",
+                        "menuItem": "Beef Burger",
+                        "diningHall": "North",
+                        "section": "Smash Burger",
+                        "name": "Evan",
+                        "date": "7/15/2024",
+                        "rating": 4,
+                        "text": "This boiger slaps"
+                    },
+                    {
+                        "id": "6695ab67ebacf3eef15d2e5b",
+                        "menuItem": "Beef Burger",
+                        "diningHall": "North",
+                        "section": "Smash Burger",
+                        "name": "average_dude",
+                        "date": "7/15/2024",
+                        "rating": 0,
+                        "text": "terrible"
+                    }
+                ],
+                "rating": 2.6666666666666665
             },
             {
                 "name": "Beef Chili with Beans",
@@ -55,9 +86,7 @@
             },
             {
                 "name": "Grilled  Chicken",
-                "tags": [
-                    "contains soy"
-                ],
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -403,7 +432,7 @@
                 "rating": 0
             }
         ],
-        "Harvest Vegan-LUNCH": [
+        "Harvest Vegan-BREAKFAST": [
             {
                 "name": "Bok Choy and Peppers",
                 "tags": [
@@ -593,11 +622,10 @@
         ],
         "Smash Deli": [
             {
-                "name": "Cheese Quesadilla",
+                "name": "Jalapeno Popper Quesadilla",
                 "tags": [
                     "contains dairy",
-                    "contains gluten",
-                    "vegetarian"
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1320,8 +1348,39 @@
                     "vegetarian"
                 ],
                 "image": "public/grilledCheese.jpeg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "id": "66958beb0f80d65d50b66825",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "Evan Tran",
+                        "date": "06/15/24",
+                        "rating": 4,
+                        "text": "Im a cheese muncher, I love cheese, gimme more of that moldy stuff"
+                    },
+                    {
+                        "id": "6695a6d1cb6637f30d4e5c52",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "Sid",
+                        "date": "7/15/2024",
+                        "rating": 2,
+                        "text": "This sandwich is a warcrime"
+                    },
+                    {
+                        "id": "6695ab56ebacf3eef15d2e5a",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "Bob",
+                        "date": "7/15/2024",
+                        "rating": 1,
+                        "text": "I hate cheese"
+                    }
+                ],
+                "rating": 2.3333333333333335
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -2915,7 +2974,6 @@
                 "tags": [
                     "contains dairy",
                     "contains gluten",
-                    "contains soy",
                     "vegetarian"
                 ],
                 "image": "none.jpg",
@@ -2926,8 +2984,7 @@
                 "name": "Salsa Verde Chicken Street Taco",
                 "tags": [
                     "contains dairy",
-                    "contains gluten",
-                    "contains soy"
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
