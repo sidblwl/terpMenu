@@ -12,39 +12,8 @@
                 "name": "Beef Burger",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": [
-                    {
-                        "id": "669591ec638dadbbdb1c42d5",
-                        "menuItem": "Beef Burger",
-                        "diningHall": "North",
-                        "section": "Smash Burger",
-                        "name": "Sid",
-                        "date": "07/15/24",
-                        "rating": 4,
-                        "text": "om nom nom i love beef boiger"
-                    },
-                    {
-                        "id": "6695a701cb6637f30d4e5c53",
-                        "menuItem": "Beef Burger",
-                        "diningHall": "North",
-                        "section": "Smash Burger",
-                        "name": "Evan",
-                        "date": "7/15/2024",
-                        "rating": 4,
-                        "text": "This boiger slaps"
-                    },
-                    {
-                        "id": "6695ab67ebacf3eef15d2e5b",
-                        "menuItem": "Beef Burger",
-                        "diningHall": "North",
-                        "section": "Smash Burger",
-                        "name": "average_dude",
-                        "date": "7/15/2024",
-                        "rating": 0,
-                        "text": "terrible"
-                    }
-                ],
-                "rating": 2.6666666666666665
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Beef Chili with Beans",
@@ -1347,40 +1316,9 @@
                     "contains soy",
                     "vegetarian"
                 ],
-                "image": "public/grilledCheese.jpeg",
-                "reviews": [
-                    {
-                        "id": "66958beb0f80d65d50b66825",
-                        "menuItem": "American Grilled Cheese Sandwich",
-                        "diningHall": "Y",
-                        "section": "Breakfast",
-                        "name": "Evan Tran",
-                        "date": "06/15/24",
-                        "rating": 4,
-                        "text": "Im a cheese muncher, I love cheese, gimme more of that moldy stuff"
-                    },
-                    {
-                        "id": "6695a6d1cb6637f30d4e5c52",
-                        "menuItem": "American Grilled Cheese Sandwich",
-                        "diningHall": "Y",
-                        "section": "Breakfast",
-                        "name": "Sid",
-                        "date": "7/15/2024",
-                        "rating": 2,
-                        "text": "This sandwich is a warcrime"
-                    },
-                    {
-                        "id": "6695ab56ebacf3eef15d2e5a",
-                        "menuItem": "American Grilled Cheese Sandwich",
-                        "diningHall": "Y",
-                        "section": "Breakfast",
-                        "name": "Bob",
-                        "date": "7/15/2024",
-                        "rating": 1,
-                        "text": "I hate cheese"
-                    }
-                ],
-                "rating": 2.3333333333333335
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -1389,7 +1327,7 @@
                     "contains gluten",
                     "contains soy"
                 ],
-                "image": "public/bbqChicken.jpeg",
+                "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
             },

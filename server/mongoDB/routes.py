@@ -1,15 +1,16 @@
 from fastapi import APIRouter
-from config import collection_name
-from models import Review
-from schemas import review_serializer, reviews_serializer
+from config import reviews_collection, menuItems_collection
+from models import Review, MenuItem
+from schemas import reviews_serializer, menuItems_serializer
 from bson import ObjectId
 import json
 
 menu_api_router = APIRouter()
 
-@menu_api_router.get("/review")
+@menu_api_router.get("/updateFromDB")
 async def get_reviews():
-    reviews = reviews_serializer(collection_name.find())
+    reviews = reviews_serializer(reviews_collection.find())
+    menuItems = menuItems_serializer(menuItems_collection.find())
     
     with open('menus.json', 'r') as mf:
         menus = json.load(mf)
@@ -19,6 +20,10 @@ async def get_reviews():
         for section, items in sections.items():
             for item in items:
                 item_name = item['name']
+
+                for menuItem in menuItems:
+                    if menuItem['name'] == item_name:
+                        item["image"] = menuItem["imagePath"]
 
                 for review_item in reviews:
                     if review_item['diningHall'] == diningHall:
@@ -48,24 +53,35 @@ async def get_reviews():
 
 @menu_api_router.get("/review/{id}")
 async def get_review(id: str):
-    review = reviews_serializer(collection_name.find({"_id": ObjectId(id)}))
+    review = reviews_serializer(reviews_collection.find({"_id": ObjectId(id)}))
     return {"status": "ok", "data": review}
 
 @menu_api_router.post("/review")
 async def post_review(review: Review):
-    _id = collection_name.insert_one(dict(review))
-    review = reviews_serializer(collection_name.find({"_id": _id.inserted_id}))
+    _id = reviews_collection.insert_one(dict(review))
+    review = reviews_serializer(reviews_collection.find({"_id": _id.inserted_id}))
     return {"status": "ok", "data": review}
 
 @menu_api_router.put("/review/{id}")
 async def update_review(id: str, review: Review):
-    collection_name.find_one_and_update({"_id": ObjectId(id)}, {
+    reviews_collection.find_one_and_update({"_id": ObjectId(id)}, {
         "$set": dict(review)
     })
-    review = reviews_serializer(collection_name.find({"_id": ObjectId(id)}))
+    review = reviews_serializer(reviews_collection.find({"_id": ObjectId(id)}))
     return {"status": "ok", "data": review}
 
 @menu_api_router.delete("/review/{id}")
 async def delete_review(id: str):
-    collection_name.find_one_and_delete({"_id": ObjectId(id)})
+    reviews_collection.find_one_and_delete({"_id": ObjectId(id)})
     return {"status": "ok", "data": []}
+
+@menu_api_router.get("/menuItems")
+async def get_menuItems():
+    menuItems = menuItems_serializer(menuItems_collection.find())
+    return {"status": "ok", "data": menuItems}
+
+@menu_api_router.post("/menuItems")
+async def post_review(menuItem: MenuItem):
+    _id = menuItems_collection.insert_one(dict(menuItem))
+    menuItem = menuItems_serializer(menuItems_collection.find({"_id": _id.inserted_id}))
+    return {"status": "ok", "data": menuItem}

@@ -9,4 +9,5 @@ uri = "mongodb+srv://admin:jw4210@menuapp.bqkl1kv.mongodb.net/?appName=menuApp"
 client = MongoClient(uri, server_api=ServerApi('1'))
 
 db = client.menu_application
-collection_name = db["reviews"]
+reviews_collection = db["reviews"]
+menuItems_collection = db["menuItems"]

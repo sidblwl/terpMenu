@@ -16,3 +16,13 @@ def review_serializer(review) -> dict:
 
 def reviews_serializer(reviews) -> list:
     return [review_serializer(review) for review in reviews]
+
+def menuItem_serializer(menuItem) -> dict:
+    return {
+        "id": str(menuItem["_id"]),
+        "name": menuItem["name"],
+        "imagePath": menuItem["imagePath"]
+    }
+
+def menuItems_serializer(menuItems) -> dict:
+    return [menuItem_serializer(menuItem) for menuItem in menuItems]

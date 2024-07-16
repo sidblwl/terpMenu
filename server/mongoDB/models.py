@@ -8,3 +8,7 @@ class Review(BaseModel):
     date: str
     rating: int
     text: str
+
+class MenuItem(BaseModel):
+    name: str
+    imagePath: str
