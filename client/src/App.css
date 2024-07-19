@@ -372,5 +372,5 @@
 }
 
 .filterButton:hover{
-  background-color: rgb(176, 176, 176) !important;
+  filter: brightness(80%) !important;
 }

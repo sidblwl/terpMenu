@@ -15,13 +15,23 @@ const loading = {
       }
   ]
 }
-const failed = {
+const failedToFetch = {
   "Failed": [
       {
           "name": "Could Not Load Items",
           "tags": [],
           "image": "none.jpg"
       }
+  ]
+}
+
+let noSuchItems =  {
+  "No Items": [
+    {
+      "name": "No items matched your search",
+      "tags": [],
+      "image": "none.jpg"
+    }
   ]
 }
 
@@ -132,12 +142,18 @@ function App() {
       const signal = controller.signal; 
       const response = await fetch("http://127.0.0.1:8000/menu" + diningHall, {signal: signal})
       const menuResponse = await response.json()
-      lamborghini[diningHall] = menuResponse
-      setSection(diningHalls[diningHall].firstSection)
-      setMenulist(menuResponse);
+      if(Object.keys(menuResponse).length <=1){
+        setSection("No Items")
+        setMenulist(noSuchItems);
+      }
+      else{
+        setSection(diningHalls[diningHall].firstSection)
+        lamborghini[diningHall] = menuResponse
+        setMenulist(menuResponse);
+      }
     }
     catch{
-      setMenulist(failed); 
+      setMenulist(failedToFetch); 
       setSection("Failed"); 
       console.log("failed to fetch")
     }
@@ -205,11 +221,7 @@ function App() {
             }
             else{
               if(menuItem === menulist[section][menulist[section].length -1] && !mapped){
-                let noSuchItems =  {
-                  "name": "No items matched your search",
-                  "tags": [],
-                  "image": "none.jpg"
-                }
+
                 return <MenuCard mItem={noSuchItems} hall={diningHall} section={section}></MenuCard>
               }
             }

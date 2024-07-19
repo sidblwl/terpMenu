@@ -27,8 +27,8 @@ fluff = ["Bacon Bits", "Diced Ham", "Diced Green Peppers", "Diced Onions", "Mapl
 # This function scrapes the menu on the UMD dining hall website 
 
 def getMenu(num):
-    url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=9/3/2023"
-    # url = "https://nutrition.umd.edu/?locationNum=" + str(num)
+    # url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=9/3/2023"
+    url = "https://nutrition.umd.edu/?locationNum=" + str(num)
     page = requests.get(url)
     parser = BeautifulSoup(page.text, "html.parser")
     items = (parser.find_all("a", class_="menu-item-name"))
