@@ -159,8 +159,19 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "id": "669aaeb282c188b1b96ba0f1",
+                        "menuItem": "Sock It 2 Me Sauce",
+                        "diningHall": "North",
+                        "section": "Smash Burger",
+                        "name": "i judge books by covers",
+                        "date": "7/19/2024",
+                        "rating": 1,
+                        "text": "No clue what this is therefore i hate it"
+                    }
+                ],
+                "rating": 1.0
             },
             {
                 "name": "Tabasco Onions",

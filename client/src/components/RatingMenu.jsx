@@ -97,7 +97,6 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
         text.forEach((word) => {
             word = word.trim();
             if(bannedWords.includes(word)){
-
                 ban = true;
             }
         })
@@ -139,6 +138,14 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
                                 if(text == ""){
                                     document.getElementById("review-input").value = "";
                                     document.getElementById("review-input").placeholder = "Must add text to your review";
+                                }
+                                else if(text.length < 10){
+                                    document.getElementById("review-input").value = "";
+                                    document.getElementById("review-input").placeholder = "Your review must be at least 10 characters";
+                                }
+                                else if(name.length > 20){
+                                    document.getElementById("nameInput").value = "";
+                                    document.getElementById("nameInput").placeholder = "Too long";
                                 }
                                 else{
                                     if(filter(text) && filter(name)){
