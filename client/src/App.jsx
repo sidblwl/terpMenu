@@ -15,6 +15,15 @@ const loading = {
       }
   ]
 }
+const failed = {
+  "Failed": [
+      {
+          "name": "Could Not Load Items",
+          "tags": [],
+          "image": "none.jpg"
+      }
+  ]
+}
 
 let dontLoadFirstRender = false;
 
@@ -68,7 +77,7 @@ function MenuCard({mItem, hall, section, submitState, setSubmitState}){
 
   function MenuCardBody({submitState, setSubmitState}){
   
-    return (mItem.name != "Loading Items..." && mItem.name != "No items matched your search") ? (
+    return (mItem.name != "Loading Items..." && mItem.name != "No items matched your search" && mItem.name != "Could Not Load Items") ? (
       <>
         <div className="menuItemTagHolder">
               <p>{tagList}</p>
@@ -118,13 +127,20 @@ function App() {
   let mapped = false;
   const diningHalls = [{name: "North Dining", firstSection: "Smash Burger", id: 0}, {name: "Yahentamitsi", firstSection: "Breakfast", id: 1}, {name: "South Dining", firstSection: "Broiler Works", id: 2}]
   const fetchMessages = async () => {
-    await fetch("http://127.0.0.1:8000/updateFromDB")
-    const signal = controller.signal; 
-    const response = await fetch("http://127.0.0.1:8000/menu" + diningHall, {signal: signal})
-    const menuResponse = await response.json()
-    lamborghini[diningHall] = menuResponse
-    setSection(diningHalls[diningHall].firstSection)
-    setMenulist(menuResponse);
+    try{
+      await fetch("http://127.0.0.1:8000/updateFromDB")
+      const signal = controller.signal; 
+      const response = await fetch("http://127.0.0.1:8000/menu" + diningHall, {signal: signal})
+      const menuResponse = await response.json()
+      lamborghini[diningHall] = menuResponse
+      setSection(diningHalls[diningHall].firstSection)
+      setMenulist(menuResponse);
+    }
+    catch{
+      setMenulist(failed); 
+      setSection("Failed"); 
+      console.log("failed to fetch")
+    }
   }
 
   useEffect(() => { 

@@ -4,7 +4,7 @@
             {
                 "name": "Bacon",
                 "tags": [],
-                "image": "none.jpg",
+                "image": "bacon.jpeg",
                 "reviews": [],
                 "rating": 0
             },
@@ -12,8 +12,39 @@
                 "name": "Beef Burger",
                 "tags": [],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "id": "669591ec638dadbbdb1c42d5",
+                        "menuItem": "Beef Burger",
+                        "diningHall": "North",
+                        "section": "Smash Burger",
+                        "name": "Sid",
+                        "date": "07/15/24",
+                        "rating": 4,
+                        "text": "om nom nom i love beef boiger"
+                    },
+                    {
+                        "id": "6695a701cb6637f30d4e5c53",
+                        "menuItem": "Beef Burger",
+                        "diningHall": "North",
+                        "section": "Smash Burger",
+                        "name": "Evan",
+                        "date": "7/15/2024",
+                        "rating": 4,
+                        "text": "This boiger slaps"
+                    },
+                    {
+                        "id": "6695ab67ebacf3eef15d2e5b",
+                        "menuItem": "Beef Burger",
+                        "diningHall": "North",
+                        "section": "Smash Burger",
+                        "name": "average_dude",
+                        "date": "7/15/2024",
+                        "rating": 0,
+                        "text": "terrible"
+                    }
+                ],
+                "rating": 2.6666666666666665
             },
             {
                 "name": "Beef Chili with Beans",
@@ -30,8 +61,19 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "id": "669aad7082c188b1b96ba0ef",
+                        "menuItem": "Cheese Sauce",
+                        "diningHall": "North",
+                        "section": "Smash Burger",
+                        "name": "cheese sauce hater",
+                        "date": "7/19/2024",
+                        "rating": 1,
+                        "text": "plastic"
+                    }
+                ],
+                "rating": 1.0
             },
             {
                 "name": "Chipotle Lime BBQ Sauce",
@@ -1316,9 +1358,80 @@
                     "contains soy",
                     "vegetarian"
                 ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "image": "grilledCheese.jpeg",
+                "reviews": [
+                    {
+                        "id": "66958beb0f80d65d50b66825",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "Evan Tran",
+                        "date": "06/15/24",
+                        "rating": 4,
+                        "text": "Im a cheese muncher, I love cheese, gimme more of that moldy stuff"
+                    },
+                    {
+                        "id": "6695a6d1cb6637f30d4e5c52",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "Sid",
+                        "date": "7/15/2024",
+                        "rating": 2,
+                        "text": "This sandwich is a warcrime"
+                    },
+                    {
+                        "id": "6695ab56ebacf3eef15d2e5a",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "Bob",
+                        "date": "7/15/2024",
+                        "rating": 1,
+                        "text": "I hate cheese"
+                    },
+                    {
+                        "id": "6695ae8449f6478f10f4a887",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "can you read this",
+                        "date": "7/15/2024",
+                        "rating": 5,
+                        "text": "hi"
+                    },
+                    {
+                        "id": "6695aea94643c39084e58ca5",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "sid",
+                        "date": "7/15/2024",
+                        "rating": 2,
+                        "text": "whats up evan"
+                    },
+                    {
+                        "id": "6695cb5e5f762640f0a9f93c",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "Evan Tran",
+                        "date": "7/15/2024",
+                        "rating": 2,
+                        "text": "god bless america rahhhhh"
+                    },
+                    {
+                        "id": "6696c2b1a061edb9916fbb58",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "Sid",
+                        "date": "7/16/2024",
+                        "rating": 1,
+                        "text": "erm actually grilled cheese was invented in France NOT America\u261d\ufe0f\ud83e\udd13"
+                    }
+                ],
+                "rating": 2.4285714285714284
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -1327,9 +1440,20 @@
                     "contains gluten",
                     "contains soy"
                 ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "image": "bbqChicken.jpeg",
+                "reviews": [
+                    {
+                        "id": "6695cbd85f762640f0a9f93d",
+                        "menuItem": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
+                        "diningHall": "Y",
+                        "section": "Breakfast",
+                        "name": "lily",
+                        "date": "7/15/2024",
+                        "rating": 4,
+                        "text": "I love chicken \ud83d\udc13 \ud83d\udc14"
+                    }
+                ],
+                "rating": 4.0
             },
             {
                 "name": "Cream of Tomato Soup",
@@ -2202,8 +2326,19 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "reviews": [
+                    {
+                        "id": "669aae2f82c188b1b96ba0f0",
+                        "menuItem": "Gnocchi w/ Mushroom & Spinach",
+                        "diningHall": "South",
+                        "section": "Pasta",
+                        "name": "French Person",
+                        "date": "7/19/2024",
+                        "rating": 5,
+                        "text": "La Gnocchi est TRES delicieux"
+                    }
+                ],
+                "rating": 5.0
             },
             {
                 "name": "Parmesan Garlic Bread",
