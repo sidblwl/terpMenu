@@ -22,11 +22,25 @@ const failedToFetch = {
           "tags": [],
           "image": "none.jpg"
       }
+  ],
+  "Favorites": [
+    {
+      "name": "No items matched your search",
+      "tags": [],
+      "image": "none.jpg"
+    }
   ]
 }
 
 let noSuchItems =  {
   "No Items": [
+    {
+      "name": "No items matched your search",
+      "tags": [],
+      "image": "none.jpg"
+    }
+  ],
+  "Favorites": [
     {
       "name": "No items matched your search",
       "tags": [],
