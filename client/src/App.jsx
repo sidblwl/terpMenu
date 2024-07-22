@@ -13,7 +13,14 @@ const loading = {
           "tags": [],
           "image": "loading.gif"
       }
-  ]
+  ],
+  "Favorites": [
+    {
+        "name": "Loading Items...",
+        "tags": [],
+        "image": "loading.gif"
+    }
+]
 }
 const failedToFetch = {
   "Failed": [
