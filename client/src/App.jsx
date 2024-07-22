@@ -221,8 +221,7 @@ function App() {
             }
             else{
               if(menuItem === menulist[section][menulist[section].length -1] && !mapped){
-
-                return <MenuCard mItem={noSuchItems} hall={diningHall} section={section}></MenuCard>
+                return <MenuCard mItem={noSuchItems["No Items"][0]} hall={diningHall} section={section}></MenuCard>
               }
             }
           })}
