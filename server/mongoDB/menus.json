@@ -3,7 +3,7 @@
     "Y": {
         "Breakfast": [
             {
-                "name": "BBQ Chicken Quesadilla",
+                "name": "Buffalo Chicken Quesadilla",
                 "tags": [
                     "contains dairy",
                     "contains gluten"
@@ -15,30 +15,10 @@
         ],
         "Good Food Gluten Free": [
             {
-                "name": "Cheese Pizza GF",
+                "name": "Grilled Sundried Tomato Pesto Chicken Thigh",
                 "tags": [
                     "contains dairy",
-                    "contains egg",
-                    "contains soy",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Honey BBQ Pork Chops (purple)",
-                "tags": [],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Pepperoni Pizza GF",
-                "tags": [
-                    "contains dairy",
-                    "contains egg",
-                    "contains soy"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -47,7 +27,7 @@
         ],
         "Sprouts": [
             {
-                "name": "Blackeyed Pea Fritter",
+                "name": "Curry Tofu Salad Wrap",
                 "tags": [
                     "contains gluten",
                     "contains soy",
@@ -59,19 +39,7 @@
                 "rating": 0
             },
             {
-                "name": "Chicken Salad Wrap (vegan)",
-                "tags": [
-                    "contains gluten",
-                    "contains soy",
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Spicy Hunan Steamed Tofu",
+                "name": "Salt and Pepper Tofu",
                 "tags": [
                     "contains gluten",
                     "contains soy",
@@ -84,10 +52,21 @@
                 "rating": 0
             },
             {
-                "name": "Vegan Spicy Pepper Beef Stir Fry",
+                "name": "Vegan Mushroom Chili Mac",
                 "tags": [
                     "contains gluten",
-                    "smartchoice",
+                    "contains soy",
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Vegan Teriyaki Tofu Stir Fry",
+                "tags": [
+                    "contains gluten",
                     "contains soy",
                     "vegan",
                     "vegetarian",
@@ -100,20 +79,18 @@
         ],
         "Terp Comfort": [
             {
-                "name": "Char Grilled Chicken Tangdi",
-                "tags": [
-                    "contains dairy",
-                    "halalfriendly"
-                ],
+                "name": "Brick Oven Roasted Brown Sugar Bourbon Chicken Legs",
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
             },
             {
-                "name": "Peruvian Roasted Chicken & Spicy Cilantro Sauce",
+                "name": "South Indian Chicken 65",
                 "tags": [
-                    "contains gluten",
-                    "contains soy",
+                    "contains dairy",
+                    "contains egg",
+                    "smartchoice",
                     "halalfriendly"
                 ],
                 "image": "none.jpg",
@@ -122,6 +99,16 @@
             }
         ],
         "Salad Bar": [
+            {
+                "name": "10 Vegetable Soup",
+                "tags": [
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
             {
                 "name": "Beets",
                 "tags": [
@@ -152,22 +139,20 @@
                 "rating": 0
             },
             {
-                "name": "Feta Cheese",
+                "name": "Chicken Tortilla  Soup",
                 "tags": [
-                    "contains dairy",
-                    "vegetarian"
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
             },
             {
-                "name": "Maryland Crab Soup",
+                "name": "Feta Cheese",
                 "tags": [
-                    "contains shellfish",
                     "contains dairy",
-                    "contains fish",
-                    "contains gluten"
+                    "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -193,18 +178,6 @@
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
-            },
-            {
-                "name": "Vegan Southwestern 3 Bean Soup",
-                "tags": [
-                    "contains gluten",
-                    "smartchoice",
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
             }
         ],
         "Maryland Bakery": [
@@ -218,19 +191,8 @@
                     "vegetarian"
                 ],
                 "image": "none.jpg",
-                "reviews": [
-                    {
-                        "id": "669dd813c8d7a3e8a32299a7",
-                        "menuItem": "Chocolate Chip Cookie",
-                        "diningHall": "Y",
-                        "section": "Maryland Bakery",
-                        "name": "Anonymous",
-                        "date": "7/21/2024",
-                        "rating": 5,
-                        "text": "ijnikjnkjnk"
-                    }
-                ],
-                "rating": 5.0
+                "reviews": [],
+                "rating": 0
             },
             {
                 "name": "Chocolate Chocolate Chip Cookie",
@@ -270,39 +232,17 @@
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
-            },
+            }
+        ],
+        "Chef's Corner": [
             {
-                "name": "Sugar Cookie",
+                "name": "Chicken Salad Wrap Roasted Apple Provolone Cheese",
                 "tags": [
                     "contains dairy",
                     "contains egg",
                     "contains gluten",
                     "contains soy",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            }
-        ],
-        "Chef's Corner": [
-            {
-                "name": "Buffalo Chicken Cheddar Wrap w/ Ranch, Lettuce & Tomato",
-                "tags": [
-                    "contains dairy",
-                    "contains egg",
-                    "contains gluten",
-                    "contains soy"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Chicken Salad",
-                "tags": [
-                    "contains egg",
-                    "contains soy"
+                    "halalfriendly"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -310,23 +250,6 @@
             }
         ],
         "Joe's Grill": [
-            {
-                "name": "Grilled Chicken Breast",
-                "tags": [],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Grilled Chicken Breast American Cheese",
-                "tags": [
-                    "contains dairy",
-                    "contains soy"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
             {
                 "name": "Grilled Hot Dog",
                 "tags": [],
@@ -337,8 +260,11 @@
         ],
         "Terp Latin": [
             {
-                "name": "Beef Taco Meat",
-                "tags": [],
+                "name": "Al Pastor Pork",
+                "tags": [
+                    "contains gluten",
+                    "contains soy"
+                ],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -355,9 +281,12 @@
                 "rating": 0
             },
             {
-                "name": "Enchiladas Suizas Chicken Enchiladas",
+                "name": "Chicken Cornbread Tamale Casserole",
                 "tags": [
-                    "contains dairy"
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -366,11 +295,12 @@
         ],
         "Mezza": [
             {
-                "name": "Baked Penne Marinara",
+                "name": "Baked Alfredo Pesto Shells",
                 "tags": [
                     "contains dairy",
                     "contains egg",
                     "contains gluten",
+                    "contains soy",
                     "vegetarian"
                 ],
                 "image": "none.jpg",
@@ -391,7 +321,7 @@
                 "rating": 0
             },
             {
-                "name": "Italian Sausage Pizza",
+                "name": "Italian Meatballs in Marinara",
                 "tags": [
                     "contains dairy",
                     "contains egg",
@@ -403,8 +333,13 @@
                 "rating": 0
             },
             {
-                "name": "Italian Sausage and Peppers",
-                "tags": [],
+                "name": "Italian Sausage Pizza",
+                "tags": [
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
+                ],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -450,12 +385,11 @@
                 "rating": 0
             },
             {
-                "name": "Grilled Teriyaki Chicken",
+                "name": "Teriyaki Pork",
                 "tags": [
                     "contains gluten",
                     "contains soy",
-                    "contains sesame",
-                    "halalfriendly"
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -480,17 +414,22 @@
     "South": {
         "Chef's Table": [
             {
-                "name": "Dry Rub Wild Blue Catfish",
+                "name": "Baked Alfredo Cod Shrimp Casserole",
                 "tags": [
-                    "contains fish"
+                    "contains shellfish",
+                    "contains dairy",
+                    "contains fish",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
             },
             {
-                "name": "Hawaiian Kona Chicken",
+                "name": "Filipino Chicken Afritada",
                 "tags": [
+                    "contains fish",
                     "contains gluten",
                     "contains soy",
                     "halalfriendly"
@@ -500,10 +439,11 @@
                 "rating": 0
             },
             {
-                "name": "Spring Vegetable Stew with Soft Polenta",
+                "name": "Thai Curried Noodle with Broccoli and Tofu",
                 "tags": [
-                    "contains dairy",
-                    "vegetarian"
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -757,11 +697,8 @@
                 "rating": 0
             },
             {
-                "name": "Grilled Chicken Teryaki Thigh",
+                "name": "Grilled Southwestern Chipotle Pesto Chicken Thigh",
                 "tags": [
-                    "contains gluten",
-                    "contains soy",
-                    "contains sesame",
                     "halalfriendly"
                 ],
                 "image": "none.jpg",
@@ -771,7 +708,7 @@
         ],
         "Grill Works": [
             {
-                "name": "Caramelized Red Onion Pepperjack Quesadilla",
+                "name": "Cheese Quesadilla",
                 "tags": [
                     "contains dairy",
                     "contains gluten",
@@ -782,7 +719,7 @@
                 "rating": 0
             },
             {
-                "name": "Cheese Burger Quesadilla",
+                "name": "Pepperoni Pizza Quesadilla",
                 "tags": [
                     "contains dairy",
                     "contains gluten"
@@ -792,7 +729,7 @@
                 "rating": 0
             },
             {
-                "name": "Cheese Quesadilla",
+                "name": "Vegetable Pizza Quesadilla",
                 "tags": [
                     "contains dairy",
                     "contains gluten",
@@ -805,7 +742,7 @@
         ],
         "Roaster": [
             {
-                "name": "Sweet Chili Bbq Chicken",
+                "name": "Hot Honey Chicken",
                 "tags": [
                     "halalfriendly"
                 ],
@@ -901,16 +838,6 @@
                 "rating": 0
             },
             {
-                "name": "Kale Pineapple Blueberry Smoothie",
-                "tags": [
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
                 "name": "M&M Candy Cookie",
                 "tags": [
                     "contains dairy",
@@ -924,9 +851,9 @@
                 "rating": 0
             },
             {
-                "name": "Mango Banana Yogurt Smoothie",
+                "name": "Mango Pineapple Spinach Smoothie",
                 "tags": [
-                    "contains dairy",
+                    "vegan",
                     "vegetarian"
                 ],
                 "image": "none.jpg",
@@ -983,36 +910,35 @@
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
-            }
-        ],
-        "Soup Du Jour": [
-            {
-                "name": "Chicken Noodle Soup",
-                "tags": [
-                    "contains egg",
-                    "contains gluten"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
             },
             {
-                "name": "Corn Chowder",
+                "name": "Yogurt Apple Orange Smoothie",
                 "tags": [
                     "contains dairy",
-                    "contains gluten",
                     "vegetarian"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
+            }
+        ],
+        "Soup Du Jour": [
+            {
+                "name": "Buffalo Style Chicken Soup",
+                "tags": [
+                    "contains dairy",
+                    "contains egg",
+                    "contains gluten",
+                    "contains soy"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
             },
             {
-                "name": "Maryland Crab Soup",
+                "name": "Butternut Squash and Cranberry Bisque",
                 "tags": [
-                    "contains shellfish",
                     "contains dairy",
-                    "contains fish",
                     "contains gluten"
                 ],
                 "image": "none.jpg",
@@ -1020,10 +946,18 @@
                 "rating": 0
             },
             {
-                "name": "Vegan Southwestern 3 Bean Soup",
+                "name": "Chicken Tortilla  Soup",
                 "tags": [
                     "contains gluten",
-                    "smartchoice",
+                    "contains soy"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Red Lentil Farro Chili",
+                "tags": [
                     "vegan",
                     "vegetarian"
                 ],
@@ -1299,7 +1233,7 @@
         ],
         "Roma Vegan Salads and Panini": [
             {
-                "name": "Garlic Chive Spiced Tofu",
+                "name": "Spicy Hunan Steamed Tofu",
                 "tags": [
                     "contains gluten",
                     "contains soy",
@@ -1312,12 +1246,13 @@
                 "rating": 0
             },
             {
-                "name": "Vegan Chickpea Patty Melt",
+                "name": "Vegan General Tso's Chicken",
                 "tags": [
                     "contains gluten",
                     "contains soy",
                     "vegan",
-                    "vegetarian"
+                    "vegetarian",
+                    "contains sesame"
                 ],
                 "image": "none.jpg",
                 "reviews": [],

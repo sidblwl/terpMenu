@@ -78,7 +78,6 @@ def getMenu(num):
 
 menus = {}
 reviews = {}
-
 def scheduleMenus():
     print("now fetching")
     menus["North"] = getMenu(51)
@@ -89,7 +88,7 @@ def scheduleMenus():
     with open("menus.json", "w") as outfile:
         outfile.write(json_object)
 
-
+scheduleMenus()
 
 def generateFavorites(menus, hall):
     favoriteItems = []
