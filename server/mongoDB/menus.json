@@ -1,10 +1,10 @@
 {
-    "North": {
+    "north": {
         "Smash Burger": [
             {
                 "name": "Bacon",
                 "tags": [],
-                "image": "none.jpg",
+                "image": "bacon.jpeg",
                 "reviews": [],
                 "rating": 0
             },
@@ -442,20 +442,8 @@
         ],
         "Purple Zone": [
             {
-                "name": "Arugula & Tomato Braised Chicken",
-                "tags": [
-                    "smartchoice"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Baked Potato",
-                "tags": [
-                    "vegan",
-                    "vegetarian"
-                ],
+                "name": "Coconut Tamarind Pork",
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -471,17 +459,7 @@
                 "rating": 0
             },
             {
-                "name": "Garlic Broccolini",
-                "tags": [
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
-                "name": "Garlic Herb Roasted Zucchini and Yellow Squash",
+                "name": "Green Curry Lentils",
                 "tags": [
                     "vegan",
                     "vegetarian"
@@ -498,7 +476,7 @@
                 "rating": 0
             },
             {
-                "name": "Grilled Garlic Basil Chicken Alfredo (purple)",
+                "name": "Punjabi Lemon Chicken (purple)",
                 "tags": [
                     "halalfriendly"
                 ],
@@ -507,7 +485,7 @@
                 "rating": 0
             },
             {
-                "name": "Lemon Basil Alfredo Sauce",
+                "name": "Red Chili Garlic Green Beans",
                 "tags": [
                     "vegan",
                     "vegetarian"
@@ -517,7 +495,7 @@
                 "rating": 0
             },
             {
-                "name": "Red Lentil Penne Pasta",
+                "name": "Roasted Red Pepper Marinara Sauce (purple)",
                 "tags": [
                     "vegan",
                     "vegetarian"
@@ -527,7 +505,28 @@
                 "rating": 0
             },
             {
-                "name": "Vegan Margherita Pizza",
+                "name": "Rotini Chickpea Pasta",
+                "tags": [
+                    "smartchoice",
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Saffron Basmati Rice with Peas and Carrots",
+                "tags": [
+                    "vegan",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Vegan Cheese Pizza",
                 "tags": [
                     "vegan",
                     "vegetarian"
@@ -766,18 +765,6 @@
         ],
         "Ciao Pasta": [
             {
-                "name": "Assorted Mini Rolls",
-                "tags": [
-                    "contains gluten",
-                    "contains soy",
-                    "vegan",
-                    "vegetarian"
-                ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
-            },
-            {
                 "name": "Grandma's Baked Macaroni and Cheese",
                 "tags": [
                     "contains dairy",
@@ -802,10 +789,12 @@
                 "rating": 0
             },
             {
-                "name": "Meat Loaf",
+                "name": "Italian Meatballs in Marinara",
                 "tags": [
+                    "contains dairy",
                     "contains egg",
-                    "contains gluten"
+                    "contains gluten",
+                    "contains soy"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -853,6 +842,18 @@
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
+            },
+            {
+                "name": "Toasted Provolone Hoagie Roll",
+                "tags": [
+                    "contains dairy",
+                    "contains gluten",
+                    "contains soy",
+                    "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
             }
         ],
         "Ciao Entree": [
@@ -893,6 +894,18 @@
                     "contains egg",
                     "contains gluten",
                     "vegetarian"
+                ],
+                "image": "none.jpg",
+                "reviews": [],
+                "rating": 0
+            },
+            {
+                "name": "Tilapia Piccatta with Beurre Blanc Sauce",
+                "tags": [
+                    "contains dairy",
+                    "contains egg",
+                    "contains fish",
+                    "contains gluten"
                 ],
                 "image": "none.jpg",
                 "reviews": [],
@@ -1098,10 +1111,8 @@
         ],
         "Halal at Chef's Table": [
             {
-                "name": "Jerk Chicken",
-                "tags": [
-                    "halalfriendly"
-                ],
+                "name": "HALAL BEEF BURGER",
+                "tags": [],
                 "image": "none.jpg",
                 "reviews": [],
                 "rating": 0
@@ -1306,7 +1317,7 @@
             }
         ]
     },
-    "Y": {
+    "yahentamitsi": {
         "Breakfast": [
             {
                 "name": "American Grilled Cheese Sandwich",
@@ -1316,9 +1327,20 @@
                     "contains soy",
                     "vegetarian"
                 ],
-                "image": "none.jpg",
-                "reviews": [],
-                "rating": 0
+                "image": "grilledCheese.jpeg",
+                "reviews": [
+                    {
+                        "id": "66a1627a2bc4049519299439",
+                        "menuItem": "American Grilled Cheese Sandwich",
+                        "diningHall": "yahentamitsi",
+                        "section": "Breakfast",
+                        "name": "sid",
+                        "date": "7/24/2024",
+                        "rating": 2,
+                        "text": "test"
+                    }
+                ],
+                "rating": 2.0
             },
             {
                 "name": "BBQ Chicken Pepperjack Grilled Cheese Sandwich",
@@ -1327,7 +1349,7 @@
                     "contains gluten",
                     "contains soy"
                 ],
-                "image": "none.jpg",
+                "image": "bbqChicken.jpeg",
                 "reviews": [],
                 "rating": 0
             },
@@ -1530,7 +1552,6 @@
                 "name": "BBQ Havarti Burger with Maple Sweet Potato Straws",
                 "tags": [
                     "contains dairy",
-                    "contains egg",
                     "contains gluten",
                     "contains soy"
                 ],
@@ -2073,7 +2094,7 @@
             }
         ]
     },
-    "South": {
+    "south": {
         "Broiler Works": [
             {
                 "name": "Cheeseburger with American Cheese",

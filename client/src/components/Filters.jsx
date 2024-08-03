@@ -1,7 +1,7 @@
 import close from "../assets/close.png";
+import '../App.css'
+
 const allFilters = ["Vegetarian", "Contains Dairy", "Contains Gluten", "Contains Soy", "Contains Egg", "Halal Friendly", "Probability Stasis", "Vegan", "Contains Fish", "Smartchoice", "Contains Nuts", "Contains Shellfish", "Contains Sesame", "Locally Grown"]
-
-
 
 export default function Filters({filterState, setFilterState, filters, setFilters, setSubmitState}){
     return (filterState) ? (

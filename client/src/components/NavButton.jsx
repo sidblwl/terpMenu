@@ -1,17 +1,18 @@
+import { Routes, Route, useParams, Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import '../App.css'
 
-// Dining hall button in the top navbar
-// If the hall button being generated is that same as the activeTab, style it dark red
-// If the hall button is not the active tab, run setup code to switch into the new dining hall
-export default function NavButton({currentHall, setAbortController, setDiningHall, controller, activeTab, setActiveSection, setActiveTab}){
+   export default function NavButton({currentHall, hallInfo, setAbortController, controller, diningHall, setActiveSection}){
+    
     return(
-        <button style = {(currentHall.id == activeTab ? {backgroundColor: "darkred"} : {backgroundColor: "#e21833"})} className = "navButton" onClick={() => {
-         if(activeTab != currentHall.id){
-           setActiveSection(1);
-           setActiveTab(currentHall.id); 
-           setDiningHall(currentHall.id); 
-           setAbortController(new AbortController)
-           controller.abort()
+      <Link to={"/" + currentHall}>
+        <button style = {(currentHall == diningHall ? {backgroundColor: "darkred"} : {backgroundColor: "#e21833"})} className={"navButton"} onClick={() => {
+          if(diningHall != currentHall){
+            setActiveSection(1);
+            setAbortController(new AbortController)
+            controller.abort()
          }      
-       }}>{currentHall.name}</button>
+        }}>{hallInfo[1]}</button>
+      </Link>
      )
    }
