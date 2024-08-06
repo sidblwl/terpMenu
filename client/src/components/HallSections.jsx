@@ -7,7 +7,7 @@ function HallSection({section, change, activeSection, setActiveSection}){
     ) : ""
 }
 
-export default function HallSections({menulist, hall, change, activeSection, setActiveSection}){
+export default function HallSections({menulist, change, activeSection, setActiveSection}){
     let sections = []
     let counter = 1
     Object.keys(menulist).forEach((section) => {
