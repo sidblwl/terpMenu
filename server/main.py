@@ -88,13 +88,11 @@ def scheduleMenus():
 
 scheduleMenus()
 
-json_object = json.dumps(menus, indent=4)
+# json_object = json.dumps(menus, indent=4)
  
-# Writing to sample.json
-with open("menus.json", "w") as outfile:
-    outfile.write(json_object)
-
-scheduleMenus()
+# # Writing to sample.json
+# with open("menus.json", "w") as outfile:
+#     outfile.write(json_object)
 
 def generateFavorites(menus, hall):
     favoriteItems = []
