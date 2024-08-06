@@ -138,7 +138,7 @@ function Menu() {
   const diningKeys = {north: [0, "North Dining", "Smash Burger"], yahentamitsi: [1, "Yahentamitsi", "Breakfast"], south: [2, "South Dining", "Broiler Works"]}
   const fetchMessages = async () => {
     try{
-      await fetch("https://seal-app-vpwsv.ondigitalocean.app//updateFromDB")
+      await fetch("https://seal-app-vpwsv.ondigitalocean.app/updateFromDB")
       const signal = controller.signal; 
       const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/" + diningHall, {signal: signal})
       const menuResponse = await response.json()
