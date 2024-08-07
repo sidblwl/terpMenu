@@ -112,7 +112,7 @@ def generateFavorites(menus, hall):
 
 scheduleMenus()
 scheduler = BackgroundScheduler()
-scheduler.add_job(scheduleMenus, "cron", year="*", month="*", day="*", hour="0", minute="10", second="0")
+scheduler.add_job(scheduleMenus, "cron", year="*", month="*", day="*", hour="0", minute="13", second="0")
 scheduler.start()
 print("scheduler created")
 
