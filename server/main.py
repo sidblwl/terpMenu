@@ -86,6 +86,8 @@ def scheduleMenus():
     with open("menus.json", "w") as outfile:
         outfile.write(json_object)
 
+scheduleMenus()
+
 # json_object = json.dumps(menus, indent=4)
  
 # # Writing to sample.json
@@ -109,13 +111,12 @@ def generateFavorites(menus, hall):
     menus["Favorites"] = favoriteItems
     return menus["Favorites"]
 
-
-scheduleMenus()
-scheduler = BackgroundScheduler()
-scheduler.add_job(scheduleMenus, "cron", year="*", month="*", day="*", hour="0", minute="13", second="0")
-scheduler.start()
-print("scheduler created")
-
+@app.on_event('startup')
+def init_data():
+    print("scheduler created")
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(scheduleMenus, "cron", year="*", month="*", day="*", hour="23", minute="43", second="0")
+    scheduler.start()
 
 @app.get('/north')
 async def root():
