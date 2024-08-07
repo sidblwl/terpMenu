@@ -4,7 +4,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 import requests
 import json
-from apscheduler.schedulers.background import BackgroundScheduler
+# from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from apscheduler.triggers.cron import CronTrigger
 
 
 # Create the fastapi object and add the router to it
@@ -86,7 +88,7 @@ def scheduleMenus():
     with open("menus.json", "w") as outfile:
         outfile.write(json_object)
 
-scheduleMenus()
+# scheduleMenus()
 
 # json_object = json.dumps(menus, indent=4)
  
@@ -112,28 +114,29 @@ def generateFavorites(menus, hall):
     return menus["Favorites"]
 
 @app.on_event('startup')
-def createScheduler():
+async def createScheduler():
     print("scheduler created")
-    scheduler = BackgroundScheduler()
-    scheduler.add_job(scheduleMenus, "cron", year="*", month="*", day="*", hour="21", minute="3", second="0")
+    scheduler = AsyncIOScheduler()
+    trigger = CronTrigger(year="*", month="*", day="*", hour="21", minute="13", second="0")
+    scheduler.add_job(scheduleMenus, trigger)
     scheduler.start()
 
 @app.get('/north')
-async def root():
+async def getNorth():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
         menus["north"]["Favorites"] = generateFavorites(menus, "north")
     return menus["north"]
 
 @app.get('/yahentamitsi')
-async def root():
+async def getY():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
         menus["yahentamitsi"]["Favorites"] = generateFavorites(menus, "yahentamitsi")
     return menus["yahentamitsi"]
 
 @app.get('/south')
-async def root():
+async def getSouth():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
         menus["south"]["Favorites"] = generateFavorites(menus, "south")
