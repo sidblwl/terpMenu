@@ -117,7 +117,7 @@ def generateFavorites(menus, hall):
 async def createScheduler():
     print("scheduler created")
     scheduler = AsyncIOScheduler()
-    trigger = CronTrigger(year="*", month="*", day="*", hour="21", minute="13", second="0")
+    trigger = CronTrigger(year="*", month="*", day="*", hour="18", minute="1", second="0")
     scheduler.add_job(scheduleMenus, trigger)
     scheduler.start()
 
