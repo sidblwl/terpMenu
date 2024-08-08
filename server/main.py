@@ -85,16 +85,12 @@ def scheduleMenus():
     menus["south"] = (getMenu(16))
     json_object = json.dumps(menus, indent=4) 
     # Writing to sample.json
-    with open("menus.json", "w") as outfile:
+    with open("menus.json", "w+") as outfile:
         outfile.write(json_object)
 
 # scheduleMenus()
 
-# json_object = json.dumps(menus, indent=4)
- 
-# # Writing to sample.json
-# with open("menus.json", "w") as outfile:
-#     outfile.write(json_object)
+
 
 def generateFavorites(menus, hall):
     favoriteItems = []
@@ -117,6 +113,7 @@ def generateFavorites(menus, hall):
 async def createScheduler():
     print("scheduler created")
     scheduler = AsyncIOScheduler()
+    #set to server time, not our time
     trigger = CronTrigger(year="*", month="*", day="*", hour="5", minute="0", second="0")
     scheduler.add_job(scheduleMenus, trigger)
     scheduler.start()
