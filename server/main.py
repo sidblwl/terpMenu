@@ -88,9 +88,7 @@ def scheduleMenus():
     with open("menus.json", "rw") as outfile:
         outfile.write(json_object)
 
-# scheduleMenus()
-
-
+scheduleMenus()
 
 def generateFavorites(menus, hall):
     favoriteItems = []
