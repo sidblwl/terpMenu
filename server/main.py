@@ -85,7 +85,7 @@ def scheduleMenus():
     menus["south"] = (getMenu(16))
     json_object = json.dumps(menus, indent=4) 
     # Writing to sample.json
-    with open("menus.json", "rw") as outfile:
+    with open("menus.json", "w") as outfile:
         outfile.write(json_object)
 
 scheduleMenus()
