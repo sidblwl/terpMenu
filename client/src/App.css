@@ -342,11 +342,9 @@
 }
 
 .reviewText{
-  /* border: 1px solid black; */
-}
-
-.reviewText > p{
-  margin: 0;
+  text-align: right;
+  width: 100%;
+  margin-right: 10px;
 }
 
 .filterWrapper{
@@ -371,4 +369,199 @@
 
 .filterButton:hover{
   filter: brightness(80%) !important;
+}
+
+.mobile{
+  display: none;
+}
+
+.desktop{
+  
+}
+
+@media only screen and (max-width: 900px) {
+  .sectionTitle{
+    margin-top: 90px;
+  }
+  .mobile{
+    display: block
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  .menuItemName{
+    font-size: 25px;
+  }
+
+  .topNav{
+    position: absolute;
+    text-align: center;
+    background-color: #e21833;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .navHeader{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 120px; 
+    margin-top: 0;
+    margin-bottom:0;
+  }
+
+  .mobileNavContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+  }
+
+  .navIconContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    width: 20px;
+    height: 25px;
+    transform-origin: center;
+    margin-top: 6px;
+  }
+
+  .navIconLine{
+    display: block;
+    width: 100%;  /* Set width to 100% for consistency */
+    height: 2px;
+    transition: transform 0.2s;
+    background-color: white;
+    transform-origin: center; /* Ensure rotation occurs from the center */
+  }
+  .topOpen{
+    transform-origin: center;
+    transform: translate(0px, 6px) rotate(45deg) ;
+    transform-origin: center;
+  }
+  .bottomOpen{
+    transform-origin: center;
+    transform: translate(0px, -3.1px) rotate(-45deg) ;
+    transform-origin: center;
+  }
+  
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileSectionSelect{
+    width: 160px;
+    text-overflow: wrap;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: gainsboro;
+  }
+
+  .mobileSectionOption{
+    text-overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+
+  .mobileMenu{
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0%;
+    background-color: rgb(194, 0, 0);
+    transition: 0.2s
+  }
+
+  .mobileMenuActive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(194, 0, 0);
+    transition: 0.2s;
+    gap: 30px;
+  }
+
+  .navButton{
+    color: white;
+    background-color: transparent !important;
+    font-size: 30px;
+
+  }
+
+  .rating-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .starSection{
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-input{
+    height: 7.5rem;
+    width: 95%;
+    resize: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ratingTitle{
+    text-align: center;
+    margin: 0px;
+  }
+
+  .reviewCard{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+  }
+
+  .reviewsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .reviewInformation{
+
+    width: 100%;
+    text-align: left;
+  }
+  .no-scroll{
+    height: 96vh !important;
+    overflow-y: hidden;
+    object-fit: cover;
+  }
 }

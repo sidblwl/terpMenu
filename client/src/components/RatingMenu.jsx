@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import close from "../assets/close.png";
 
 export default function RatingMenu({setSubmitState, popupState, setPopupState, mItem, hall, section}){
-    const [rating, setRating] = useState(0);
+    const [rating, setRating] = useState(1);
     
     function getDate() {
         const today = new Date();
@@ -34,7 +34,7 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
         redirect: "follow"
         };
 
-        const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/review", requestOptions)
+        const response = await fetch("http://127.0.0.1:8000/review", requestOptions)
         mItem.reviews.push({
             "menuItem": mItem.name,
             "section": section,

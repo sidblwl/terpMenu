@@ -5,6 +5,8 @@ import NavButton from './NavButton'
 import HallSections from './HallSections'
 import RatingMenu from './RatingMenu'
 import Filters from './Filters'
+import MobileNavIcon from "./MobileNavIcon";
+import MobileMenu from "./MobileMenu"
 const loading = {
   "Loading...": [
       {
@@ -133,14 +135,15 @@ function Menu() {
   const [filters, setFilters] = useState([])
   const [submitState, setSubmitState] = useState(false);
   const [filterState, setFilterState] = useState(false)
-  
+  const [mobileMenu, setMobileMenu] = useState(false)
+  //https://seal-app-vpwsv.ondigitalocean.app
   let mapped = false;
   const diningKeys = {north: [0, "North Dining", "Smash Burger"], yahentamitsi: [1, "Yahentamitsi", "Breakfast"], south: [2, "South Dining", "Broiler Works"]}
   const fetchMessages = async () => {
     try{
-      await fetch("https://seal-app-vpwsv.ondigitalocean.app/updateFromDB")
+      await fetch("http://127.0.0.1:8000/updateFromDB")
       const signal = controller.signal; 
-      const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/" + diningHall, {signal: signal})
+      const response = await fetch("http://127.0.0.1:8000/" + diningHall, {signal: signal})
       const menuResponse = await response.json()
       console.log(menuResponse)
       if(Object.keys(menuResponse).length <=1){
@@ -173,28 +176,40 @@ function Menu() {
 
   return (
     <>
+      <MobileMenu setMobileMenu = {setMobileMenu} diningKeys = {diningKeys} setAbortController= {setAbortController} controller = {controller} diningHall={diningHall} setActiveSection={setActiveSection} mobileMenu = {mobileMenu}></MobileMenu>
       <div className="topNav">
-        {Object.keys(diningKeys).map((hall) => (
-            <NavButton currentHall={hall} hallInfo={diningKeys[hall]} setAbortController= {setAbortController} controller = {controller} diningHall={diningHall} setActiveSection={setActiveSection}></NavButton>
-        ))}
+        <div className = "desktop">
+          {Object.keys(diningKeys).map((hall) => (
+              <NavButton currentHall={hall} hallInfo={diningKeys[hall]} setAbortController= {setAbortController} controller = {controller} diningHall={diningHall} setActiveSection={setActiveSection}></NavButton>
+          ))}
+        </div>
+
+        {/* moblie */}
+        <div className = "mobile mobileNavContainer">
+          <p className="navHeader">TerpMenu</p>
+          <MobileNavIcon setMobileMenu = {setMobileMenu} mobileMenu = {mobileMenu}></MobileNavIcon>
+        </div>
       </div>
-      <div className="wrapper">
-        <div className="favWrapper">
+      <div className={"wrapper " + (mobileMenu ? "no-scroll": "")}>
+        <div className="desktop favWrapper">
           <button style = {activeSection == 0 ? {backgroundColor: "lightgray"}: {backgroundColor: "white"}} className="favoriteBtn" onClick = {() => {setSection("Favorites"); setActiveSection(0)}}>Favorites</button>
         </div>
 
         <h1 className="sectionTitle">{section}</h1>
   
-        <div className="redBorder">
-          <div className="sidebar">
-            <HallSections menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
+        <div className="desktop redBorder">
+          <div className="desktop sidebar">
+            <HallSections mobile = {false} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
           </div>
         </div>
         <div className="sideWrapper">
           <div className="filterWrapper">
             <Filters filterState = {filterState} setFilterState = {setFilterState} setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
+            <select className = "mobile mobileSectionSelect" onChange = {(e) => {setSection(e.target.value)}}>
+              <HallSections mobile = {true} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
+            </select>
           </div>
-          <div className="menu">
+          <div className= {"menu"}>
           {menulist[section].map((menuItem) => {
             let validItem = true;
             if(filters.length > 0){

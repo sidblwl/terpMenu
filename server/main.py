@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routes import menu_api_router, get_menuItems
+from routes import menu_api_router, get_menuItems
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 import requests
