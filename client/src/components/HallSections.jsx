@@ -7,7 +7,7 @@ function HallSection({section, change, activeSection, setActiveSection}){
     ) : ""
 }
 
-export default function HallSections({menulist, change, activeSection, setActiveSection}){
+export default function HallSections({mobile, menulist, change, activeSection, setActiveSection}){
     let sections = []
     let counter = 1
     Object.keys(menulist).forEach((section) => {
@@ -17,11 +17,13 @@ export default function HallSections({menulist, change, activeSection, setActive
         })
         counter++;
     })
-    return(
+    return !mobile? (
         <>
             {sections.map((section) => (
                 <HallSection section = {section} change = {change} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSection>
             ))}
         </>
-    )
+    ): (sections.map((section) => (
+        <option className = "mobileSectionOption">{section.name}</option>
+    )))
 }

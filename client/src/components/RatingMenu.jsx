@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import close from "../assets/close.png";
 
 export default function RatingMenu({setSubmitState, popupState, setPopupState, mItem, hall, section}){
-    const [rating, setRating] = useState(0);
+    const [rating, setRating] = useState(1);
     
     function getDate() {
         const today = new Date();
