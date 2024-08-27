@@ -1,6 +1,6 @@
 {
     "north": {
-        "breakfast": {
+        "Breakfast": {
             "Smash Burger": [
                 {
                     "name": "Egg Cheese Breakfast Wrap",
@@ -323,7 +323,7 @@
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -432,7 +432,7 @@
                 }
             ]
         },
-        "lunch": {
+        "Lunch": {
             "Smash Hot Sub": [
                 {
                     "name": "Arroz Rojo ( Red Rice )",
@@ -446,21 +446,30 @@
                 },
                 {
                     "name": "Birria (Mexican Beef Stew)",
-                    "tags": [],
+                    "tags": [
+                        "contains dairy",
+                        "contains gluten"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
                     "name": "Birria de Pollo (Chicken Birria)",
-                    "tags": [],
+                    "tags": [
+                        "contains dairy",
+                        "contains gluten"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
                     "name": "Birria de Puerco (Pork Birria)",
-                    "tags": [],
+                    "tags": [
+                        "contains dairy",
+                        "contains gluten"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
@@ -485,8 +494,29 @@
                     "name": "Beef Burger",
                     "tags": [],
                     "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
+                    "reviews": [
+                        {
+                            "id": "66c77ffa6e8bf1a8fe61bf9f",
+                            "menuItem": "Beef Burger",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "Anonymous",
+                            "date": "8/22/2024",
+                            "rating": 5,
+                            "text": "i love beeg burger"
+                        },
+                        {
+                            "id": "66c780096e8bf1a8fe61bfa0",
+                            "menuItem": "Beef Burger",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "Anonymous",
+                            "date": "8/22/2024",
+                            "rating": 2,
+                            "text": "i dont like it"
+                        }
+                    ],
+                    "rating": 3.5
                 },
                 {
                     "name": "Cheese Sauce",
@@ -1649,7 +1679,7 @@
                 }
             ]
         },
-        "dinner": {
+        "Dinner": {
             "Smash Hot Sub": [
                 {
                     "name": "Arroz Rojo ( Red Rice )",
@@ -1663,21 +1693,30 @@
                 },
                 {
                     "name": "Birria (Mexican Beef Stew)",
-                    "tags": [],
+                    "tags": [
+                        "contains dairy",
+                        "contains gluten"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
                     "name": "Birria de Pollo (Chicken Birria)",
-                    "tags": [],
+                    "tags": [
+                        "contains dairy",
+                        "contains gluten"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
                     "name": "Birria de Puerco (Pork Birria)",
-                    "tags": [],
+                    "tags": [
+                        "contains dairy",
+                        "contains gluten"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
@@ -1700,16 +1739,98 @@
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
+                    "image": "bacon.jpeg",
+                    "reviews": [
+                        {
+                            "id": "66c77d406e8bf1a8fe61bf98",
+                            "menuItem": "Bacon",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "Anonymous",
+                            "date": "8/22/2024",
+                            "rating": 0,
+                            "text": "Your review must be at least 10 characters"
+                        },
+                        {
+                            "id": "66c77d5e6e8bf1a8fe61bf99",
+                            "menuItem": "Bacon",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "Anonymous",
+                            "date": "8/22/2024",
+                            "rating": 1,
+                            "text": "Add a review to this menu item"
+                        },
+                        {
+                            "id": "66c77ee36e8bf1a8fe61bf9b",
+                            "menuItem": "Bacon",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "e",
+                            "date": "8/22/2024",
+                            "rating": 1,
+                            "text": "This bacon suckssss"
+                        },
+                        {
+                            "id": "66c77ef66e8bf1a8fe61bf9c",
+                            "menuItem": "Bacon",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "e",
+                            "date": "8/22/2024",
+                            "rating": 5,
+                            "text": "this bacon is great"
+                        },
+                        {
+                            "id": "66c77f2d6e8bf1a8fe61bf9d",
+                            "menuItem": "Bacon",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "Anonymous",
+                            "date": "8/22/2024",
+                            "rating": 5,
+                            "text": "i love bacon"
+                        },
+                        {
+                            "id": "66c77fc56e8bf1a8fe61bf9e",
+                            "menuItem": "Bacon",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "Anonymous",
+                            "date": "8/22/2024",
+                            "rating": 4,
+                            "text": "i lov ebacon"
+                        }
+                    ],
+                    "rating": 2.6666666666666665
                 },
                 {
                     "name": "Beef Burger",
                     "tags": [],
                     "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
+                    "reviews": [
+                        {
+                            "id": "66c77ffa6e8bf1a8fe61bf9f",
+                            "menuItem": "Beef Burger",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "Anonymous",
+                            "date": "8/22/2024",
+                            "rating": 5,
+                            "text": "i love beeg burger"
+                        },
+                        {
+                            "id": "66c780096e8bf1a8fe61bfa0",
+                            "menuItem": "Beef Burger",
+                            "diningHall": "north",
+                            "section": "Smash Burger",
+                            "name": "Anonymous",
+                            "date": "8/22/2024",
+                            "rating": 2,
+                            "text": "i dont like it"
+                        }
+                    ],
+                    "rating": 3.5
                 },
                 {
                     "name": "Bibb Lettuce Leaves",
@@ -2849,12 +2970,12 @@
         }
     },
     "yahentamitsi": {
-        "breakfast": {
+        "Breakfast": {
             "Breakfast": [
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -2870,7 +2991,7 @@
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 }
@@ -2893,7 +3014,7 @@
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 }
@@ -3057,12 +3178,12 @@
                 }
             ]
         },
-        "lunch": {
+        "Lunch": {
             "Breakfast": [
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -3377,7 +3498,7 @@
                         "contains soy",
                         "vegetarian"
                     ],
-                    "image": "none.jpg",
+                    "image": "grilledCheese.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -3724,7 +3845,7 @@
                 }
             ]
         },
-        "dinner": {
+        "Dinner": {
             "Breakfast": [
                 {
                     "name": "Al Pastor Pork Street Taco",
@@ -3732,8 +3853,29 @@
                         "contains gluten"
                     ],
                     "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
+                    "reviews": [
+                        {
+                            "id": "66b50872898d7e131e22d28c",
+                            "menuItem": "Al Pastor Pork Street Taco",
+                            "diningHall": "yahentamitsi",
+                            "section": "Breakfast",
+                            "name": "Anonymous",
+                            "date": "8/8/2024",
+                            "rating": 5,
+                            "text": "hey sid hru"
+                        },
+                        {
+                            "id": "66be4def6e8bf1a8fe61bf97",
+                            "menuItem": "Al Pastor Pork Street Taco",
+                            "diningHall": "yahentamitsi",
+                            "section": "Breakfast",
+                            "name": "ev",
+                            "date": "8/15/2024",
+                            "rating": 2,
+                            "text": "this is so bad"
+                        }
+                    ],
+                    "rating": 3.5
                 }
             ],
             "Good Food Gluten Free": [
@@ -4021,7 +4163,7 @@
                         "contains soy",
                         "vegetarian"
                     ],
-                    "image": "none.jpg",
+                    "image": "grilledCheese.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -4370,12 +4512,12 @@
         }
     },
     "south": {
-        "breakfast": {
+        "Breakfast": {
             "Broiler Works": [
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -4434,7 +4576,7 @@
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -4747,7 +4889,7 @@
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -4770,7 +4912,7 @@
                 }
             ]
         },
-        "lunch": {
+        "Lunch": {
             "Broiler Works": [
                 {
                     "name": "Cheeseburger with American Cheese",
@@ -4883,7 +5025,7 @@
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "none.jpg",
+                    "image": "bacon.jpeg",
                     "reviews": [],
                     "rating": 0
                 },
@@ -6147,23 +6289,22 @@
                 }
             ]
         },
-        "dinner": {
+        "Dinner": {
             "Broiler Works": [
                 {
-                    "name": "Grilled  Basil Pesto Chicken Thigh",
+                    "name": "Fresh Chicken Burger",
                     "tags": [
-                        "contains dairy",
-                        "halalfriendly"
+                        "contains gluten"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Grilled Chicken American Burger",
+                    "name": "Grilled  Basil Pesto Chicken Thigh",
                     "tags": [
                         "contains dairy",
-                        "contains soy"
+                        "halalfriendly"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -6224,6 +6365,16 @@
             ],
             "Chef's Table": [
                 {
+                    "name": "Sticky Pineapple Chicken",
+                    "tags": [
+                        "contains gluten",
+                        "contains soy"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
                     "name": "Teriyaki Salmon",
                     "tags": [
                         "contains fish",
@@ -6241,15 +6392,6 @@
                         "contains egg",
                         "contains gluten",
                         "contains soy"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Thai Shrimp Coconut Curry",
-                    "tags": [
-                        "contains fish"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -6295,6 +6437,18 @@
             ],
             "Pizza": [
                 {
+                    "name": "Meat Lovers Pizza",
+                    "tags": [
+                        "contains dairy",
+                        "contains egg",
+                        "contains gluten",
+                        "contains soy"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
                     "name": "Pan Cheese Pizza",
                     "tags": [
                         "contains dairy",
@@ -6308,18 +6462,6 @@
                 },
                 {
                     "name": "Pan Chicken Carbonara Pizza",
-                    "tags": [
-                        "contains dairy",
-                        "contains egg",
-                        "contains gluten",
-                        "contains soy"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pan Corn Beef Rueben Pizza",
                     "tags": [
                         "contains dairy",
                         "contains egg",
@@ -7134,15 +7276,17 @@
             ],
             "Purple Zone": [
                 {
-                    "name": "Picadillo beef stuffed peppers",
+                    "name": "New Mexico Pork Chili Verde (purple)",
                     "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Santa Fe Beef and Corn Chili (purple)",
-                    "tags": [],
+                    "name": "Pollo Guisado Dominican Braised Chicken",
+                    "tags": [
+                        "halalfriendly"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0

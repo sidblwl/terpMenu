@@ -97,24 +97,25 @@ def scheduleMenus():
     with open("menus.json", "w") as outfile:
         outfile.write(json_object)
 
-scheduleMenus()
+# scheduleMenus()
 
 def generateFavorites(menus, hall):
     favoriteItems = []
     for i in range(1, 10):
         currentMax = {"rating": 0}
-        for section in menus[hall]:
-            for item in menus[hall][section]:
-                if (item["rating"] > currentMax["rating"]) and (item not in favoriteItems):
-                    currentMax = item
+        for mealTime in menus[hall]:
+            for section in menus[hall][mealTime]:
+                for item in menus[hall][mealTime][section]:
+                    print(item)
+                    # if (item["rating"] > currentMax["rating"]) and (item not in favoriteItems):
+                    #     currentMax = item
         
         if currentMax != {"rating": 0}:
             favoriteItems.append(currentMax)
         else:
             break
-    
-    menus["Favorites"] = favoriteItems
-    return menus["Favorites"]
+
+    return favoriteItems
 
 @app.on_event('startup')
 async def createScheduler():
@@ -129,19 +130,25 @@ async def createScheduler():
 async def getNorth():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
-        menus["north"]["Favorites"] = generateFavorites(menus, "north")
+        menus["north"]["Breakfast"]["Favorites"] = generateFavorites(menus, "north")
+        menus["north"]["Lunch"]["Favorites"] = generateFavorites(menus, "north")
+        menus["north"]["Dinner"]["Favorites"] = generateFavorites(menus, "north")
     return menus["north"]
 
 @app.get('/yahentamitsi')
 async def getY():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
-        menus["yahentamitsi"]["Favorites"] = generateFavorites(menus, "yahentamitsi")
+        menus["yahentamitsi"]["Breakfast"]["Favorites"] = generateFavorites(menus, "yahentamitsi")
+        menus["yahentamitsi"]["Lunch"]["Favorites"] = generateFavorites(menus, "yahentamitsi")
+        menus["yahentamitsi"]["Dinner"]["Favorites"] = generateFavorites(menus, "yahentamitsi")
     return menus["yahentamitsi"]
 
 @app.get('/south')
 async def getSouth():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
-        menus["south"]["Favorites"] = generateFavorites(menus, "south")
+        menus["south"]["Breakfast"]["Favorites"] = generateFavorites(menus, "south")
+        menus["south"]["Lunch"]["Favorites"] = generateFavorites(menus, "south")
+        menus["south"]["Dinner"]["Favorites"] = generateFavorites(menus, "south")
     return menus["south"]

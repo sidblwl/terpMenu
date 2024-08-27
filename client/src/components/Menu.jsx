@@ -8,13 +8,15 @@ import Filters from './Filters'
 import MobileNavIcon from "./MobileNavIcon";
 import MobileMenu from "./MobileMenu"
 const loading = {
-  "Loading...": [
+  "Breakfast": {
+    "Loading...": [
       {
           "name": "Loading Items...",
           "tags": [],
           "image": "loading.gif"
       }
   ]
+  }
 }
 
 const failedToFetch = {
@@ -142,11 +144,13 @@ function Menu() {
   const diningKeys = {north: [0, "North Dining", "Smash Burger"], yahentamitsi: [1, "Yahentamitsi", "Breakfast"], south: [2, "South Dining", "Broiler Works"]}
   const fetchMessages = async () => {
     try{
-      await fetch("https://seal-app-vpwsv.ondigitalocean.app/updateFromDB")
+      // await fetch("https://seal-app-vpwsv.ondigitalocean.app/updateFromDB")
+      // const signal = controller.signal; 
+      // const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/" + diningHall, {signal: signal})
+      await fetch("http://127.0.0.1:8000/updateFromDB")
       const signal = controller.signal; 
-      const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/" + diningHall, {signal: signal})
+      const response = await fetch("http://127.0.0.1:8000/" + diningHall, {signal: signal})
       const menuResponse = await response.json()
-      console.log(menuResponse)
       if(Object.keys(menuResponse).length <=1){
         setSection("No Items")
         setMenulist(noSuchItems);
@@ -202,23 +206,23 @@ function Menu() {
               <select onChange = {(e) => {setMeal(e.target.value)}}>
                 <option value="Breakfast">Breakfast</option>
                 <option value="Lunch">Lunch</option>
-                <option value="dinner">Dinner</option>
+                <option value="Dinner">Dinner</option>
               </select>
               <Filters filterState = {filterState} setFilterState = {setFilterState} setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
               <select className = "mobile mobileSectionSelect" onChange = {(e) => {setSection(e.target.value)}}>
-                <HallSections mobile = {true} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
+                <HallSections meal = {meal} mobile = {true} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
               </select>
             </div>
             <img className="floorMap" src={`public/${diningHall}map.png`}></img>
           </div>
         <div className="sidebarHolder">
           <div className="desktop sidebar">
-            <HallSections mobile = {false} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
+            <HallSections meal = {meal} mobile = {false} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
           </div>
         </div>
         <div className="sideWrapper">
           <div className= {"menu"}>
-          {menulist[section].map((menuItem) => {
+          {menulist[meal][section].map((menuItem) => {
             let validItem = true;
             if(filters.length > 0){
               filters.forEach((filter) =>{

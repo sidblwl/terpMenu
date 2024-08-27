@@ -16,34 +16,65 @@ async def get_reviews():
         menus = json.load(mf)
 
     # Traverse through the menu items and update the reviews
-    for diningHall, sections in menus.items():
-        for section, items in sections.items():
-            for item in items:
-                item_name = item['name']
 
-                for menuItem in menuItems:
-                    if menuItem['name'] == item_name:
-                        item["image"] = menuItem["imagePath"]
+    for diningHall, mealTimes in menus.items():
+        for mealTime, sections in mealTimes.items():
+            for section, items in sections.items():
+                for item in items:
+                    item_name = item['name']
+                    for menuItem in menuItems:
+                        if menuItem['name'] == item_name:
+                            item["image"] = menuItem["imagePath"]
 
-                for review_item in reviews:
-                    if review_item['diningHall'] == diningHall:
-                        if review_item['section'] == section:
-                            if review_item['menuItem'] == item_name:
-                                toAppend = True
-                                for review in item['reviews']:
-                                    if(review['id'] == review_item['id']):
-                                        toAppend = False
-                                if toAppend:
-                                    item['reviews'].append(review_item)
+                    for review_item in reviews:
+                        if review_item['diningHall'] == diningHall:
+                            if review_item['section'] == section:
+                                if review_item['menuItem'] == item_name:
+                                    toAppend = True
+                                    for review in item['reviews']:
+                                        if(review['id'] == review_item['id']):
+                                            toAppend = False
+                                    if toAppend:
+                                        item['reviews'].append(review_item)
 
-                ratingSum = 0
-                numRatings = 0
-                for review in item['reviews']:
-                    ratingSum += review['rating']
-                    numRatings += 1
-                if numRatings > 0:
-                    newRating = ratingSum/numRatings
-                    item['rating'] = newRating
+                    ratingSum = 0
+                    numRatings = 0
+                    for review in item['reviews']:
+                        ratingSum += review['rating']
+                        numRatings += 1
+                    if numRatings > 0:
+                        newRating = ratingSum/numRatings
+                        item['rating'] = newRating
+
+
+    # for diningHall, sections in menus.items():
+    #     for section, items in sections.items():
+    #         for item in items:
+    #             item_name = item['name']
+
+    #             for menuItem in menuItems:
+    #                 if menuItem['name'] == item_name:
+    #                     item["image"] = menuItem["imagePath"]
+
+    #             for review_item in reviews:
+    #                 if review_item['diningHall'] == diningHall:
+    #                     if review_item['section'] == section:
+    #                         if review_item['menuItem'] == item_name:
+    #                             toAppend = True
+    #                             for review in item['reviews']:
+    #                                 if(review['id'] == review_item['id']):
+    #                                     toAppend = False
+    #                             if toAppend:
+    #                                 item['reviews'].append(review_item)
+
+    #             ratingSum = 0
+    #             numRatings = 0
+    #             for review in item['reviews']:
+    #                 ratingSum += review['rating']
+    #                 numRatings += 1
+    #             if numRatings > 0:
+    #                 newRating = ratingSum/numRatings
+    #                 item['rating'] = newRating
                 
 
     with open('menus.json', 'w') as of:
