@@ -14,7 +14,7 @@
 .wrapper{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 0vw 0vw 5vw 5vw;
+  margin: 0vw 0vw 5vw 0vw;
 }
 
 .navButton {
@@ -57,6 +57,10 @@
 } */
 
 .redBorder{
+  border: 2px solid red;
+}
+
+.sidebarHolder{
   display: flex;
   justify-content: center;
 }
@@ -67,6 +71,9 @@
   border-radius: 5px;
   height: fit-content;
   border: 1px solid #c2c2c2;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
 }
 
 .sideWrapper{
@@ -130,11 +137,21 @@
   transition: 0.25s;
 }
 
-.sectionTitle{
+.hallHeader{
   grid-column: 2 / span 3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.sectionTitle{
   font-size: 6vh;
   text-align: center;
-  /* border: 1px solid red; */
+  grid-column: 1 / span 2
+}
+
+.floorMap{
+  width: 100%;
 }
 
 .favWrapper{

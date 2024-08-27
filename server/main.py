@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routes import menu_api_router, get_menuItems
+from routes import menu_api_router, get_menuItems
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 import requests
@@ -32,49 +32,58 @@ def getMenu(num):
     url = "http://nutrition.umd.edu/?locationNum=" + str(num)
     page = requests.get(url)
     parser = BeautifulSoup(page.text, "html.parser")
-    items = (parser.find_all("a", class_="menu-item-name"))
-    dietaryRestrictions = (parser.find_all("img", class_="nutri-icon"))
+    # items = (parser.find_all("a", class_="menu-item-name"))
+    # dietaryRestrictions = (parser.find_all("img", class_="nutri-icon"))
 
+    menu = {}
 
-    #list of all card bodies
-    stations = (parser.find_all("div", class_="card-body"))
+    def getItemsForMeal(id):
+        items = {}
 
-    #list to filter out repeated stations
-    listed = [str]
+        meal = parser.find(attrs={'id':id})
 
-    #menus dictionary
-    menus = {}
+        #list of all card bodies
+        stations = (meal.find_all("div", class_="card-body"))
 
-    #for each card body
-    for station in stations:
-        #find station name
-        stationName = (station.find("h5", class_="card-title"))
-        #make sure station name is not part of the sides
-        if "Sides" not in stationName.text and stationName.text not in listed:
-            #get all items including fluff
-            allItemRows = (station.find_all("div", class_="row menu-item-row"))
-            allItems = []
-            for itemRow in allItemRows:
-                item = {}
-                item["name"] = itemRow.find("a", class_="menu-item-name").text 
-                if item["name"] not in fluff:
-                    itemTagsHTML = itemRow.find_all("img", class_="nutri-icon")
-                    itemTags = []
-                    for tag in itemTagsHTML:
-                        itemTags.append(tag.get("title").lower())
-                    item["tags"] = itemTags
-                    item["image"] = "none.jpg"
-                    item["reviews"] = []
-                    item["rating"] = 0
-                    # review = {"rating": 4, "name": "Anonymous", "date": "06/13/24", "text":"this food is yum diddly scrumptious"}
-                    # review2 = {"rating": 2, "name": "Anonymous", "date": "06/13/24", "text":"lowkey mid"}
-                    # # item["reviews"].append(review)
-                    # # item["reviews"].append(review2)
-                    allItems.append(item)
-                    menus[stationName.text.strip()] = allItems
+        #list to filter out repeated stations
+        listed = [str]
 
-    return menus
+        #dictionary to be returned, holds all the stations and menu items for one dining hall
 
+        #for each card body
+        for station in stations:
+            #find station name
+            stationName = (station.find("h5", class_="card-title"))
+            #make sure station name is not part of the sides
+            if "Sides" not in stationName.text and stationName.text not in listed:
+                #get all items including fluff
+                allItemRows = (station.find_all("div", class_="row menu-item-row"))
+                allItems = []
+                for itemRow in allItemRows:
+                    item = {}
+                    item["name"] = itemRow.find("a", class_="menu-item-name").text 
+                    if item["name"] not in fluff:
+                        itemTagsHTML = itemRow.find_all("img", class_="nutri-icon")
+                        itemTags = []
+                        for tag in itemTagsHTML:
+                            itemTags.append(tag.get("title").lower())
+                        item["tags"] = itemTags
+                        item["image"] = "none.jpg"
+                        item["reviews"] = []
+                        item["rating"] = 0
+                        # review = {"rating": 4, "name": "Anonymous", "date": "06/13/24", "text":"this food is yum diddly scrumptious"}
+                        # review2 = {"rating": 2, "name": "Anonymous", "date": "06/13/24", "text":"lowkey mid"}
+                        # # item["reviews"].append(review)
+                        # # item["reviews"].append(review2)
+                        allItems.append(item)
+                        items[stationName.text.strip()] = allItems
+        return items
+
+    menu["Breakfast"] = getItemsForMeal("pane-1")
+    menu["Lunch"] = getItemsForMeal("pane-2")
+    menu["Dinner"] = getItemsForMeal("pane-3")
+
+    return menu
 
 menus = {}
 reviews = {}

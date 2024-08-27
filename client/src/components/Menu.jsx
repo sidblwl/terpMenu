@@ -128,6 +128,7 @@ function SubmitAnimation({submitState, setSubmitState}){
 
 function Menu() {
   const { diningHall } = useParams();
+  const [meal, setMeal] = useState("Breakfast")
   const [section, setSection] = useState("Loading...")
   const [menulist, setMenulist] = useState(loading)
   const [activeSection, setActiveSection] = useState(1)
@@ -195,20 +196,27 @@ function Menu() {
           <button style = {activeSection == 0 ? {backgroundColor: "lightgray"}: {backgroundColor: "white"}} className="favoriteBtn" onClick = {() => {setSection("Favorites"); setActiveSection(0)}}>Favorites</button>
         </div>
 
-        <h1 className="sectionTitle">{section}</h1>
-  
-        <div className="desktop redBorder">
+          <div className="hallHeader">
+            <h1 className="sectionTitle">{section}</h1>
+            <div className="filterWrapper">
+              <select onChange = {(e) => {setMeal(e.target.value)}}>
+                <option value="Breakfast">Breakfast</option>
+                <option value="Lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+              </select>
+              <Filters filterState = {filterState} setFilterState = {setFilterState} setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
+              <select className = "mobile mobileSectionSelect" onChange = {(e) => {setSection(e.target.value)}}>
+                <HallSections mobile = {true} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
+              </select>
+            </div>
+            <img className="floorMap" src={`public/${diningHall}map.png`}></img>
+          </div>
+        <div className="sidebarHolder">
           <div className="desktop sidebar">
             <HallSections mobile = {false} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
           </div>
         </div>
         <div className="sideWrapper">
-          <div className="filterWrapper">
-            <Filters filterState = {filterState} setFilterState = {setFilterState} setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
-            <select className = "mobile mobileSectionSelect" onChange = {(e) => {setSection(e.target.value)}}>
-              <HallSections mobile = {true} menulist = {menulist} change={setSection} activeSection = {activeSection} setActiveSection = {setActiveSection}></HallSections>
-            </select>
-          </div>
           <div className= {"menu"}>
           {menulist[section].map((menuItem) => {
             let validItem = true;
