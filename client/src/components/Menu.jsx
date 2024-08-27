@@ -144,12 +144,9 @@ function Menu() {
   const diningKeys = {north: [0, "North Dining", "Smash Burger"], yahentamitsi: [1, "Yahentamitsi", "Breakfast"], south: [2, "South Dining", "Broiler Works"]}
   const fetchMessages = async () => {
     try{
-      // await fetch("https://seal-app-vpwsv.ondigitalocean.app/updateFromDB")
-      // const signal = controller.signal; 
-      // const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/" + diningHall, {signal: signal})
-      await fetch("http://127.0.0.1:8000/updateFromDB")
+      await fetch("https://seal-app-vpwsv.ondigitalocean.app/updateFromDB")
       const signal = controller.signal; 
-      const response = await fetch("http://127.0.0.1:8000/" + diningHall, {signal: signal})
+      const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/" + diningHall, {signal: signal})
       const menuResponse = await response.json()
       if(Object.keys(menuResponse).length <=1){
         setSection("No Items")
