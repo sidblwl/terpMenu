@@ -12,9 +12,12 @@
 }
 
 .wrapper{
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 0vw 0vw 5vw 0vw;
+  margin: 0vw 0vw 5vw 0vw; */
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 10vh; */
 }
 
 .navButton {
@@ -81,43 +84,43 @@
 }
 
 .menu{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 320px);
-  height: fit-content;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 .menuItem{
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  /* border: 1px solid red; */
+  flex-direction: row;
+  margin-bottom: 3vh;
 }
 
 .menuItemImage{
-  background-color: lightgray;
-  border-radius: 8px;
+  /* background-color: lightgray; */
   width: 200px;
   height: 150px;
+  border-radius: 8px;
+  margin-right: 30px;
+  flex-shrink: 0;
   object-fit: cover;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
-.menuItemNameHolder{
-  height: 70px;
-  width: 100%;
-  margin: 0;
+.menuItemInfo{
+  height: 150px;
 }
 
 .menuItemName{
-  font-size: 3vh;
-  margin: 0;
+  margin: 0px;
+  font-size: 20px;
 }
 
 .menuItemTagHolder{
-  width: 90%;
+  margin: 0px
 }
+
+.menuItemTagHolder p{
+  margin: 0px;
+}
+
 .reviewButtonHolder{
   display: flex;
   justify-content: center;
@@ -137,18 +140,18 @@
   transition: 0.25s;
 }
 
-.hallHeader{
+/* .hallHeader{
   grid-column: 2 / span 3;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
-}
+} */
 
-.sectionTitle{
+/* .sectionTitle{
   font-size: 6vh;
   text-align: center;
   grid-column: 1 / span 2
-}
+} */
 
 .floorMap{
   width: 100%;
@@ -408,21 +411,18 @@
     display: none;
   }
 
-  .menuItemName{
-    font-size: 25px;
-  }
-
   .topNav{
-    position: absolute;
+    position: fixed;
+    top: 0px;
     text-align: center;
     background-color: #e21833;
     width: 100vw;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .navHeader{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     font-weight: 700;
     text-align: center;
@@ -514,12 +514,13 @@
     justify-content: center;
     align-items: center;
     opacity: 90%;
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background-color: rgb(194, 0, 0);
-    transition: 0.2s;
+    transition: 0.3s;
     gap: 30px;
+    top: 41px;
   }
 
   .navButton{
@@ -581,4 +582,82 @@
     overflow-y: hidden;
     object-fit: cover;
   }
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.copyright{
+  font-size: 10px;
+}
+
+.header{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.stationCard{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stationName{
+  background-color: #c2c2c2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  margin-bottom: 3vh;
+}
+
+.hallName{
+  font-size: 60px;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.toolbar{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mealtimeSelect{
+  font-size: 15px;
+  width: 100px;
+  background-color: #fff;
+  border: 1px solid #caced1;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer; 
+  margin-right: 20px;
+}
+
+.searchbar{
+  margin-right: 20px;
+  width: 50vw;
+  box-sizing: border-box;
+  border: 1px solid #caced1;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  /* background-color: none;
+  background-image: url('searchIcon.png');
+  background-size: 20px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  outline: none; */
 }

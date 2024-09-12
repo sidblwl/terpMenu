@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from .config import reviews_collection, menuItems_collection
-from .models import Review, MenuItem
-from .schemas import reviews_serializer, menuItems_serializer
+from config import reviews_collection, menuItems_collection
+from models import Review, MenuItem
+from schemas import reviews_serializer, menuItems_serializer
 from bson import ObjectId
 import json
 

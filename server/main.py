@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routes import menu_api_router, get_menuItems
+from routes import menu_api_router, get_menuItems
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 import requests
@@ -106,9 +106,8 @@ def generateFavorites(menus, hall):
         for mealTime in menus[hall]:
             for section in menus[hall][mealTime]:
                 for item in menus[hall][mealTime][section]:
-                    print(item)
-                    # if (item["rating"] > currentMax["rating"]) and (item not in favoriteItems):
-                    #     currentMax = item
+                    if (item["rating"] > currentMax["rating"]) and (item not in favoriteItems):
+                        currentMax = item
         
         if currentMax != {"rating": 0}:
             favoriteItems.append(currentMax)
