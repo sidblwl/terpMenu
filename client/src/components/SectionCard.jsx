@@ -3,12 +3,29 @@ import React, { useState, useEffect } from "react";
 import RatingMenu from './RatingMenu'
 import '../App.css'
 
+const noSuchItems =  {
+  "No Items": [
+    {
+      "name": "No items matched your search",
+      "tags": [],
+      "image": "none.jpg"
+    }
+  ],
+  "Top Rated": [
+    {
+      "name": "No items matched your search",
+      "tags": [],
+      "image": "none.jpg"
+    }
+  ]
+}
+
 function MenuCard({mItem, hall, station, submitState, setSubmitState}){ 
     const [popupState, setPopupState] = useState(false);
     
     function Star({id}){
       return(
-        <div style = {(id <= mItem.rating ? {color: "orange"} : {color: "black"})} className="fa fa-star"></div>
+        <div style = {(id <= mItem.rating ? {color: "orange"} : {color: "lightgray"})} className="fa fa-star"></div>
       )
     }
   
@@ -101,7 +118,7 @@ export default function SectionCard({menulist, mapped, meal, station, submitStat
                   return <MenuCard submitState = {submitState} setSubmitState = {setSubmitState} mItem={menuItem} hall={diningHall} station={station}></MenuCard>
               }
               else{
-                  if(menuItem === menulist[station][menulist[station].length -1] && !mapped){
+                  if(menuItem === menulist[meal][station][menulist[meal][station].length -1] && !mapped){
                   return <MenuCard mItem={noSuchItems["No Items"][0]} hall={diningHall} station={station}></MenuCard>
                   }
               }

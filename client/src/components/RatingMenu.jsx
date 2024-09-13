@@ -2,7 +2,7 @@ import '../App.css'
 import React, { useState } from "react";
 import close from "../assets/close.png";
 
-export default function RatingMenu({setSubmitState, popupState, setPopupState, mItem, hall, section}){
+export default function RatingMenu({setSubmitState, popupState, setPopupState, mItem, hall, station}){
     const [rating, setRating] = useState(1);
     
     function getDate() {
@@ -16,10 +16,16 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
     async function addReview(review, name){
         const myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
-        
+        // console.log("menuItem: " + mItem.name)
+        // console.log("section: " + station)
+        // console.log("diningHall: " + hall)
+        // console.log("name: " + name)
+        // console.log("date: " + getDate())
+        // console.log("rating: " + rating)
+        // console.log("text: " +review)
         const raw = JSON.stringify({
             "menuItem": mItem.name,
-            "section": section,
+            "section": station,
             "diningHall": hall,
             "name": name,
             "date": getDate(),
@@ -34,10 +40,10 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
         redirect: "follow"
         };
 
-        const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/review", requestOptions)
+        const response = await fetch("http://127.0.0.1:8000/review", requestOptions)
         mItem.reviews.push({
             "menuItem": mItem.name,
-            "section": section,
+            "section": station,
             "diningHall": hall,
             "name": name,
             "date": getDate(),

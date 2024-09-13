@@ -17,41 +17,85 @@ const loading = {
           "image": "loading.gif"
       }
   ]
+  },
+  "Lunch": {
+    "Loading...": [
+      {
+          "name": "Loading Items...",
+          "tags": [],
+          "image": "loading.gif"
+      }
+  ]
+  },
+  "Dinner": {
+    "Loading...": [
+      {
+          "name": "Loading Items...",
+          "tags": [],
+          "image": "loading.gif"
+      }
+  ]
+  }
+}
+
+const noSuchItems =  {
+  "Breakfast": {
+    "No Items": [
+      {
+        "name": "No items matched your search",
+        "tags": [],
+        "image": "none.jpg"
+      }
+    ]
+  },
+  "Lunch": {
+    "No Items": [
+      {
+        "name": "No items matched your search",
+        "tags": [],
+        "image": "none.jpg"
+      }
+    ]
+  },
+  "Dinner": {
+    "No Items": [
+      {
+        "name": "No items matched your search",
+        "tags": [],
+        "image": "none.jpg"
+      }
+    ]
   }
 }
 
 const failedToFetch = {
-  "Failed": [
+  "Breakfast": {
+    "Server Error": [
       {
           "name": "Could Not Load Items",
           "tags": [],
           "image": "none.jpg"
       }
-  ],
-  "Favorites": [
-    {
-      "name": "No items matched your search",
-      "tags": [],
-      "image": "none.jpg"
-    }
-  ]
-}
-
-const noSuchItems =  {
-  "No Items": [
-    {
-      "name": "No items matched your search",
-      "tags": [],
-      "image": "none.jpg"
-    }
-  ],
-  "Favorites": [
-    {
-      "name": "No items matched your search",
-      "tags": [],
-      "image": "none.jpg"
-    }
-  ]
+    ]
+  },
+  "Lunch": {
+    "Server Error": [
+      {
+          "name": "Could Not Load Items",
+          "tags": [],
+          "image": "none.jpg"
+      }
+    ]
+  },
+  "Dinner": {
+    "Server Error": [
+      {
+          "name": "Could Not Load Items",
+          "tags": [],
+          "image": "none.jpg"
+      }
+    ]
+  }
 }
 
 function Menu() {
@@ -67,12 +111,12 @@ function Menu() {
   const [mobileMenu, setMobileMenu] = useState(false)
   //https://seal-app-vpwsv.ondigitalocean.app
   let mapped = false;
-  const diningKeys = {north: [0, "North Dining", "Smash Burger"], yahentamitsi: [1, "Yahentamitsi", "Breakfast"], south: [2, "South Dining", "Broiler Works"]}
+  const diningKeys = {north: [0, "North Dining", "Top Rated"], yahentamitsi: [1, "Yahentamitsi", "Top Rated"], south: [2, "South Dining", "Top Rated"]}
   const fetchMessages = async () => {
     try{
-      await fetch("https://seal-app-vpwsv.ondigitalocean.app/updateFromDB")
+      await fetch("http://127.0.0.1:8000/updateFromDB")
       const signal = controller.signal; 
-      const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/" + diningHall, {signal: signal})
+      const response = await fetch("http://127.0.0.1:8000/" + diningHall, {signal: signal})
       const menuResponse = await response.json()
       if(Object.keys(menuResponse).length <=1){
         setSection("No Items")
@@ -86,7 +130,7 @@ function Menu() {
     catch (error){
       console.log(error)
       setMenulist(failedToFetch); 
-      setSection("Failed"); 
+      setSection("Server Error"); 
       console.log("failed to fetch")
     }
   }
@@ -132,7 +176,7 @@ function Menu() {
         </div>
       </div>
       <div className="main">
-        {Object.keys(menulist[meal]).map((station) => {
+        {Object.keys(menulist[meal]).toReversed().map((station) => {
           return (
             <SectionCard mapped={mapped} filters = {filters} menulist = {menulist} meal = {meal} station = {station} submitState = {submitState} setSubmitState = {setSubmitState} diningHall={diningHall}></SectionCard>
           )

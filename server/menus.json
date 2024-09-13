@@ -2976,8 +2976,19 @@
                     "name": "Bacon",
                     "tags": [],
                     "image": "bacon.jpeg",
-                    "reviews": [],
-                    "rating": 0
+                    "reviews": [
+                        {
+                            "id": "66e4aefafed65f2d61759b7b",
+                            "menuItem": "Bacon",
+                            "diningHall": "yahentamitsi",
+                            "section": "Breakfast",
+                            "name": "evan tran",
+                            "date": "9/13/2024",
+                            "rating": 5,
+                            "text": "i love bacon"
+                        }
+                    ],
+                    "rating": 5.0
                 },
                 {
                     "name": "Cooked Sausage",
@@ -3184,8 +3195,19 @@
                     "name": "Bacon",
                     "tags": [],
                     "image": "bacon.jpeg",
-                    "reviews": [],
-                    "rating": 0
+                    "reviews": [
+                        {
+                            "id": "66e4aefafed65f2d61759b7b",
+                            "menuItem": "Bacon",
+                            "diningHall": "yahentamitsi",
+                            "section": "Breakfast",
+                            "name": "evan tran",
+                            "date": "9/13/2024",
+                            "rating": 5,
+                            "text": "i love bacon"
+                        }
+                    ],
+                    "rating": 5.0
                 },
                 {
                     "name": "Cooked Sausage",
@@ -4518,8 +4540,29 @@
                     "name": "Bacon",
                     "tags": [],
                     "image": "bacon.jpeg",
-                    "reviews": [],
-                    "rating": 0
+                    "reviews": [
+                        {
+                            "id": "66e4a8cbfed65f2d61759b79",
+                            "menuItem": "Bacon",
+                            "diningHall": "south",
+                            "section": "Broiler Works",
+                            "name": "setsetset",
+                            "date": "9/13/2024",
+                            "rating": 3,
+                            "text": "testetsetset"
+                        },
+                        {
+                            "id": "66e4a948fed65f2d61759b7a",
+                            "menuItem": "Bacon",
+                            "diningHall": "south",
+                            "section": "Broiler Works",
+                            "name": "eva",
+                            "date": "9/13/2024",
+                            "rating": 3,
+                            "text": "rgis bacon bde good aSF mane i love this bacon north i mean south bacon hgptot the best bvaocon iun the game"
+                        }
+                    ],
+                    "rating": 3.0
                 },
                 {
                     "name": "Pancakes Plain",
