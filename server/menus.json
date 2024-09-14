@@ -3384,8 +3384,19 @@
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
+                    "reviews": [
+                        {
+                            "id": "66e4fdadbbfc9bb357b2b234",
+                            "menuItem": "Cereal Apple Jacks",
+                            "diningHall": "yahentamitsi",
+                            "section": "Maryland Bakery",
+                            "name": "Anonymous",
+                            "date": "9/13/2024",
+                            "rating": 4,
+                            "text": "apple jacks are my favorite cereal"
+                        }
+                    ],
+                    "rating": 4.0
                 },
                 {
                     "name": "Cereal Cinnamon Toast Crunch",
