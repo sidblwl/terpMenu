@@ -672,6 +672,8 @@
   border: 1px solid #e0e0e0; /* Light border for structure */
   z-index: 1000;
   padding-bottom: 20px;
+  max-height: 50vh;
+  overflow-y: scroll;
 }
 
 .search_dropdown_inactive{
