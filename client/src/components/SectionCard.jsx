@@ -74,7 +74,7 @@ function MenuCard({mItem, hall, station, submitState, setSubmitState}){
         <div className = "submitAnimation" onAnimationEnd={() => {setSubmitState(false)}}>
             <div className = "submitAnimationInner">
               <p>Submitted</p>
-              <img src = "public/checkmark.png"></img>
+              <img src = "checkmark.png"></img>
             </div>
         </div>
     ): ""
