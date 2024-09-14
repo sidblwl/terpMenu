@@ -93,9 +93,19 @@ export default function SectionCard({menulist, mapped, meal, station, submitStat
               let validItem = true;
               if(filters.length > 0){
                   filters.forEach((filter) =>{
-                  if(!menuItem.tags.includes(filter)){
-                      validItem = false;
-                  }
+                    if(filter.includes("no")){
+                      let filterAdjustment = filter.substring(3) + ".gif"
+                      if(menuItem.tags.includes(filterAdjustment)){
+                        validItem = false;
+                      }
+                    } else if(filter.includes("free")){
+                      let filterAdjustment = filter.split(" ")[0] + ".gif"
+                      if(menuItem.tags.includes(filterAdjustment)){
+                        validItem = false;
+                      }
+                    } else if(!menuItem.tags.includes(filter)){
+                        validItem = false;
+                    }
                   })
               }
               if(validItem){
