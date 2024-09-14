@@ -1,7 +1,19 @@
 import close from "../assets/close.png";
 import '../App.css'
 
-const allFilters = ["Vegetarian", "Contains Dairy", "Contains Gluten", "Contains Soy", "Contains Egg", "Halal Friendly", "Probability Stasis", "Vegan", "Contains Fish", "Smartchoice", "Contains Nuts", "Contains Shellfish", "Contains Sesame", "Locally Grown"]
+const allFilters = ["Vegetarian", "Vegan", "Halal", "Dairy Free", "Gluten Free", "No Soy", "No Egg", "No Fish", "No Nuts", "No Shellfish", "No Sesame", "Smartchoice", "Locally Grown"]
+
+function convertFilterName(filterName){
+    if(filterName == "Smartchoice"){
+        return "smart.gif"
+    } else if(filterName == "Locally Grown"){
+        return "local.gif"
+    } else if(filterName.includes("No") || filterName.includes("Free")){
+        return filterName.toLowerCase()
+    } else{
+        return filterName.toLowerCase() + ".gif"
+    }
+}
 
 export default function Filters({filterState, setFilterState, filters, setFilters, setSubmitState}){
     return (filterState) ? (
@@ -23,8 +35,6 @@ export default function Filters({filterState, setFilterState, filters, setFilter
 }
 
 function FilterButtons({filters, setFilters, setSubmitState}){
-
-
     return(
         <>
             <div className = "filterButtonsContainer">
@@ -39,16 +49,17 @@ function FilterButtons({filters, setFilters, setSubmitState}){
 
 function FilterButton({filterName, filters, setFilters, setSubmitState}){
     return(
-        <button style = {filters.includes(filterName.toLowerCase()) ? {backgroundColor: "#f07585"} : {backgroundColor: "gainsboro"}} className = "filterButton" onClick = {() => {
+        <button style = {filters.includes(convertFilterName(filterName)) ? {backgroundColor: "#f07585"} : {backgroundColor: "gainsboro"}} className = "filterButton" onClick = {() => {
             let tempFilters = [];
             setSubmitState(false)
-            if(filters.includes(filterName.toLowerCase())){
-                filters.splice(filters.indexOf(filterName.toLowerCase()), 1)
+            let filterNameAdjusted = convertFilterName(filterName)
+            if(filters.includes(filterNameAdjusted)){
+                filters.splice(filters.indexOf(filterNameAdjusted), 1)
                 tempFilters = [...filters]
                 setFilters(tempFilters)
             }
             else{
-                filters.push(filterName.toLowerCase())
+                filters.push(filterNameAdjusted)
                 tempFilters = [...filters]
                 setFilters(tempFilters)
             }

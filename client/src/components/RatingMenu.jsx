@@ -40,7 +40,7 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
         redirect: "follow"
         };
 
-        const response = await fetch("http://127.0.0.1:8000/review", requestOptions)
+        const response = await fetch("https://seal-app-vpwsv.ondigitalocean.app/review", requestOptions)
         mItem.reviews.push({
             "menuItem": mItem.name,
             "section": station,
