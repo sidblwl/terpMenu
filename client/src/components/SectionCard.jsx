@@ -29,23 +29,6 @@ function MenuCard({mItem, hall, station, submitState, setSubmitState}){
       )
     }
   
-  
-    let tagList = "";
-    mItem.tags.forEach((tag) => {
-      if(tag != "halalfriendly"){
-        tagList += tag.charAt(0).toUpperCase() + tag.substring(1, tag.length);
-      }
-      else{
-        tagList+= "Halal Friendly"
-      }
-      tagList += ", "
-    })
-  
-    if(tagList == ""){
-      tagList = "None  "
-    }
-    tagList = tagList.substring(0, tagList.length-2);
-  
     return(
       <>
         <div className="menuItem">
@@ -63,7 +46,9 @@ function MenuCard({mItem, hall, station, submitState, setSubmitState}){
       return (mItem.name != "Loading Items..." && mItem.name != "No items matched your search" && mItem.name != "Could Not Load Items") ? (
         <>
           <div className="menuItemTagHolder">
-                <p>{tagList}</p>
+              {mItem.tags.map((tag) => (
+                  <img src={tag}></img>
+              ))}
           </div>
               
           <div>

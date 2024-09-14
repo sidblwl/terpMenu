@@ -27,6 +27,17 @@ fluff = ["Bacon Bits", "Diced Ham", "Diced Green Peppers", "Diced Onions", "Mapl
 
 # This function scrapes the menu on the UMD dining hall website 
 
+def changeTagName(tag):
+    if "contain" in tag:
+        tag = tag[9:]
+    elif tag == "halalfriendly":
+        tag = "halal"
+    elif tag == "locally grown":
+        tag = "local"
+    elif tag == "smartchoice":
+        tag = "smart"
+    return tag + ".gif"
+
 def getMenu(num):
     # url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=9/3/2023"
     url = "http://nutrition.umd.edu/?locationNum=" + str(num)
@@ -66,7 +77,7 @@ def getMenu(num):
                         itemTagsHTML = itemRow.find_all("img", class_="nutri-icon")
                         itemTags = []
                         for tag in itemTagsHTML:
-                            itemTags.append(tag.get("title").lower())
+                            itemTags.append(changeTagName(tag.get("title").lower()))
                         item["tags"] = itemTags
                         item["image"] = "none.jpg"
                         item["reviews"] = []
@@ -97,7 +108,7 @@ def scheduleMenus():
     with open("menus.json", "w") as outfile:
         outfile.write(json_object)
 
-# scheduleMenus()
+scheduleMenus()
 
 def generateTopRated(menus, hall):
     topRatedItems = []

@@ -114,11 +114,13 @@
 }
 
 .menuItemTagHolder{
-  margin: 0px
+  display: flex;
+  gap: 3px;
 }
 
-.menuItemTagHolder p{
+.menuItemTagHolder img{
   margin: 0px;
+  width: 15px;
 }
 
 .reviewButtonHolder{
@@ -652,6 +654,46 @@
   border: 1px solid #caced1;
   border-radius: 5px;
   font-size: 20px;
+  padding: 10px 10px 10px 10px;
 }
 
+.search_dropdown{
+  /* position: absolute;
+  background-color: white;
+  width: 50vw;
+  text-align: left;
+  padding-bottom: 20px; */
+  position: absolute;
+  background-color: #f9f9f9; /* Light gray background for contrast */
+  width: 50vw;
+  text-align: left;
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid #e0e0e0; /* Light border for structure */
+  z-index: 1000;
+  padding-bottom: 20px;
+}
 
+.search_dropdown_inactive{
+  /* position: absolute;
+  background-color: white;
+  width: 50vw;
+  text-align: left;
+  padding-bottom: 20px; */
+  display: none;
+}
+
+.search_option{
+  margin-bottom: 0px;
+}
+
+.search_option_container{
+  /* background-color: lightgray; */
+  /* border: 1px solid black; */
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 10px; */
+  /* border: 1px solid black; */
+}
