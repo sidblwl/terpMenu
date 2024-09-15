@@ -1,0 +1,95 @@
+.topNav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #e21833;
+}
+
+.navButton {
+  border-radius: 0px;
+  border: 1px solid transparent;
+  padding: 0vh 8vw;
+  margin: 0px;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  height: 100%;
+}
+
+.navButton:hover {
+  background-color: darkred !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .navHeader {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .mobileNavContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+  }
+
+  .navIconContainer {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    width: 20px;
+    height: 25px;
+    transform-origin: center;
+  }
+
+  .navIconLine {
+    display: block;
+    width: 100%; /* Set width to 100% for consistency */
+    height: 2px;
+    transition: transform 0.2s;
+    background-color: white;
+    transform-origin: center; /* Ensure rotation occurs from the center */
+  }
+  .topOpen {
+    transform-origin: center;
+    transform: translate(0px, 6px) rotate(45deg);
+    transform-origin: center;
+  }
+  .bottomOpen {
+    transform-origin: center;
+    transform: translate(0px, -3.1px) rotate(-45deg);
+    transform-origin: center;
+  }
+
+  .mobileMenuActive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(194, 0, 0);
+    transition: 0.3s;
+    gap: 30px;
+    top: 40px;
+  }
+
+  .navButton {
+    color: white;
+    background-color: transparent !important;
+    font-size: 30px;
+  }
+}

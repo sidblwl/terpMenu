@@ -1,0 +1,34 @@
+.filterButtonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  column-gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.filterButton {
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: gainsboro;
+  transition: 0.25s;
+}
+
+.filterButton:hover {
+  filter: brightness(80%) !important;
+}
+
+.filterWrapper {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}

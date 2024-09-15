@@ -1,6 +1,12 @@
 import { Routes, Route, useParams, Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import '../App.css'
+import '../styles/Topnav.css'
+import '../styles/Toolbar.css'
+import '../styles/Menu.css'
+import '../styles/Filters.css'
+import '../styles/Popup.css'
+import '../styles/Reviews.css'
 import NavButton from './NavButton'
 import HallSections from './HallSections'
 import RatingMenu from './RatingMenu'
@@ -153,6 +159,7 @@ function Menu() {
 
       <MobileMenu setMobileMenu = {setMobileMenu} diningKeys = {diningKeys} setAbortController= {setAbortController} controller = {controller} diningHall={diningHall} setActiveSection={setActiveSection} mobileMenu = {mobileMenu}></MobileMenu>
       
+      {/* Navbar */}
       <div className="topNav">
         <div className = "desktop">
           {Object.keys(diningKeys).map((hall) => (
@@ -165,6 +172,7 @@ function Menu() {
         </div>
       </div>
 
+      {/* Hall Name and Toolbar */}
       <div className="header">
         <h1 className="hallName">{diningHall}</h1>
         <div className="toolbar">
@@ -178,6 +186,8 @@ function Menu() {
           <Filters filterState = {filterState} setFilterState = {setFilterState} setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
         </div>
       </div>
+
+      {/* Menu */}
       <div className="main">
         {Object.keys(menulist[meal]).toReversed().map((station) => {
           return (
@@ -185,6 +195,8 @@ function Menu() {
           )
         })}
       </div>
+
+      {/* Footer */}
       <div className="footer">
         <p className="copyright">Made by Sid Belwal, Evan Tran, and Lily Ureta</p>
       </div>

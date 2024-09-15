@@ -1,0 +1,138 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stationCard {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.stationName h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Menu Card */
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menuItemImage {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.menuItemInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  flex: 1;
+  text-align: left;
+}
+
+.menuItemName {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin: 0px;
+  margin-bottom: 5px;
+  line-height: 1.1em;
+}
+
+.menuItemTagHolder {
+  margin: 0;
+}
+
+.menuItemTagHolder img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+/* Star Ratings */
+.fa-star {
+  font-size: 17px;
+  margin-right: 3px;
+}
+
+.reviewButton {
+  margin-left: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+  color: #333;
+  cursor: pointer;
+}
+
+.reviewButton:hover {
+  background-color: #d6d6d6;
+}
+
+.submitAnimation {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  height: 10%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(154, 213, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #008000;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.submitAnimationInner {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  img {
+    width: 30%;
+    transform: translate(0, -15%);
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #008000;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 100%;
+  }
+  90% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
