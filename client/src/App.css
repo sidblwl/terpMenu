@@ -401,7 +401,7 @@
   
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
   .sectionTitle{
     margin-top: 90px;
   }
