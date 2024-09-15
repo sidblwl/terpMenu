@@ -31,7 +31,7 @@ export default function Filters({filterState, setFilterState, filters, setFilter
                 </div>
             </div>
         </>
-    ): <button className = "filterButton" onClick={()=> {setFilterState(true)}}>Set Filters</button>
+    ): <button className = "filtersButton" onClick={()=> {setFilterState(true)}}><span>Filters</span></button>
 }
 
 function FilterButtons({filters, setFilters, setSubmitState}){

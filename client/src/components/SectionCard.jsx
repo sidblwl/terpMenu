@@ -34,15 +34,17 @@ function MenuCard({mItem, hall, station, submitState, setSubmitState}){
         <div className="menuItem">
           <img className="menuItemImage" src = {mItem.image}></img>
           <div className="menuItemInfo">
-            <h1 className="menuItemName">{mItem.name}</h1>
+            <div>
+              <h1 className="menuItemName">{mItem.name}</h1>
+              <MenuCardTags></MenuCardTags>
+            </div>
             <MenuCardBody submitState = {submitState} setSubmitState = {setSubmitState}></MenuCardBody>
           </div>
         </div>
       </>
     )
-  
-    function MenuCardBody({submitState, setSubmitState}){
-    
+
+    function MenuCardTags(){
       return (mItem.name != "Loading Items..." && mItem.name != "No items matched your search" && mItem.name != "Could Not Load Items") ? (
         <>
           <div className="menuItemTagHolder">
@@ -50,7 +52,14 @@ function MenuCard({mItem, hall, station, submitState, setSubmitState}){
                   <img src={tag}></img>
               ))}
           </div>
-              
+        </>
+      ): ""
+    }
+  
+    function MenuCardBody({submitState, setSubmitState}){
+    
+      return (mItem.name != "Loading Items..." && mItem.name != "No items matched your search" && mItem.name != "Could Not Load Items") ? (
+        <>
           <div>
             <Star id = {1}></Star>
             <Star id = {2}></Star>

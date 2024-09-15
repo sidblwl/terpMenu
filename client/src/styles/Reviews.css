@@ -1,0 +1,136 @@
+.review-input {
+  height: 7.5rem;
+  width: 70%;
+}
+
+.rating-section {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.starSection {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.ratingStar {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.ratingNameInput {
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.ratingSubmitBtn {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.25s;
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+}
+
+.ratingTitle {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.reviewsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.reviewCard {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #c2c2c2; */
+  padding-top: 20px;
+  border-top: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.reviewInformation {
+  margin-right: 50px;
+  text-align: left;
+}
+
+.reviewInformation > p {
+  margin: 0;
+}
+
+.reviewRatingStar {
+  font-size: 20px;
+  margin: 0;
+}
+
+.reviewText {
+  text-align: right;
+  width: 100%;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .rating-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .starSection {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-input {
+    height: 7.5rem;
+    width: 95%;
+    resize: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ratingTitle {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .reviewCard {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+  }
+
+  .reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .reviewInformation {
+    width: 100%;
+    text-align: left;
+  }
+  .no-scroll {
+    height: 96vh !important;
+    overflow-y: hidden;
+    object-fit: cover;
+  }
+}
