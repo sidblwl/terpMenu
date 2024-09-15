@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20px;
+  gap: 2vw;
 }
 
 .mealtimeSelect {
@@ -32,7 +32,8 @@
   background-repeat: no-repeat;
   background-position: right 10px top 20px;
   background-size: 10px;
-  width: 110px;
+  width: 7.3vw;
+  min-width: 50px;
   cursor: pointer;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -96,5 +97,22 @@
   background-position: 10px center; /* Position the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   padding-left: 40px; /* Add space for the image */
-  width: 110px;
+  width: 7.3vw;
+  min-width: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .searchbar{
+    width: 70vw;
+  }
+
+    .filtersButton{
+        padding: 0px;
+        background-position: center center;
+    }
+
+    .filtersButton span {
+        display: none;
+    }
 }
