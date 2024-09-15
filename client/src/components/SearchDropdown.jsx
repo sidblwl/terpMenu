@@ -2,7 +2,7 @@ export default function SearchDropdown({menulist, meal, value}){
 
     let displayedItems = [];
     Object.keys(menulist[meal]).map((station) => ((
-        menulist[meal][station].filter((mItem) => (mItem.name.toLowerCase().includes(value) && value != "")).forEach((mItem) => {
+        menulist[meal][station].filter((mItem) => (mItem.name.toLowerCase().includes(value.toLowerCase()) && value != "")).forEach((mItem) => {
             displayedItems.push(mItem)
         })
     )))

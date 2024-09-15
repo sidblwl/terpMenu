@@ -9,8 +9,7 @@ import SearchDropdown from "./SearchDropdown";
     
     const [value, setValue] = useState("")
     const onChange = (e) => {
-        console.log(e.target.value.toLowerCase())
-        setValue(e.target.value.toLowerCase())
+        setValue(e.target.value)
         displayedItems = [];
     }
 
@@ -18,7 +17,7 @@ import SearchDropdown from "./SearchDropdown";
         <>
             <div className="search">
                 <div>
-                    <input className="searchbar" type="text" onChange={onChange} value={value} placeholder="Search"></input>
+                    <input className="searchbar" type="text" onChange={onChange} onBlur = {() => {setValue("")}} value={value} placeholder="Search"></input>
                 </div>
                 <div className = {value == "" ? "search_dropdown_inactive" : "search_dropdown"}>
                     <SearchDropdown menulist = {menulist} meal = {meal} value = {value}></SearchDropdown>
