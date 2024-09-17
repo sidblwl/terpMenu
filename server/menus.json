@@ -1,82 +1,20 @@
 {
     "north": {
         "Breakfast": {
-            "Smash Burger": [
+            "Smash Breakfast": [
                 {
                     "name": "Bacon",
                     "tags": [],
-                    "image": "bacon.jpeg",
-                    "reviews": [
-                        {
-                            "id": "66c77d406e8bf1a8fe61bf98",
-                            "menuItem": "Bacon",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "Anonymous",
-                            "date": "8/22/2024",
-                            "rating": 0,
-                            "text": "Your review must be at least 10 characters"
-                        },
-                        {
-                            "id": "66c77d5e6e8bf1a8fe61bf99",
-                            "menuItem": "Bacon",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "Anonymous",
-                            "date": "8/22/2024",
-                            "rating": 1,
-                            "text": "Add a review to this menu item"
-                        },
-                        {
-                            "id": "66c77ee36e8bf1a8fe61bf9b",
-                            "menuItem": "Bacon",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "e",
-                            "date": "8/22/2024",
-                            "rating": 1,
-                            "text": "This bacon suckssss"
-                        },
-                        {
-                            "id": "66c77ef66e8bf1a8fe61bf9c",
-                            "menuItem": "Bacon",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "e",
-                            "date": "8/22/2024",
-                            "rating": 5,
-                            "text": "this bacon is great"
-                        },
-                        {
-                            "id": "66c77f2d6e8bf1a8fe61bf9d",
-                            "menuItem": "Bacon",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "Anonymous",
-                            "date": "8/22/2024",
-                            "rating": 5,
-                            "text": "i love bacon"
-                        },
-                        {
-                            "id": "66c77fc56e8bf1a8fe61bf9e",
-                            "menuItem": "Bacon",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "Anonymous",
-                            "date": "8/22/2024",
-                            "rating": 4,
-                            "text": "i lov ebacon"
-                        }
-                    ],
-                    "rating": 2.6666666666666665
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
                 },
                 {
-                    "name": "Bacon Cheese Breakfast Biscuit",
+                    "name": "Breakfast Potatoes w/ Peppers & Onions",
                     "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif"
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -90,35 +28,24 @@
                     "rating": 0
                 },
                 {
-                    "name": "Egg Cheese Breakfast Biscuit",
+                    "name": "Egg Cheese Breakfast Croissant",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
                         "gluten.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
+                        "soy.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Hash Browns Rounds",
+                    "name": "Ham Egg Cheese Breakfast Croissant",
                     "tags": [
+                        "dairy.gif",
+                        "egg.gif",
                         "gluten.gif",
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Mushroom, Spinach & Tomato Vegetable Hash",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
+                        "soy.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -159,27 +86,7 @@
                     "rating": 0
                 }
             ],
-            "Harvest Greens": [
-                {
-                    "name": "Apple",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Banana",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
+            "Harvest Daily Breakfast": [
                 {
                     "name": "Blueberry Yogurt",
                     "tags": [
@@ -254,17 +161,6 @@
                     "rating": 0
                 },
                 {
-                    "name": "Orange",
-                    "tags": [
-                        "smart.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Special K Strawberry",
                     "tags": [
                         "gluten.gif",
@@ -306,9 +202,9 @@
                     "rating": 0
                 }
             ],
-            "Harvest Vegan-BREAKFAST": [
+            "Harvest Vegan Breakfast": [
                 {
-                    "name": "Chicken Breakfast Tacos",
+                    "name": "Banana Farro Oatmeal Pudding",
                     "tags": [
                         "gluten.gif",
                         "soy.gif",
@@ -320,7 +216,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Roasted Sweet Potatoes with Spinach and Carrots",
+                    "name": "Cajun Roasted Breakfast Potatoes w/ Peppers & Onions",
                     "tags": [
                         "smart.gif",
                         "vegan.gif",
@@ -343,7 +239,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Vegan Chocolate Chip Pancake (purple)",
+                    "name": "Vegan Pancake Gluten Free",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -353,20 +249,9 @@
                     "rating": 0
                 },
                 {
-                    "name": "Vegan Cinnamon Apple Barley Pudding",
+                    "name": "Vegetable Breakfast Wrap",
                     "tags": [
                         "gluten.gif",
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Vegan Vanilla Soy Yogurt",
-                    "tags": [
                         "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif"
@@ -389,37 +274,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Chocolate Seed Spread & Strawberry Toast",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Earth Balance Soy Free Spread",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Fried Bananas w/ Cinnamon & Sugar",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pancake Syrup",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -436,7 +291,27 @@
                     "rating": 0
                 },
                 {
-                    "name": "Vegan Pancake Gluten Free",
+                    "name": "Roasted Seed Spread & Banana Toast",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vegan Chocolate Chip Pancake (purple)",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Warm Cinnamon Apples",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -520,18 +395,6 @@
                     "rating": 0
                 },
                 {
-                    "name": "French Fries",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Grilled Onions and Peppers",
                     "tags": [
                         "smart.gif",
@@ -566,28 +429,11 @@
                     "rating": 0
                 },
                 {
-                    "name": "Philly Beef",
-                    "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Philly Beef Steak and Provolone",
                     "tags": [
                         "dairy.gif",
                         "gluten.gif",
                         "soy.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pickle Slice",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -607,9 +453,10 @@
                     "rating": 0
                 },
                 {
-                    "name": "Chicken Salad",
+                    "name": "House Smoked Brisket Grilled Cheese",
                     "tags": [
-                        "egg.gif",
+                        "dairy.gif",
+                        "gluten.gif",
                         "soy.gif"
                     ],
                     "image": "none.jpg",
@@ -633,29 +480,8 @@
                     "name": "Beef Burger",
                     "tags": [],
                     "image": "none.jpg",
-                    "reviews": [
-                        {
-                            "id": "66c77ffa6e8bf1a8fe61bf9f",
-                            "menuItem": "Beef Burger",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "Anonymous",
-                            "date": "8/22/2024",
-                            "rating": 5,
-                            "text": "i love beeg burger"
-                        },
-                        {
-                            "id": "66c780096e8bf1a8fe61bfa0",
-                            "menuItem": "Beef Burger",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "Anonymous",
-                            "date": "8/22/2024",
-                            "rating": 2,
-                            "text": "i dont like it"
-                        }
-                    ],
-                    "rating": 3.5
+                    "reviews": [],
+                    "rating": 0
                 },
                 {
                     "name": "Potato Hot Dog Roll",
@@ -670,13 +496,68 @@
                     "rating": 0
                 }
             ],
+            "Ciao All-Day": [
+                {
+                    "name": "Garlic Mozzeralla Herb Cheesy Bread",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Honey Balsamic  Roasted Turnips",
+                    "tags": [
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Italian Herb Red Pepper Broccoli",
+                    "tags": [
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Garlic Thyme Mushrooms",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Green Beans with Red Onions",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
             "Ciao Chilled Salads": [
                 {
-                    "name": "Basil Pesto Roasted Red pepper Pasta Salad",
+                    "name": "Chilled Pasta Salad",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
                         "gluten.gif",
+                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -684,18 +565,10 @@
                     "rating": 0
                 },
                 {
-                    "name": "Grape Tomato Fresh Mozzarella Fried Basil Salad",
+                    "name": "Panzanella Salad",
                     "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Italian Potato Salad",
-                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif"
                     ],
@@ -704,20 +577,20 @@
                     "rating": 0
                 },
                 {
-                    "name": "Mixed Fruit with Mint",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Three Bean Salad",
+                    "name": "Roasted Potatoes & Green Bean Salad",
                     "tags": [
                         "soy.gif",
                         "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "WIld Rice and Roasted Appple Salad",
+                    "tags": [
+                        "dairy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -765,7 +638,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Meat Lovers Pizza",
+                    "name": "Pepperoni Pizza",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -779,10 +652,10 @@
             ],
             "Ciao Pasta": [
                 {
-                    "name": "Baked Ziti",
+                    "name": "Frita Mitso",
                     "tags": [
-                        "dairy.gif",
                         "egg.gif",
+                        "fish.gif",
                         "gluten.gif"
                     ],
                     "image": "none.jpg",
@@ -790,11 +663,23 @@
                     "rating": 0
                 },
                 {
-                    "name": "Cheddar Garlic Cheesy Bread",
+                    "name": "Pesto Spinach Italian Sausage and Meatball Shells",
                     "tags": [
                         "dairy.gif",
+                        "egg.gif",
                         "gluten.gif",
-                        "soy.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Red Pepper,Portobello, Penne & Pecorino Cheese",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -802,45 +687,18 @@
                     "rating": 0
                 },
                 {
-                    "name": "Garlic Mozzeralla Herb Cheesy Bread",
+                    "name": "Rotisserie Chicken LEGS",
                     "tags": [
-                        "dairy.gif",
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
+                        "halal.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Herb Quinoa",
+                    "name": "White Rice",
                     "tags": [
                         "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Manicotti Cremini Mushroom Cream Sauce",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Semolina Pasta Cooked",
-                    "tags": [
-                        "egg.gif",
-                        "gluten.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -850,30 +708,18 @@
             ],
             "Ciao Entree": [
                 {
-                    "name": "Battered Fried Cod",
+                    "name": "Brazilian Fish Stew",
                     "tags": [
-                        "dairy.gif",
-                        "fish.gif",
-                        "gluten.gif",
-                        "smart.gif"
+                        "fish.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Honey Balsamic  Roasted Turnips",
+                    "name": "Cocktail Sauce",
                     "tags": [
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Italian Herb Red Pepper Broccoli",
-                    "tags": [
-                        "smart.gif",
+                        "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif"
                     ],
@@ -882,70 +728,10 @@
                     "rating": 0
                 },
                 {
-                    "name": "Peas and Caramelized Red Onions",
+                    "name": "Tartar Sauce",
                     "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Broccoli and Tomatoes",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Carrots",
-                    "tags": [
-                        "smart.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Cauliflower and Zucchini",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Garlic Thyme Mushrooms",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Green Beans with Red Onions",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Wilted spinach with Mushrooms and Tomatoes",
-                    "tags": [
-                        "vegan.gif",
+                        "egg.gif",
+                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -955,22 +741,15 @@
             ],
             "Chef's Table Mains": [
                 {
-                    "name": "Asian Chili Garlic Shrimp",
-                    "tags": [
-                        "shellfish.gif",
-                        "soy.gif",
-                        "sesame.gif"
-                    ],
+                    "name": "Nigerian Beef Stew",
+                    "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Kung pao chicken",
+                    "name": "Peruvian Chicken",
                     "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "sesame.gif",
                         "halal.gif"
                     ],
                     "image": "none.jpg",
@@ -980,132 +759,70 @@
             ],
             "Chef's Table Extras": [
                 {
-                    "name": "Asian Pickled Cucumbers",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif",
-                        "sesame.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Avocado Sliced",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Cabbage Mix",
-                    "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Crunch",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Fried Garlic",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Green Onions",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Hot pepper oil",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pickled Ginger",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Seaweed",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Spicy mayo",
-                    "tags": [
-                        "egg.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Sriracha Chili Sauce",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Sweet Potatoes",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Yum yum sauce",
+                    "name": "Gomen ( Ethiopean Collard Greens",
                     "tags": [
                         "dairy.gif",
-                        "egg.gif",
-                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Jollf Rice",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Moroccan  Roasted Potatoes",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Moroccan Vegetable Tagine with Cous Cous",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Somali Coconut Corn",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Tunisian Stew with Harissa",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "White Rice",
+                    "tags": [
+                        "vegan.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -1115,13 +832,73 @@
             ],
             "Chef's Table Vegetarian": [
                 {
-                    "name": "Salt and Pepper Tofu",
+                    "name": "Atakilt Wat (Ethiopian Cabbage and Potatoes",
                     "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Baba Ghanoush Mezza",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Eygptian Kushari",
+                    "tags": [
+                        "egg.gif",
                         "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Kelewele (Spicy Fried Plantin)",
+                    "tags": [
                         "soy.gif",
                         "vegan.gif",
-                        "vegetarian.gif",
-                        "sesame.gif"
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Kenyan Sukuma Wiki",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Beet and Kale Salad",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Tabbouleh",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -1130,8 +907,10 @@
             ],
             "Halal at Chef's Table": [
                 {
-                    "name": "HALAL BEEF BURGER",
-                    "tags": [],
+                    "name": "Halal BEEF CHEESE STEAK",
+                    "tags": [
+                        "gluten.gif"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
@@ -1139,11 +918,9 @@
             ],
             "Harvest Entree": [
                 {
-                    "name": "Grilled Teriyaki Chicken",
+                    "name": "Grilled  Basil Pesto Chicken Thigh",
                     "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "sesame.gif",
+                        "dairy.gif",
                         "halal.gif"
                     ],
                     "image": "none.jpg",
@@ -1152,26 +929,6 @@
                 }
             ],
             "Harvest Greens": [
-                {
-                    "name": "Avocado Sliced",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Banana",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
                 {
                     "name": "Butter Sage Roasted Brussel Sprouts",
                     "tags": [
@@ -1186,18 +943,6 @@
                     "name": "Candied Pumkin Seeds",
                     "tags": [
                         "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Chipotle Farm House",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -1269,41 +1014,10 @@
                     "rating": 0
                 },
                 {
-                    "name": "Feta Cheese",
-                    "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Flax Seeds",
                     "tags": [
                         "nuts.gif",
                         "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Grape Tomatoes",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Greek Dressing",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -1373,26 +1087,6 @@
                     "rating": 0
                 },
                 {
-                    "name": "Shredded Parmesan Cheese",
-                    "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Shredded Red Cabbage",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Spicy Roasted Sunflower Seeds",
                     "tags": [
                         "dairy.gif",
@@ -1422,20 +1116,21 @@
             ],
             "Soups": [
                 {
-                    "name": "Beef Chili with Beans",
-                    "tags": [],
+                    "name": "Chicken Noodle Soup",
+                    "tags": [
+                        "egg.gif",
+                        "gluten.gif"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "New England Clam Chowder",
+                    "name": "Corn Chowder",
                     "tags": [
-                        "shellfish.gif",
                         "dairy.gif",
-                        "fish.gif",
                         "gluten.gif",
-                        "soy.gif"
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -1456,7 +1151,18 @@
             ],
             "Harvest Vegan-BREAKFAST": [
                 {
-                    "name": "Roasted Zucchini and Red Pepper",
+                    "name": "Chickpea Stew with Potatoes and Spinach",
+                    "tags": [
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Quinoa Pilaf",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -1466,20 +1172,8 @@
                     "rating": 0
                 },
                 {
-                    "name": "Tomato Black Bean Brown Rice",
+                    "name": "Roasted Parmesan Roma Tomato and Arugula",
                     "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Vegan Buffalo Chicken Black Bean Quesadilla",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif"
                     ],
@@ -1489,28 +1183,6 @@
                 }
             ],
             "Scoops Homemade Ice Cream": [
-                {
-                    "name": "Caramel Sauce",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Chocolate Chips",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
                 {
                     "name": "Chocolate Ice Cream",
                     "tags": [
@@ -1532,27 +1204,6 @@
                         "gluten.gif",
                         "nuts.gif",
                         "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Chocolate Sprinkles",
-                    "tags": [
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Maraschino Cherries",
-                    "tags": [
-                        "vegan.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -1631,7 +1282,7 @@
             ],
             "Purple Zone": [
                 {
-                    "name": "Black Beans & Rice",
+                    "name": "Butternut Squash & Kale Sauce",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -1658,7 +1309,55 @@
                     "rating": 0
                 },
                 {
-                    "name": "Grilled Chicken w/ Spicy Creole Sauce (purple)",
+                    "name": "Grilled Zucchini (purple)",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Herb Fennel Roasted Pork",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Herbed Rice Pilaf",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Red Lentil Penne Pasta",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Black Pepper Green Beans (purple)",
+                    "tags": [
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roman Chicken",
                     "tags": [
                         "smart.gif"
                     ],
@@ -1667,56 +1366,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Roasted Yellow Squash and Peas",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Smothered Chicken",
-                    "tags": [
-                        "halal.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Spicy Creole Sauce (purple)",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Tomatoes and Okra",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Vegan Cheese Pizza",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Vegan Macaroni & Cheese",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -1846,13 +1496,6 @@
                     "rating": 0
                 },
                 {
-                    "name": "Philly Beef",
-                    "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Philly Beef Steak and Provolone",
                     "tags": [
                         "dairy.gif",
@@ -1862,24 +1505,16 @@
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
-                },
-                {
-                    "name": "Pickle Slice",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
                 }
             ],
             "Smash Deli": [
                 {
-                    "name": "Buffalo Chicken Quesadilla",
+                    "name": "Buffalo Chicken Cheddar Wrap w/ Ranch, Lettuce & Tomato",
                     "tags": [
                         "dairy.gif",
-                        "gluten.gif"
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -1912,29 +1547,15 @@
                     "name": "Beef Burger",
                     "tags": [],
                     "image": "none.jpg",
-                    "reviews": [
-                        {
-                            "id": "66c77ffa6e8bf1a8fe61bf9f",
-                            "menuItem": "Beef Burger",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "Anonymous",
-                            "date": "8/22/2024",
-                            "rating": 5,
-                            "text": "i love beeg burger"
-                        },
-                        {
-                            "id": "66c780096e8bf1a8fe61bfa0",
-                            "menuItem": "Beef Burger",
-                            "diningHall": "north",
-                            "section": "Smash Burger",
-                            "name": "Anonymous",
-                            "date": "8/22/2024",
-                            "rating": 2,
-                            "text": "i dont like it"
-                        }
-                    ],
-                    "rating": 3.5
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Grilled Hot Dog",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
                 },
                 {
                     "name": "Potato Hot Dog Roll",
@@ -1949,13 +1570,68 @@
                     "rating": 0
                 }
             ],
+            "Ciao All-Day": [
+                {
+                    "name": "Garlic Mozzeralla Herb Cheesy Bread",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Honey Balsamic  Roasted Turnips",
+                    "tags": [
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Italian Herb Red Pepper Broccoli",
+                    "tags": [
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Garlic Thyme Mushrooms",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Green Beans with Red Onions",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
             "Ciao Chilled Salads": [
                 {
-                    "name": "Basil Pesto Roasted Red pepper Pasta Salad",
+                    "name": "Chilled Pasta Salad",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
                         "gluten.gif",
+                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -1963,18 +1639,10 @@
                     "rating": 0
                 },
                 {
-                    "name": "Grape Tomato Fresh Mozzarella Fried Basil Salad",
+                    "name": "Panzanella Salad",
                     "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Italian Potato Salad",
-                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif"
                     ],
@@ -1983,20 +1651,20 @@
                     "rating": 0
                 },
                 {
-                    "name": "Mixed Fruit with Mint",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Three Bean Salad",
+                    "name": "Roasted Potatoes & Green Bean Salad",
                     "tags": [
                         "soy.gif",
                         "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "WIld Rice and Roasted Appple Salad",
+                    "tags": [
+                        "dairy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -2044,7 +1712,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Meat Lovers Pizza",
+                    "name": "Pepperoni Pizza",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -2058,58 +1726,35 @@
             ],
             "Ciao Pasta": [
                 {
-                    "name": "Baked Ziti",
+                    "name": "Crunchy Italian Chicken Cutlet",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
+                        "gluten.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Five Cheese Macaroni Bake",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Fried Calamari",
+                    "tags": [
+                        "egg.gif",
+                        "fish.gif",
                         "gluten.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Cheddar Garlic Cheesy Bread",
-                    "tags": [
-                        "dairy.gif",
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Garlic Mozzeralla Herb Cheesy Bread",
-                    "tags": [
-                        "dairy.gif",
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Herb Quinoa",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Manicotti Cremini Mushroom Cream Sauce",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -2129,11 +1774,20 @@
             ],
             "Ciao Entree": [
                 {
-                    "name": "Battered Fried Cod",
+                    "name": "Cocktail Sauce",
                     "tags": [
-                        "dairy.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Lemon Pepper Baked Cod",
+                    "tags": [
                         "fish.gif",
-                        "gluten.gif",
                         "smart.gif"
                     ],
                     "image": "none.jpg",
@@ -2141,90 +1795,10 @@
                     "rating": 0
                 },
                 {
-                    "name": "Honey Balsamic  Roasted Turnips",
+                    "name": "Tartar Sauce",
                     "tags": [
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Italian Herb Red Pepper Broccoli",
-                    "tags": [
-                        "smart.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Peas and Caramelized Red Onions",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Broccoli and Tomatoes",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Carrots",
-                    "tags": [
-                        "smart.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Cauliflower and Zucchini",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Garlic Thyme Mushrooms",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Roasted Green Beans with Red Onions",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Wilted spinach with Mushrooms and Tomatoes",
-                    "tags": [
-                        "vegan.gif",
+                        "egg.gif",
+                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -2234,22 +1808,15 @@
             ],
             "Chef's Table Mains": [
                 {
-                    "name": "Asian Chili Garlic Shrimp",
-                    "tags": [
-                        "shellfish.gif",
-                        "soy.gif",
-                        "sesame.gif"
-                    ],
+                    "name": "Nigerian Beef Stew",
+                    "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Kung pao chicken",
+                    "name": "Peruvian Chicken",
                     "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "sesame.gif",
                         "halal.gif"
                     ],
                     "image": "none.jpg",
@@ -2259,132 +1826,70 @@
             ],
             "Chef's Table Extras": [
                 {
-                    "name": "Asian Pickled Cucumbers",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif",
-                        "sesame.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Avocado Sliced",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Cabbage Mix",
-                    "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Crunch",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Fried Garlic",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Green Onions",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Hot pepper oil",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pickled Ginger",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Seaweed",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Spicy mayo",
-                    "tags": [
-                        "egg.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Sriracha Chili Sauce",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Sweet Potatoes",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Yum yum sauce",
+                    "name": "Gomen ( Ethiopean Collard Greens",
                     "tags": [
                         "dairy.gif",
-                        "egg.gif",
-                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Jollf Rice",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Moroccan  Roasted Potatoes",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Moroccan Vegetable Tagine with Cous Cous",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Somali Coconut Corn",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Tunisian Stew with Harissa",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "White Rice",
+                    "tags": [
+                        "vegan.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -2394,13 +1899,73 @@
             ],
             "Chef's Table Vegetarian": [
                 {
-                    "name": "Salt and Pepper Tofu",
+                    "name": "Atakilt Wat (Ethiopian Cabbage and Potatoes",
                     "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Baba Ghanoush Mezza",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Eygptian Kushari",
+                    "tags": [
+                        "egg.gif",
                         "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Kelewele (Spicy Fried Plantin)",
+                    "tags": [
                         "soy.gif",
                         "vegan.gif",
-                        "vegetarian.gif",
-                        "sesame.gif"
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Kenyan Sukuma Wiki",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Beet and Kale Salad",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Tabbouleh",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -2409,8 +1974,10 @@
             ],
             "Halal at Chef's Table": [
                 {
-                    "name": "HALAL BEEF BURGER",
-                    "tags": [],
+                    "name": "Peruvian Chicken",
+                    "tags": [
+                        "halal.gif"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
@@ -2418,11 +1985,9 @@
             ],
             "Harvest Entree": [
                 {
-                    "name": "Grilled Teriyaki Chicken",
+                    "name": "Grilled  Basil Pesto Chicken Thigh",
                     "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "sesame.gif",
+                        "dairy.gif",
                         "halal.gif"
                     ],
                     "image": "none.jpg",
@@ -2431,26 +1996,6 @@
                 }
             ],
             "Harvest Greens": [
-                {
-                    "name": "Avocado Sliced",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Banana",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
                 {
                     "name": "Butter Sage Roasted Brussel Sprouts",
                     "tags": [
@@ -2465,18 +2010,6 @@
                     "name": "Candied Pumkin Seeds",
                     "tags": [
                         "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Chipotle Farm House",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -2548,41 +2081,10 @@
                     "rating": 0
                 },
                 {
-                    "name": "Feta Cheese",
-                    "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Flax Seeds",
                     "tags": [
                         "nuts.gif",
                         "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Grape Tomatoes",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Greek Dressing",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -2652,26 +2154,6 @@
                     "rating": 0
                 },
                 {
-                    "name": "Shredded Parmesan Cheese",
-                    "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Shredded Red Cabbage",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Spicy Roasted Sunflower Seeds",
                     "tags": [
                         "dairy.gif",
@@ -2701,20 +2183,21 @@
             ],
             "Soups": [
                 {
-                    "name": "Beef Chili with Beans",
-                    "tags": [],
+                    "name": "Chicken Noodle Soup",
+                    "tags": [
+                        "egg.gif",
+                        "gluten.gif"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "New England Clam Chowder",
+                    "name": "Corn Chowder",
                     "tags": [
-                        "shellfish.gif",
                         "dairy.gif",
-                        "fish.gif",
                         "gluten.gif",
-                        "soy.gif"
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -2735,7 +2218,18 @@
             ],
             "Harvest Vegan-BREAKFAST": [
                 {
-                    "name": "Roasted Zucchini and Red Pepper",
+                    "name": "Chickpea Stew with Potatoes and Spinach",
+                    "tags": [
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Quinoa Pilaf",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -2745,20 +2239,8 @@
                     "rating": 0
                 },
                 {
-                    "name": "Tomato Black Bean Brown Rice",
+                    "name": "Roasted Parmesan Roma Tomato and Arugula",
                     "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Vegan Buffalo Chicken Black Bean Quesadilla",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif"
                     ],
@@ -2768,28 +2250,6 @@
                 }
             ],
             "Scoops Homemade Ice Cream": [
-                {
-                    "name": "Caramel Sauce",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Chocolate Chips",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
                 {
                     "name": "Chocolate Ice Cream",
                     "tags": [
@@ -2804,41 +2264,6 @@
                     "rating": 0
                 },
                 {
-                    "name": "Chocolate Soft Serve Ice Cream",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "nuts.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Chocolate Sprinkles",
-                    "tags": [
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Maraschino Cherries",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Vanilla Ice Cream",
                     "tags": [
                         "dairy.gif",
@@ -2846,20 +2271,6 @@
                         "gluten.gif",
                         "nuts.gif",
                         "soy.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Vanilla Soft Serve Ice Cream",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "nuts.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -2910,8 +2321,20 @@
             ],
             "Purple Zone": [
                 {
-                    "name": "Apple Cider Brined Pork Loin",
-                    "tags": [],
+                    "name": "Arugula & Tomato Braised Chicken",
+                    "tags": [
+                        "smart.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Butternut Squash & Kale Sauce",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
@@ -2934,6 +2357,23 @@
                     "rating": 0
                 },
                 {
+                    "name": "Harrissa Mayo",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Herb Fennel Roasted Pork",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
                     "name": "Parsley New Potatoes (purple)",
                     "tags": [
                         "vegan.gif",
@@ -2944,16 +2384,27 @@
                     "rating": 0
                 },
                 {
-                    "name": "Smothered Chicken",
+                    "name": "Red Lentil Penne Pasta",
                     "tags": [
-                        "halal.gif"
+                        "vegan.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Steamed Cauliflower",
+                    "name": "Roasted Broccoli w/ Harissa Mayo",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Carrots and Wilted Spinach",
                     "tags": [
                         "smart.gif",
                         "vegan.gif",
@@ -2964,27 +2415,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Vegan Barbecue Baked Beans",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Vegan Cheese Pizza",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Vegan Macaroni & Cheese",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -3384,19 +2815,8 @@
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
-                    "reviews": [
-                        {
-                            "id": "66e4fdadbbfc9bb357b2b234",
-                            "menuItem": "Cereal Apple Jacks",
-                            "diningHall": "yahentamitsi",
-                            "section": "Maryland Bakery",
-                            "name": "Anonymous",
-                            "date": "9/13/2024",
-                            "rating": 4,
-                            "text": "apple jacks are my favorite cereal"
-                        }
-                    ],
-                    "rating": 4.0
+                    "reviews": [],
+                    "rating": 0
                 },
                 {
                     "name": "Cereal Cinnamon Toast Crunch",
@@ -3548,11 +2968,106 @@
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
+                }
+            ],
+            "Good Food Gluten Free": [
+                {
+                    "name": "Basil Pesto Grilled Pork Chop",
+                    "tags": [
+                        "dairy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
                 },
                 {
-                    "name": "Turkey Bacon Chopped",
+                    "name": "Margherita Pizza GF",
                     "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Pepperoni Pizza GF",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
                         "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Whole Roasted Chicken w/ Fennel & Lemon",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Sprouts": [
+                {
+                    "name": "Black Bean Burger with Maple Fried Sweet Potatoes & Chipotle",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Grilled Veggie & Hummus Panini",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Margherita Flatbread with Vegan Ricotta & Basil",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Sweet Chili Tempura Butternut Squash",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vegan Beef Barbacoa",
+                    "tags": [
+                        "gluten.gif",
+                        "smart.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -3561,19 +3076,16 @@
             ],
             "Chef's Corner": [
                 {
-                    "name": "Beef Taco Meat",
+                    "name": "Cuban Mojo Roasted Pork (purple)",
                     "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Chicken Cornbread Tamale Casserole",
+                    "name": "Enchiladas Suizas Chicken Enchiladas",
                     "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif"
+                        "dairy.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -3591,7 +3103,7 @@
             ],
             "Joe's Grill": [
                 {
-                    "name": "Brown Sugar BBQ Chicken Sandwich",
+                    "name": "Chicken Black Pepper Mayonnaise Salad Cheddar",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -3604,7 +3116,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Smoked Sausage Cheddar Chipotle BBQ Panini",
+                    "name": "Smoked Pastrami Swiss Cheese",
                     "tags": [
                         "dairy.gif",
                         "gluten.gif",
@@ -3615,7 +3127,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "The Royale Burger with Cheese",
+                    "name": "Spicy Fried Buffalo, Ranch, Tomato  & Provolone Panini",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -3629,8 +3141,19 @@
             ],
             "Terp Comfort": [
                 {
-                    "name": "Andhra Chili Chicken",
+                    "name": "Adobo Marinated Chicken",
                     "tags": [
+                        "dairy.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Amritsari Chicken Masala",
+                    "tags": [
+                        "dairy.gif",
                         "halal.gif"
                     ],
                     "image": "none.jpg",
@@ -3648,57 +3171,29 @@
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
-                },
-                {
-                    "name": "Paneer Chilli Indian cheese",
-                    "tags": [
-                        "dairy.gif",
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Rotisserie Style Brazilian Chicken",
-                    "tags": [
-                        "dairy.gif",
-                        "halal.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
                 }
             ],
             "Terp Grain Bowl": [
                 {
-                    "name": "Crusty Baked Shells and Cauliflower",
+                    "name": "Cajun Shrimp and Pasta",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
-                        "gluten.gif",
-                        "vegetarian.gif"
+                        "gluten.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Meatball no sauce",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif"
-                    ],
+                    "name": "Italian Sausage and Peppers",
+                    "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Pea Sundried Tomato Pesto Pasta",
+                    "name": "Roasted Red Pepper White Cheddar Mac and Cheese",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -3722,20 +3217,64 @@
                     "rating": 0
                 },
                 {
-                    "name": "Spinach Red Clam Sauce Linguini",
+                    "name": "Tortelini w/ Spinach, Red Onion & Alfredo Sauce",
                     "tags": [
+                        "dairy.gif",
                         "egg.gif",
                         "gluten.gif",
-                        "smart.gif"
+                        "soy.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 }
             ],
-            "Mezza": [
+            "Salad Bar": [
                 {
-                    "name": "Brick Oven Roasted Lemon Pepper Chicken Legs",
+                    "name": "American Grilled Cheese Sandwich",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Beets",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Celery Sticks",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Chicken Noodle Soup",
+                    "tags": [
+                        "egg.gif",
+                        "gluten.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Chicken Strips",
                     "tags": [
                         "halal.gif"
                     ],
@@ -3744,12 +3283,278 @@
                     "rating": 0
                 },
                 {
-                    "name": "Broccoli Cheddar Pizza",
+                    "name": "Corn Chowder",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Kale Pineapple Blueberry Smoothie",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Mango Lassi",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Maryland Crab Soup",
+                    "tags": [
+                        "shellfish.gif",
+                        "dairy.gif",
+                        "fish.gif",
+                        "gluten.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Parmesan Cheese",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Red Pepper Hummus",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "TOFU",
+                    "tags": [
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vegan Southwestern 3 Bean Soup",
+                    "tags": [
+                        "gluten.gif",
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Yogurt Plain",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Maryland Bakery": [
+                {
+                    "name": "Cereal Apple Jacks",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Cinnamon Toast Crunch",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Frosted Flakes",
+                    "tags": [
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Honey Nut Cheerios",
+                    "tags": [
+                        "nuts.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Reeses Puffs",
+                    "tags": [
+                        "gluten.gif",
+                        "nuts.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Rice Chex",
+                    "tags": [
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Total Raisin Bran",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Chocolate Soft Serve Ice Cream",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "nuts.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Chocolate Syrup",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Coco Puffs",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Dole Mango Sorbet Soft Serve",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Dole Pinapple Sorbet Soft Serve",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Dole Raspberry Sorbet Soft Serve",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vanilla Soft Serve Ice Cream",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "nuts.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Mezza": [
+                {
+                    "name": "Artichoke ASparagus Fire Roasted Tomato Pizza",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
                         "gluten.gif",
                         "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Brick Oven Roasted Italian spiced Chicken Legs",
+                    "tags": [
+                        "halal.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -3769,19 +3574,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Chicken Parmesan Ricotta Pizza",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Italian Sausage Pizza",
+                    "name": "Crispy Pan Buffalo Chicken Pizza",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -3829,7 +3622,19 @@
                     "rating": 0
                 },
                 {
-                    "name": "Tilapia Mushroom Tomato Herb Butter Sauce",
+                    "name": "Pulled Pork Cheddar Pizza with Tabasco Onions",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Tilapia with shrimp tomato caper sauce",
                     "tags": [
                         "dairy.gif",
                         "fish.gif"
@@ -3841,13 +3646,71 @@
             ],
             "Woks": [
                 {
-                    "name": "Asian Garlic Noodles",
+                    "name": "Asian Beef Mongolian Grill",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Asian Chicken Mongolian Grill",
                     "tags": [
-                        "shellfish.gif",
-                        "dairy.gif",
-                        "fish.gif",
+                        "smart.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Bamboo Shoots",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Bok Choy",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Broccoli with Garlic Sauce",
+                    "tags": [
                         "gluten.gif",
-                        "soy.gif"
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Brussels Sprouts",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cooked Lo Mein",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -3866,12 +3729,101 @@
                     "rating": 0
                 },
                 {
-                    "name": "Sinangag - Filipino Fried Rice",
+                    "name": "Garlic Chili Sauce",
+                    "tags": [
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Garlic Ginger Bok Choy with Mushrooms and Bamboo Shoots",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Japanese Egg Salad",
+                    "tags": [
+                        "egg.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Japchae Korean Glass Noodle Stir Fry",
                     "tags": [
                         "egg.gif",
                         "gluten.gif",
                         "soy.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Jicama Orange Salad",
+                    "tags": [
+                        "vegan.gif",
                         "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Julienne Yellow Squash",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Julienne Zucchini",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Korean BBQ Chicken",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "sesame.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Pork and Kimchi Fried Rice",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "sesame.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -3890,7 +3842,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Spicy Sesame Ginger Bok Choy with Bean Sprouts and Carrots",
+                    "name": "Sweet Chili Tofu & Cucumber Salad",
                     "tags": [
                         "gluten.gif",
                         "soy.gif",
@@ -3903,10 +3855,20 @@
                     "rating": 0
                 },
                 {
-                    "name": "Sweet Fire Tempura Chicken and Pineapple",
+                    "name": "TOFU",
                     "tags": [
-                        "gluten.gif",
-                        "sesame.gif"
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vietnamese Rice Noodle Salad",
+                    "tags": [
+                        "fish.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -3914,7 +3876,927 @@
                 }
             ]
         },
-        "Dinner": {}
+        "Dinner": {
+            "Breakfast": [
+                {
+                    "name": "Basil Pesto Chicken Quesadilla",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Good Food Gluten Free": [
+                {
+                    "name": "Basil Pesto Grilled Pork Chop",
+                    "tags": [
+                        "dairy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Margherita Pizza GF",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Pepperoni Pizza GF",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Whole Roasted Chicken w/ Fennel & Lemon",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Sprouts": [
+                {
+                    "name": "Black Bean Burger with Maple Fried Sweet Potatoes & Chipotle",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Grilled Veggie & Hummus Panini",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Margherita Flatbread with Vegan Ricotta & Basil",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Sweet Chili Tempura Butternut Squash",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vegan Beef Barbacoa",
+                    "tags": [
+                        "gluten.gif",
+                        "smart.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Chef's Corner": [
+                {
+                    "name": "Cuban Mojo Roasted Pork (purple)",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Enchiladas Suizas Chicken Enchiladas",
+                    "tags": [
+                        "dairy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Grilled Chipotle Lime Chicken",
+                    "tags": [
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Joe's Grill": [
+                {
+                    "name": "Chicken Black Pepper Mayonnaise Salad Cheddar",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Smoked Pastrami Swiss Cheese",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Spicy Fried Buffalo, Ranch, Tomato  & Provolone Panini",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Terp Comfort": [
+                {
+                    "name": "Adobo Marinated Chicken",
+                    "tags": [
+                        "dairy.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Amritsari Chicken Masala",
+                    "tags": [
+                        "dairy.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Fried Chicken Drumsticks",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Terp Grain Bowl": [
+                {
+                    "name": "Cajun Shrimp and Pasta",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Italian Sausage and Peppers",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Red Pepper White Cheddar Mac and Cheese",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Semolina Pasta Cooked",
+                    "tags": [
+                        "egg.gif",
+                        "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Tortelini w/ Spinach, Red Onion & Alfredo Sauce",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Salad Bar": [
+                {
+                    "name": "American Grilled Cheese Sandwich",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Beets",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Celery Sticks",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Chicken Noodle Soup",
+                    "tags": [
+                        "egg.gif",
+                        "gluten.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Chicken Strips",
+                    "tags": [
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Corn Chowder",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Kale Pineapple Blueberry Smoothie",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Mango Lassi",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Maryland Crab Soup",
+                    "tags": [
+                        "shellfish.gif",
+                        "dairy.gif",
+                        "fish.gif",
+                        "gluten.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Parmesan Cheese",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Roasted Red Pepper Hummus",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "TOFU",
+                    "tags": [
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vegan Southwestern 3 Bean Soup",
+                    "tags": [
+                        "gluten.gif",
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Yogurt Plain",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Maryland Bakery": [
+                {
+                    "name": "Cereal Apple Jacks",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Cinnamon Toast Crunch",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Frosted Flakes",
+                    "tags": [
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Honey Nut Cheerios",
+                    "tags": [
+                        "nuts.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Reeses Puffs",
+                    "tags": [
+                        "gluten.gif",
+                        "nuts.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Rice Chex",
+                    "tags": [
+                        "smart.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cereal Total Raisin Bran",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Chocolate Soft Serve Ice Cream",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "nuts.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Chocolate Syrup",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Coco Puffs",
+                    "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Dole Mango Sorbet Soft Serve",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Dole Pinapple Sorbet Soft Serve",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Dole Raspberry Sorbet Soft Serve",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vanilla Soft Serve Ice Cream",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "nuts.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Mezza": [
+                {
+                    "name": "Artichoke ASparagus Fire Roasted Tomato Pizza",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Brick Oven Roasted Italian spiced Chicken Legs",
+                    "tags": [
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cheese Pizza",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Crispy Pan Buffalo Chicken Pizza",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Margherita Pizza",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Meat Lovers Pizza",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Pepperoni Pizza",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Pulled Pork Cheddar Pizza with Tabasco Onions",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Tilapia with shrimp tomato caper sauce",
+                    "tags": [
+                        "dairy.gif",
+                        "fish.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ],
+            "Woks": [
+                {
+                    "name": "Asian Beef Mongolian Grill",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Asian Chicken Mongolian Grill",
+                    "tags": [
+                        "smart.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Bamboo Shoots",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Bok Choy",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Broccoli with Garlic Sauce",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Brussels Sprouts",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Cooked Lo Mein",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Egg Roll",
+                    "tags": [
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Garlic Chili Sauce",
+                    "tags": [
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Garlic Ginger Bok Choy with Mushrooms and Bamboo Shoots",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Japanese Egg Salad",
+                    "tags": [
+                        "egg.gif",
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Japchae Korean Glass Noodle Stir Fry",
+                    "tags": [
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Jicama Orange Salad",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Julienne Yellow Squash",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Julienne Zucchini",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Korean BBQ Chicken",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "sesame.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Pork and Kimchi Fried Rice",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Spicy Hunan Steamed Tofu & Mushrooms",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Sweet Chili Tofu & Cucumber Salad",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "TOFU",
+                    "tags": [
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vietnamese Rice Noodle Salad",
+                    "tags": [
+                        "fish.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                }
+            ]
+        }
     },
     "south": {
         "Breakfast": {
@@ -3933,7 +4815,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Pork Sausage Link",
+                    "name": "Sausage Patty",
                     "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
@@ -3941,18 +4823,6 @@
                 }
             ],
             "Grill Works": [
-                {
-                    "name": "Chicken Breakfast Tacos",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
                 {
                     "name": "Vegan Breakfast Sausage",
                     "tags": [
@@ -3966,8 +4836,19 @@
                     "rating": 0
                 },
                 {
-                    "name": "Vegan Chocolate Chip Pancake (purple)",
+                    "name": "Vegan Pancake Gluten Free",
                     "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Vegetable Tofu Quiche",
+                    "tags": [
+                        "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif"
                     ],
@@ -3998,8 +4879,19 @@
                     "rating": 0
                 },
                 {
-                    "name": "Pork Sausage Link",
+                    "name": "Sausage Patty",
                     "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Scrambled Cheesy Cheddar Egg",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "vegetarian.gif"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
@@ -4018,17 +4910,6 @@
                 {
                     "name": "Scrambled Eggs",
                     "tags": [
-                        "egg.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Scrambled Eggs Tomato Pepper Jack Cheese",
-                    "tags": [
-                        "dairy.gif",
                         "egg.gif",
                         "vegetarian.gif"
                     ],
@@ -4172,9 +5053,9 @@
             ],
             "Treats": [
                 {
-                    "name": "Banana Coconut Spinach Smoothie",
+                    "name": "Kale Pineapple Blueberry Smoothie",
                     "tags": [
-                        "dairy.gif",
+                        "vegan.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -4182,7 +5063,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Yogurt Mango Pineapple Smoothie",
+                    "name": "Mango Banana Yogurt Smoothie",
                     "tags": [
                         "dairy.gif",
                         "vegetarian.gif"
@@ -4291,7 +5172,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Vegan Pancake Gluten Free",
+                    "name": "Vegan Chocolate Chip Pancake (purple)",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -4305,6 +5186,15 @@
         "Lunch": {
             "Broiler Works": [
                 {
+                    "name": "Grilled Blackened Chicken Thigh",
+                    "tags": [
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
                     "name": "Grilled Chicken American Burger",
                     "tags": [
                         "dairy.gif",
@@ -4315,19 +5205,8 @@
                     "rating": 0
                 },
                 {
-                    "name": "Grilled Southwestern Chipotle Pesto Chicken Thigh",
-                    "tags": [
-                        "halal.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Grilled jalapeno Cheddar Sausage",
-                    "tags": [
-                        "dairy.gif"
-                    ],
+                    "name": "Grilled Hot Dog",
+                    "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
@@ -4335,11 +5214,10 @@
             ],
             "Grill Works": [
                 {
-                    "name": "Cheddar Grilled Cheese Sandwich",
+                    "name": "Cheese Quesadilla",
                     "tags": [
                         "dairy.gif",
                         "gluten.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -4347,23 +5225,20 @@
                     "rating": 0
                 },
                 {
-                    "name": "Chicken Salad & Cheddar Melt",
+                    "name": "Southwestern Chipotle Chicken Quesadilla",
                     "tags": [
                         "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif"
+                        "gluten.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Mediterranian Vegetable Melt",
+                    "name": "Southwestern Chipotle Vegetable Quesadilla",
                     "tags": [
                         "dairy.gif",
                         "gluten.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -4373,7 +5248,7 @@
             ],
             "Roaster": [
                 {
-                    "name": "Rotisserie Chicken",
+                    "name": "Sweet Chili Bbq Chicken",
                     "tags": [
                         "halal.gif"
                     ],
@@ -4384,36 +5259,33 @@
             ],
             "Chef's Table": [
                 {
-                    "name": "Alabama White BBQ Chicken Burger",
+                    "name": "Grilled Rosemary Thyme Chicken with Herb Demi",
                     "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif"
+                        "smart.gif",
+                        "halal.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Lentil Cakes with Herb Yogurt",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Sriracha Crusted Tilapia",
+                    "name": "Herb Dijon Crusted Wild Blue Catfish",
                     "tags": [
                         "egg.gif",
                         "fish.gif",
                         "gluten.gif",
+                        "smart.gif",
                         "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Provencal Chili",
+                    "tags": [
+                        "dairy.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -4474,7 +5346,19 @@
             ],
             "Pizza": [
                 {
-                    "name": "Pan BBQ Chicken Pizza",
+                    "name": "Crispy Pan Buffalo Chicken Pizza",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Pan BBQ Brisket Pizza",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -4487,18 +5371,6 @@
                 },
                 {
                     "name": "Pan Cheese Pizza",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pan Greek Gyro Feta Pizza",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -4624,17 +5496,6 @@
                     "tags": [
                         "soy.gif",
                         "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Greek Dressing",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -4784,47 +5645,6 @@
             ],
             "Treats": [
                 {
-                    "name": "Apple",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Banana Coconut Spinach Smoothie",
-                    "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Banana",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Caramel Sauce",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Cherry Sorbet Soft Serve",
                     "tags": [
                         "vegan.gif",
@@ -4892,10 +5712,9 @@
                     "rating": 0
                 },
                 {
-                    "name": "Hot Fudge Sauce",
+                    "name": "Kale Pineapple Blueberry Smoothie",
                     "tags": [
-                        "dairy.gif",
-                        "soy.gif",
+                        "vegan.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -4916,12 +5735,9 @@
                     "rating": 0
                 },
                 {
-                    "name": "Oatmeal Raisin Cookie",
+                    "name": "Mango Banana Yogurt Smoothie",
                     "tags": [
                         "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -4929,10 +5745,12 @@
                     "rating": 0
                 },
                 {
-                    "name": "Orange",
+                    "name": "Oatmeal Raisin Cookie",
                     "tags": [
-                        "smart.gif",
-                        "vegan.gif",
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -5021,16 +5839,6 @@
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
-                },
-                {
-                    "name": "Yogurt Mango Pineapple Smoothie",
-                    "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
                 }
             ],
             "Waffle, Doughnut, Bagel Bar": [
@@ -5057,30 +5865,33 @@
             ],
             "Soup Du Jour": [
                 {
-                    "name": "Beef Chili with Beans",
-                    "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Chicken Tortilla  Soup",
+                    "name": "Chicken Noodle Soup",
                     "tags": [
-                        "gluten.gif",
-                        "soy.gif"
+                        "egg.gif",
+                        "gluten.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "New England Clam Chowder",
+                    "name": "Corn Chowder",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Maryland Crab Soup",
                     "tags": [
                         "shellfish.gif",
                         "dairy.gif",
                         "fish.gif",
-                        "gluten.gif",
-                        "soy.gif"
+                        "gluten.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -5101,10 +5912,58 @@
             ],
             "Deli+": [
                 {
-                    "name": "Buffalo Chicken Cheddar Wrap w/ Ranch, Lettuce & Tomato",
+                    "name": "6\" Flour Tortilla",
                     "tags": [
+                        "gluten.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Arroz Verde Peruano",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "CIlantro",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Charro Beans Frijoles Charros",
+                    "tags": [],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Limes",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Mexican Shrimp Street Taco",
+                    "tags": [
+                        "shellfish.gif",
                         "dairy.gif",
-                        "egg.gif",
                         "gluten.gif",
                         "soy.gif"
                     ],
@@ -5113,12 +5972,19 @@
                     "rating": 0
                 },
                 {
-                    "name": "Cajun Fried Vegetable Muenster Cheese Spinach Sandwich",
+                    "name": "Taco Shell",
+                    "tags": [
+                        "vegan.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Zucchini Red Pepper and Refried Bean Street Taco",
                     "tags": [
                         "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -5182,23 +6048,6 @@
                 },
                 {
                     "name": "Jalapenos",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pepperoni Sliced",
-                    "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pickle Slice",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -5301,28 +6150,20 @@
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
-                },
-                {
-                    "name": "Yellow Mustard",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
                 }
             ],
             "Purple Zone": [
                 {
-                    "name": "Chicken Karahi",
-                    "tags": [],
+                    "name": "Grilled Chicken w/ Spicy Creole Sauce (purple)",
+                    "tags": [
+                        "smart.gif"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Filipino Chicken Tinola",
+                    "name": "Smothered Chicken",
                     "tags": [
                         "halal.gif"
                     ],
@@ -5345,7 +6186,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Ginger Glazed Tofu",
+                    "name": "Garlic Chive Spiced Tofu",
                     "tags": [
                         "gluten.gif",
                         "soy.gif",
@@ -5358,7 +6199,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Vegan Szechuan Chicken w/ Red Onion, Nappa Cabbage & Peppers",
+                    "name": "Vegan Teriyaki Tofu Stir Fry",
                     "tags": [
                         "gluten.gif",
                         "soy.gif",
@@ -5415,6 +6256,20 @@
             ],
             "Mongolian Grill": [
                 {
+                    "name": "Basil Fried Rice",
+                    "tags": [
+                        "shellfish.gif",
+                        "egg.gif",
+                        "fish.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
                     "name": "Blistered Shishito Pepperes",
                     "tags": [
                         "vegan.gif",
@@ -5425,7 +6280,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Broccoli with Garlic Sauce",
+                    "name": "Bok Choy with garlic Soy Dressing",
                     "tags": [
                         "gluten.gif",
                         "soy.gif",
@@ -5470,9 +6325,8 @@
                     "rating": 0
                 },
                 {
-                    "name": "Mushroom Jasmine Rice",
+                    "name": "Shanghai Beef",
                     "tags": [
-                        "shellfish.gif",
                         "fish.gif",
                         "gluten.gif",
                         "soy.gif",
@@ -5483,13 +6337,24 @@
                     "rating": 0
                 },
                 {
-                    "name": "Pad Kee Mao - Drunken Noodles",
+                    "name": "Soy Butter Glazed Mushrooms",
                     "tags": [
-                        "shellfish.gif",
-                        "fish.gif",
+                        "dairy.gif",
                         "gluten.gif",
-                        "smart.gif",
-                        "soy.gif"
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Spicy Mushroom Stir Fry",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -5507,38 +6372,14 @@
                     "rating": 0
                 },
                 {
-                    "name": "Szechuan Green Beans",
+                    "name": "Vegetable Lo Mein Noodle",
                     "tags": [
                         "gluten.gif",
+                        "smart.gif",
                         "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif",
                         "sesame.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Szechuan Napa Cabbage and Carrots",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif",
-                        "sesame.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Yaki Hakka Noodles",
-                    "tags": [
-                        "dairy.gif",
-                        "fish.gif",
-                        "gluten.gif",
-                        "soy.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -5645,9 +6486,11 @@
                     "rating": 0
                 },
                 {
-                    "name": "Grilled  Basil Pesto Chicken Thigh",
+                    "name": "Grilled Chicken Teryaki Thigh",
                     "tags": [
-                        "dairy.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "sesame.gif",
                         "halal.gif"
                     ],
                     "image": "none.jpg",
@@ -5655,7 +6498,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Grilled Hot Dog",
+                    "name": "Grilled Smoked Polish Sausage",
                     "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
@@ -5664,17 +6507,34 @@
             ],
             "Grill Works": [
                 {
-                    "name": "Chicken Philly Steak",
-                    "tags": [],
+                    "name": "Cheese Quesadilla",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "vegetarian.gif"
+                    ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Tomato Mushroom Spinach Philly Filling",
+                    "name": "Mushroom Spinach Quesadilla",
                     "tags": [
                         "dairy.gif",
+                        "gluten.gif",
                         "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Ranch Chicken Quesadilla",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -5683,7 +6543,7 @@
             ],
             "Roaster": [
                 {
-                    "name": "Rotisserie Chicken",
+                    "name": "Sweet Chili Bbq Chicken",
                     "tags": [
                         "halal.gif"
                     ],
@@ -5694,17 +6554,7 @@
             ],
             "Chef's Table": [
                 {
-                    "name": "Babi Pangpang Indonesian Crispy Pork",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Shrimp and Cod with Tomato Spinach Saffron Sauce",
+                    "name": "Blackened Tilapia",
                     "tags": [
                         "fish.gif"
                     ],
@@ -5713,11 +6563,22 @@
                     "rating": 0
                 },
                 {
-                    "name": "Zucchini Fritter with Red Pepper Hummus",
+                    "name": "Grilled Buffalo Chicken",
                     "tags": [
-                        "dairy.gif",
-                        "egg.gif",
                         "gluten.gif",
+                        "soy.gif",
+                        "halal.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Sausage Vegetable Jambalaya",
+                    "tags": [
+                        "gluten.gif",
+                        "smart.gif",
+                        "vegan.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -5727,25 +6588,11 @@
             ],
             "Pasta": [
                 {
-                    "name": "Baked Rigatoni with Broccoli  Roasted Tomatoes",
+                    "name": "Chorizo Sundried Tomato Pesto Rotini Parmesan",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
-                        "gluten.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Grilled Chicken Penne Pasta White Cheddar Sauce",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif",
-                        "halal.gif"
+                        "gluten.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -5762,11 +6609,35 @@
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
+                },
+                {
+                    "name": "Roasted Cherry Tomatoes Shells in Herb Olive Oil",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
                 }
             ],
             "Pizza": [
                 {
-                    "name": "Pan BBQ Chicken Pizza",
+                    "name": "Crispy Pan Buffalo Chicken Pizza",
+                    "tags": [
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Pan BBQ Brisket Pizza",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -5779,18 +6650,6 @@
                 },
                 {
                     "name": "Pan Cheese Pizza",
-                    "tags": [
-                        "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pan Greek Gyro Feta Pizza",
                     "tags": [
                         "dairy.gif",
                         "egg.gif",
@@ -5916,17 +6775,6 @@
                     "tags": [
                         "soy.gif",
                         "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Greek Dressing",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -6076,47 +6924,6 @@
             ],
             "Treats": [
                 {
-                    "name": "Apple",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Banana Coconut Spinach Smoothie",
-                    "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Banana",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Caramel Sauce",
-                    "tags": [
-                        "dairy.gif",
-                        "soy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
                     "name": "Cherry Sorbet Soft Serve",
                     "tags": [
                         "vegan.gif",
@@ -6184,10 +6991,9 @@
                     "rating": 0
                 },
                 {
-                    "name": "Hot Fudge Sauce",
+                    "name": "Kale Pineapple Blueberry Smoothie",
                     "tags": [
-                        "dairy.gif",
-                        "soy.gif",
+                        "vegan.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -6208,12 +7014,9 @@
                     "rating": 0
                 },
                 {
-                    "name": "Oatmeal Raisin Cookie",
+                    "name": "Mango Banana Yogurt Smoothie",
                     "tags": [
                         "dairy.gif",
-                        "egg.gif",
-                        "gluten.gif",
-                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -6221,10 +7024,12 @@
                     "rating": 0
                 },
                 {
-                    "name": "Orange",
+                    "name": "Oatmeal Raisin Cookie",
                     "tags": [
-                        "smart.gif",
-                        "vegan.gif",
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -6313,16 +7118,6 @@
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
-                },
-                {
-                    "name": "Yogurt Mango Pineapple Smoothie",
-                    "tags": [
-                        "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
                 }
             ],
             "Waffle, Doughnut, Bagel Bar": [
@@ -6349,30 +7144,33 @@
             ],
             "Soup Du Jour": [
                 {
-                    "name": "Beef Chili with Beans",
-                    "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Chicken Tortilla  Soup",
+                    "name": "Chicken Noodle Soup",
                     "tags": [
-                        "gluten.gif",
-                        "soy.gif"
+                        "egg.gif",
+                        "gluten.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "New England Clam Chowder",
+                    "name": "Corn Chowder",
+                    "tags": [
+                        "dairy.gif",
+                        "gluten.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Maryland Crab Soup",
                     "tags": [
                         "shellfish.gif",
                         "dairy.gif",
                         "fish.gif",
-                        "gluten.gif",
-                        "soy.gif"
+                        "gluten.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -6393,33 +7191,12 @@
             ],
             "Deli+": [
                 {
-                    "name": "Buffalo Popcorn Shrimp",
-                    "tags": [
-                        "shellfish.gif",
-                        "dairy.gif",
-                        "gluten.gif",
-                        "soy.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Feta Cheese",
+                    "name": "Mushroom Swiss Basil Pesto Aioli Sandwich",
                     "tags": [
                         "dairy.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Multi-grain Bread",
-                    "tags": [
+                        "egg.gif",
                         "gluten.gif",
                         "soy.gif",
-                        "vegan.gif",
                         "vegetarian.gif"
                     ],
                     "image": "none.jpg",
@@ -6427,10 +7204,12 @@
                     "rating": 0
                 },
                 {
-                    "name": "Radishes",
+                    "name": "Spicy Fried Chicken Cordon Blue Sandwich",
                     "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
+                        "dairy.gif",
+                        "egg.gif",
+                        "gluten.gif",
+                        "soy.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -6493,23 +7272,6 @@
                 },
                 {
                     "name": "Jalapenos",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pepperoni Sliced",
-                    "tags": [],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Pickle Slice",
                     "tags": [
                         "vegan.gif",
                         "vegetarian.gif"
@@ -6612,30 +7374,18 @@
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
-                },
-                {
-                    "name": "Yellow Mustard",
-                    "tags": [
-                        "vegan.gif",
-                        "vegetarian.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
                 }
             ],
             "Purple Zone": [
                 {
-                    "name": "Filipino Chicken Tinola",
-                    "tags": [
-                        "halal.gif"
-                    ],
+                    "name": "Apple Cider Brined Pork Loin",
+                    "tags": [],
                     "image": "none.jpg",
                     "reviews": [],
                     "rating": 0
                 },
                 {
-                    "name": "Yassa Chicken",
+                    "name": "Smothered Chicken",
                     "tags": [
                         "halal.gif"
                     ],
@@ -6658,7 +7408,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Ginger Glazed Tofu",
+                    "name": "Garlic Chive Spiced Tofu",
                     "tags": [
                         "gluten.gif",
                         "soy.gif",
@@ -6671,9 +7421,8 @@
                     "rating": 0
                 },
                 {
-                    "name": "Vegan Chickpea Meatballs with Marinara Sauce",
+                    "name": "Tomato Chickpea Curry and Potato cakes",
                     "tags": [
-                        "gluten.gif",
                         "vegan.gif",
                         "vegetarian.gif"
                     ],
@@ -6726,6 +7475,20 @@
             ],
             "Mongolian Grill": [
                 {
+                    "name": "Basil Fried Rice",
+                    "tags": [
+                        "shellfish.gif",
+                        "egg.gif",
+                        "fish.gif",
+                        "gluten.gif",
+                        "soy.gif",
+                        "sesame.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
                     "name": "Blistered Shishito Pepperes",
                     "tags": [
                         "vegan.gif",
@@ -6736,7 +7499,7 @@
                     "rating": 0
                 },
                 {
-                    "name": "Broccoli with Garlic Sauce",
+                    "name": "Bok Choy with garlic Soy Dressing",
                     "tags": [
                         "gluten.gif",
                         "soy.gif",
@@ -6781,9 +7544,8 @@
                     "rating": 0
                 },
                 {
-                    "name": "Mushroom Jasmine Rice",
+                    "name": "Shanghai Beef",
                     "tags": [
-                        "shellfish.gif",
                         "fish.gif",
                         "gluten.gif",
                         "soy.gif",
@@ -6794,13 +7556,24 @@
                     "rating": 0
                 },
                 {
-                    "name": "Pad Kee Mao - Drunken Noodles",
+                    "name": "Soy Butter Glazed Mushrooms",
                     "tags": [
-                        "shellfish.gif",
-                        "fish.gif",
+                        "dairy.gif",
                         "gluten.gif",
-                        "smart.gif",
-                        "soy.gif"
+                        "soy.gif",
+                        "vegetarian.gif"
+                    ],
+                    "image": "none.jpg",
+                    "reviews": [],
+                    "rating": 0
+                },
+                {
+                    "name": "Spicy Mushroom Stir Fry",
+                    "tags": [
+                        "gluten.gif",
+                        "soy.gif",
+                        "vegan.gif",
+                        "vegetarian.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
@@ -6818,38 +7591,14 @@
                     "rating": 0
                 },
                 {
-                    "name": "Szechuan Green Beans",
+                    "name": "Vegetable Lo Mein Noodle",
                     "tags": [
                         "gluten.gif",
+                        "smart.gif",
                         "soy.gif",
                         "vegan.gif",
                         "vegetarian.gif",
                         "sesame.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Szechuan Napa Cabbage and Carrots",
-                    "tags": [
-                        "gluten.gif",
-                        "soy.gif",
-                        "vegan.gif",
-                        "vegetarian.gif",
-                        "sesame.gif"
-                    ],
-                    "image": "none.jpg",
-                    "reviews": [],
-                    "rating": 0
-                },
-                {
-                    "name": "Yaki Hakka Noodles",
-                    "tags": [
-                        "dairy.gif",
-                        "fish.gif",
-                        "gluten.gif",
-                        "soy.gif"
                     ],
                     "image": "none.jpg",
                     "reviews": [],
