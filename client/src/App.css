@@ -17,19 +17,9 @@
   color: #888;
 }
 
-<<<<<<< HEAD
-@media (max-width: 900px) {
-  .sectionTitle{
-    margin-top: 90px;
-  }
-  .mobile{
-    display: block
-  }
-=======
 .copyright {
   font-size: 14px;
 }
->>>>>>> e3701b5c9fb15047a07a6fba5203cd2483f40760
 
 /* Mobile Navigation */
 @media only screen and (max-width: 900px) {
