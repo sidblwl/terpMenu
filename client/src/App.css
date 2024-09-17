@@ -1,3 +1,10 @@
+@import 'styles/Topnav.css';
+@import 'styles/Toolbar.css';
+@import 'styles/Menu.css';
+@import 'styles/Filters.css';
+@import 'styles/Popup.css';
+@import 'styles/Reviews.css';
+
 .mobile{
   display: none;
 }
@@ -28,5 +35,9 @@
 @media only screen and (max-width: 900px) {
   .desktop {
     display: none;
+  }
+
+  .mobile{
+    display: block;
   }
 }

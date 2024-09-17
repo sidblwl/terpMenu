@@ -1,3 +1,5 @@
+import "../App.css"
+
 export default function SearchDropdown({menulist, meal, value}){
 
     let displayedItems = [];

@@ -1,12 +1,6 @@
 import { Routes, Route, useParams, Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import '../App.css'
-import '../styles/Topnav.css'
-import '../styles/Toolbar.css'
-import '../styles/Menu.css'
-import '../styles/Filters.css'
-import '../styles/Popup.css'
-import '../styles/Reviews.css'
 import NavButton from './NavButton'
 import HallSections from './HallSections'
 import RatingMenu from './RatingMenu'
