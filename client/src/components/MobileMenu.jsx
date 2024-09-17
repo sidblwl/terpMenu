@@ -1,3 +1,5 @@
+import '../App.css'
+
 import NavButton from "./NavButton"
 export default function MobileMenuNav({setMobileMenu, mobileMenu, diningKeys, setAbortController, controller, diningHall, setActiveSection}){
     return(

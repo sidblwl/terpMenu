@@ -1,4 +1,5 @@
-import { useState } from "react"
+import '../App.css'
+
 export default function MobileNavIcon({mobileMenu, setMobileMenu}){
     return(
         <div className = "navIconContainer" onClick={() => {
