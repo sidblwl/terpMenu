@@ -1,3 +1,5 @@
+import '../App.css'
+
 export default function LocationMenu({diningHall, locationMenu}){
     return locationMenu ? (
         <div className = "locationMenu">
