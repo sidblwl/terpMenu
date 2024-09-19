@@ -64,47 +64,4 @@
     transform: translate(0px, -3.1px) rotate(-45deg);
     transform-origin: center;
   }
-
-  .mobileNavContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .mobileMenu{
-    display: flex;
-    visibility: hidden;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0%;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(194, 0, 0);
-    gap: 30px;
-    transition: 0.2s
-  }
-
-  .mobileMenuActive{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 90%;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(194, 0, 0);
-    transition: 0.3s;
-    gap: 30px;
-    top: 40px;
-  }
-
-  .navButton {
-    color: white;
-    background-color: transparent !important;
-    font-size: 30px;
-  }
 }

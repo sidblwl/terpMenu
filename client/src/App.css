@@ -21,7 +21,6 @@
   font-size: 14px;
 }
 
-
 @media only screen and (max-width: 1000px) {
   .mobile{
     display: block
@@ -49,7 +48,7 @@
     width: 100vw;
     height: 100vh;
     background-color: rgb(194, 0, 0);
-    gap: 30px;
+    gap: 5vh;
     transition: 0.2s
   }
 
@@ -64,7 +63,15 @@
     height: 100vh;
     background-color: rgb(194, 0, 0);
     transition: 0.3s;
-    gap: 30px;
+    gap: 2vh;
     top: 40px;
+  }
+
+  .navButton {
+    color: white;
+    background-color: transparent !important;
+    font-size: 30px;
+    padding: 2vh 4vh;
+    border-radius: 10px;
   }
 }
