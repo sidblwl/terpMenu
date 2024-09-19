@@ -77,6 +77,10 @@
   flex-direction: column;
 }
 
+.search_option:hover{
+  background-color: lightgray;
+}
+
 .filtersButton {
   padding: 10px 15px;
   font-size: 16px;
@@ -101,7 +105,7 @@
   min-width: 50px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 
   .searchbar{
     width: 70vw;
