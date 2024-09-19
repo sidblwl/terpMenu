@@ -34,13 +34,6 @@
     text-align: center;
   }
 
-  .mobileNavContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform-origin: center;
-  }
-
   .navIconContainer {
     position: absolute;
     right: 30px;
@@ -72,7 +65,29 @@
     transform-origin: center;
   }
 
-  .mobileMenuActive {
+  .mobileNavContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .mobileMenu{
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(194, 0, 0);
+    gap: 30px;
+    transition: 0.2s
+  }
+
+  .mobileMenuActive{
     display: flex;
     flex-direction: column;
     justify-content: center;

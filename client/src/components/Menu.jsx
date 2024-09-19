@@ -102,7 +102,7 @@ const failedToFetch = {
 
 function Menu() {
   const { diningHall } = useParams();
-  const [meal, setMeal] = useState("Dinner")
+  const [meal, setMeal] = useState("Breakfast")
   const [section, setSection] = useState("Loading...")
   const [menulist, setMenulist] = useState(loading)
   const [activeSection, setActiveSection] = useState(1)

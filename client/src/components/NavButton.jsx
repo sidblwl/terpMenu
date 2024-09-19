@@ -7,9 +7,9 @@ import '../App.css'
     return(
       <Link to={"/" + currentHall}>
         <button style = {(currentHall == diningHall ? {backgroundColor: "darkred"} : {backgroundColor: "#e21833"})} className={"navButton"} onClick={() => {
+          setMobileMenu(false);
           if(diningHall != currentHall){
             setActiveSection(1);
-            setMobileMenu(false);
             setAbortController(new AbortController)
             controller.abort()
          }      
