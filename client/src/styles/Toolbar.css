@@ -56,7 +56,7 @@
 }
 
 .searchbar {
-  width: 350px;
+  width: 750px;
   box-sizing: border-box;
   border: 1px solid #caced1;
   border-radius: 5px;
@@ -126,9 +126,9 @@
 
 @media only screen and (max-width: 1000px) {
 
-  /* .searchbar{
-    width: 80vw;
-  } */
+  .searchbar{
+    width: 350px;
+  }
 
     /* .filtersButton{
         padding: 0px;

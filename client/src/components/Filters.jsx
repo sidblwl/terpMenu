@@ -23,11 +23,18 @@ export default function Filters({filterState, setFilterState, filters, setFilter
                     <div className = "closeButtonContainer">
                         <img className="close-popup" src={close} onClick = {() => setFilterState(false)}></img>
                     </div>
-                    <h1 className="popupTitle">Filters:</h1>
+                    <h1 className="filterTitle">Filters</h1>
+                    <div className="filterOptions">
+                        <p style={{
+        color: filters.length === allFilters.length ? '#00000042' : '#007BC7',
+        cursor: filters.length === allFilters.length ? 'not-allowed' : 'pointer'
+    }} onClick = {() => {setFilters(allFilters.map(filter => convertFilterName(filter)))}}>Select All</p>
+                        <p     style={{
+        color: filters.length === 0 ? '#00000042' : '#007BC7',
+        cursor: filters.length === 0 ? 'not-allowed' : 'pointer'
+    }} onClick = {() => {setFilters([])}}>Reset</p>
+                    </div>
                     <FilterButtons filters = {filters} setFilters = {setFilters} setSubmitState = {setSubmitState}></FilterButtons>
-                    <button className = "filterButton" onClick = {() => {
-                        setFilters([])
-                    }}>Reset Filters</button>
                 </div>
             </div>
         </>
@@ -48,21 +55,26 @@ function FilterButtons({filters, setFilters, setSubmitState}){
 
 
 function FilterButton({filterName, filters, setFilters, setSubmitState}){
-    return(
-        <button style = {filters.includes(convertFilterName(filterName)) ? {backgroundColor: "#f07585"} : {backgroundColor: "gainsboro"}} className = "filterButton" onClick = {() => {
-            let tempFilters = [];
-            setSubmitState(false)
-            let filterNameAdjusted = convertFilterName(filterName)
-            if(filters.includes(filterNameAdjusted)){
-                filters.splice(filters.indexOf(filterNameAdjusted), 1)
-                tempFilters = [...filters]
-                setFilters(tempFilters)
-            }
-            else{
-                filters.push(filterNameAdjusted)
-                tempFilters = [...filters]
-                setFilters(tempFilters)
-            }
-        }}>{filterName}</button>
-    )
+    const handleFilterClick = () => {
+        setSubmitState(false);
+        let filterNameAdjusted = convertFilterName(filterName);
+        
+        if (filters.includes(filterNameAdjusted)) {
+            setFilters(filters.filter(f => f !== filterNameAdjusted)); // Remove filter
+        } else {
+            setFilters([...filters, filterNameAdjusted]); // Add filter
+        }
+    };
+    
+    return (
+        <div className="filterButton" onClick={handleFilterClick}>
+            <input 
+                className="checkbox" 
+                checked={filters.includes(convertFilterName(filterName))} 
+                type="checkbox"
+                onChange={() => {}}
+            />
+            {filterName}
+        </div>
+    );
 }
