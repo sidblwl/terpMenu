@@ -1,21 +1,31 @@
 .header {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .hallName {
-  font-size: 60px;
+  font-size: 50px;
   margin: 0px;
   text-transform: capitalize;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .toolbar {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   gap: 2vw;
+}
+
+.settingsHolder{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 5vw;
 }
 
 .mealtimeSelect {
@@ -32,10 +42,17 @@
   background-repeat: no-repeat;
   background-position: right 10px top 20px;
   background-size: 10px;
-  width: 7.3vw;
+  /* width: 7.3vw; */
+  width: 20vw;
   min-width: 50px;
   cursor: pointer;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .searchbar {
@@ -50,7 +67,8 @@
 .search_dropdown {
   position: absolute;
   background-color: #f9f9f9; /* Light gray background for contrast */
-  width: 50vw;
+  margin-top: 45px;
+  width: 80vw;
   text-align: left;
   border-radius: 8px; /* Rounded corners for a modern look */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -101,22 +119,23 @@
   background-position: 10px center; /* Position the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   padding-left: 40px; /* Add space for the image */
-  width: 7.3vw;
+  /* width: 7.3vw; */
+  width: 20vw;
   min-width: 50px;
 }
 
 @media only screen and (max-width: 1000px) {
 
   .searchbar{
-    width: 70vw;
+    width: 80vw;
   }
 
-    .filtersButton{
+    /* .filtersButton{
         padding: 0px;
         background-position: center center;
     }
 
     .filtersButton span {
         display: none;
-    }
+    } */
 }

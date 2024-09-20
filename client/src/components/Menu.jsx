@@ -170,14 +170,16 @@ function Menu() {
       <div className="header">
         <h1 className="hallName">{diningHall}</h1>
         <div className="toolbar">
-          <select className="mealtimeSelect" onChange = {(e) => {setMeal(e.target.value)}}>
-            <option value="Breakfast">Breakfast</option>
-            <option value="Lunch">Lunch</option>
-            <option value="Dinner">Dinner</option>
-          </select>
           <SearchBar menulist = {menulist} meal={meal}></SearchBar>
-          {/* <input className="searchbar" type="text" placeholder="Search..."></input> */}
-          <Filters filterState = {filterState} setFilterState = {setFilterState} setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
+          <div className="settingsHolder">
+            <select className="mealtimeSelect" onChange = {(e) => {setMeal(e.target.value)}}>
+              <option value="Breakfast">Breakfast</option>
+              <option value="Lunch">Lunch</option>
+              <option value="Dinner">Dinner</option>
+            </select>
+            {/* <input className="searchbar" type="text" placeholder="Search..."></input> */}
+            <Filters filterState = {filterState} setFilterState = {setFilterState} setSubmitState = {setSubmitState} filters = {filters} setFilters = {setFilters}></Filters>
+          </div>
         </div>
       </div>
 
