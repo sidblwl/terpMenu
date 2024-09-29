@@ -9,6 +9,7 @@ import Filters from './Filters'
 import MobileNavIcon from "./MobileNavIcon";
 import MobileMenu from "./MobileMenu"
 import SearchBar from "./SearchBar"
+import TopRated from "./TopRated";
 
 const loading = {
   "Breakfast": {
@@ -71,9 +72,9 @@ const noSuchItems =  {
 }
 
 const failedToFetch = {
-  "Breakfast": {
-    "Server Error": [
-      {
+  "Breakfast": {   //Mealtime
+    "Server Error": [  //section
+      {  //item
           "name": "Could Not Load Items",
           "tags": [],
           "image": "none.jpg"
@@ -185,7 +186,8 @@ function Menu() {
 
       {/* Menu */}
       <div className="main">
-        {Object.keys(menulist[meal]).toReversed().map((station) => {
+        <TopRated diningHall = {diningHall} filters = {filters} menulist={menulist} meal = {meal} setSubmitState={setSubmitState} submitState={submitState}></TopRated>
+        {Object.keys(menulist[meal]).map((station) => {
           return (
             <SectionCard mapped={mapped} filters = {filters} menulist = {menulist} meal = {meal} station = {station} submitState = {submitState} setSubmitState = {setSubmitState} diningHall={diningHall}></SectionCard>
           )

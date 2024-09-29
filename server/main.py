@@ -110,22 +110,6 @@ def scheduleMenus():
 
 scheduleMenus()
 
-def generateTopRated(menus, hall):
-    topRatedItems = []
-    for i in range(1, 10):
-        currentMax = {"rating": 0}
-        for mealTime in menus[hall]:
-            for section in menus[hall][mealTime]:
-                for item in menus[hall][mealTime][section]:
-                    if (item["rating"] > currentMax["rating"]) and (item not in topRatedItems):
-                        currentMax = item
-        
-        if currentMax != {"rating": 0}:
-            topRatedItems.append(currentMax)
-        else:
-            break
-
-    return topRatedItems
 
 @app.on_event('startup')
 async def createScheduler():
@@ -140,25 +124,16 @@ async def createScheduler():
 async def getNorth():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
-        menus["north"]["Breakfast"]["Top Rated"] = generateTopRated(menus, "north")
-        menus["north"]["Lunch"]["Top Rated"] = generateTopRated(menus, "north")
-        menus["north"]["Dinner"]["Top Rated"] = generateTopRated(menus, "north")
     return menus["north"]
 
 @app.get('/yahentamitsi')
 async def getY():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
-        menus["yahentamitsi"]["Breakfast"]["Top Rated"] = generateTopRated(menus, "yahentamitsi")
-        menus["yahentamitsi"]["Lunch"]["Top Rated"] = generateTopRated(menus, "yahentamitsi")
-        menus["yahentamitsi"]["Dinner"]["Top Rated"] = generateTopRated(menus, "yahentamitsi")
     return menus["yahentamitsi"]
 
 @app.get('/south')
 async def getSouth():
     with open('menus.json') as json_file:
         menus = json.load(json_file)
-        menus["south"]["Breakfast"]["Top Rated"] = generateTopRated(menus, "south")
-        menus["south"]["Lunch"]["Top Rated"] = generateTopRated(menus, "south")
-        menus["south"]["Dinner"]["Top Rated"] = generateTopRated(menus, "south")
     return menus["south"]

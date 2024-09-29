@@ -11,6 +11,8 @@ menu_api_router = APIRouter()
 async def get_reviews():
     reviews = reviews_serializer(reviews_collection.find())
     menuItems = menuItems_serializer(menuItems_collection.find())
+    print("updating")
+    print(reviews)
     
     with open('menus.json', 'r') as mf:
         menus = json.load(mf)
@@ -27,14 +29,19 @@ async def get_reviews():
                             item["image"] = menuItem["imagePath"]
 
                     for review_item in reviews:
+    
                         if review_item['diningHall'] == diningHall:
                             if review_item['section'] == section:
+                                print(section)
+                                if(review_item['text'] == "this review is not showing up"):
+                                    print(review_item['text'])
                                 if review_item['menuItem'] == item_name:
                                     toAppend = True
                                     for review in item['reviews']:
                                         if(review['id'] == review_item['id']):
                                             toAppend = False
                                     if toAppend:
+                                        # print(review_item)
                                         item['reviews'].append(review_item)
 
                     ratingSum = 0
