@@ -39,6 +39,9 @@ export default function TopRated({menulist, meal, setSubmitState, submitState, d
                             //console.log(item);
                             if(item.rating > currMaxItem.rating && !topRated.includes(item)){
                                 currMaxItem = item;
+
+                                //add section to item for review information
+                                currMaxItem["section"] = section;
                             }
                         });
                     }
@@ -78,7 +81,8 @@ export default function TopRated({menulist, meal, setSubmitState, submitState, d
                     }
                     if(validItem){
                         mapped = true;
-                        return <MenuCard mItem = {item} hall = {item.hall} station = {item.station} submitState = {submitState} setSubmitState = {setSubmitState}></MenuCard>
+                        console.log(item.section);
+                        return <MenuCard mItem = {item} hall = {diningHall} station = {item.section} submitState = {submitState} setSubmitState = {setSubmitState}></MenuCard>
                     }
                     else{
                         if(item === topRated[topRated.length -1] && !mapped){

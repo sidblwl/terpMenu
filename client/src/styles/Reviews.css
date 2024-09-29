@@ -63,6 +63,7 @@
 
 .reviewInformation {
   margin-right: 50px;
+  min-width: 100px;
   text-align: left;
 }
 
