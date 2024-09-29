@@ -1,5 +1,5 @@
 import MenuCard from "./MenuCard";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 const noSuchItems =  {
     "No Items": [
@@ -19,21 +19,25 @@ const noSuchItems =  {
   }
 
 export default function TopRated({menulist, meal, setSubmitState, submitState, diningHall, filters}){
-    const [topRated, setTopRated] = useState([]);
+    //without the dummVal, the topRated.map function does not run at all, causing the No items to never render.
+    //May not be needed once every menu has at least one item with a review 
+    let topRated = ["dummyVal"];
     let mapped = false;
     //reset topRated if any of these change
     useEffect(()=>{
-        mapped = false;
-        setTopRated([]);
+        topRated = [];
     }, [meal, menulist, filters])
 
+
     //generate 5 items
-    for(let i=0; i<5; i++){
+    for(let i=0; i<3; i++){
         let currMaxItem = {rating: 0}
         //for each mealtime
         Object.keys(menulist).forEach(mealTime => {
             if(mealTime == meal){
                 Object.keys(menulist[mealTime]).forEach(section => {
+                    
+                    //idk what this if statement is doing but it breaks everything if you remove it
                     if(section != "Top Rated"){
                         menulist[mealTime][section].forEach(item => {
                             //console.log(item);
@@ -50,7 +54,6 @@ export default function TopRated({menulist, meal, setSubmitState, submitState, d
         });
         if(currMaxItem.rating != 0){
             topRated.push(currMaxItem)
-            setTopRated([...topRated]);
         }
     }
     return(
@@ -61,33 +64,37 @@ export default function TopRated({menulist, meal, setSubmitState, submitState, d
             </div>
             <div className = "menu">
                 {topRated.map((item)=>{
-                    let validItem = true;
-                    if(filters.length > 0){
-                        filters.forEach((filter) =>{
-                        if(filter.includes("no")){
-                            let filterAdjustment = filter.substring(3) + ".gif"
-                            if(item.tags.includes(filterAdjustment)){
-                            validItem = false;
+                    if(item != "dummyVal"){
+                        let validItem = true;
+                        if(filters.length > 0){
+                            filters.forEach((filter) =>{
+                            if(filter.includes("no")){
+                                let filterAdjustment = filter.substring(3) + ".gif"
+                                if(item.tags.includes(filterAdjustment)){
+                                validItem = false;
+                                }
+                            } else if(filter.includes("free")){
+                                let filterAdjustment = filter.split(" ")[0] + ".gif"
+                                if(item.tags.includes(filterAdjustment)){
+                                validItem = false;
+                                }
+                            } else if(!item.tags.includes(filter)){
+                                validItem = false;
                             }
-                        } else if(filter.includes("free")){
-                            let filterAdjustment = filter.split(" ")[0] + ".gif"
-                            if(item.tags.includes(filterAdjustment)){
-                            validItem = false;
+                            })
+                        }
+                        if(validItem){
+                            mapped = true;
+                            return <MenuCard mItem = {item} hall = {diningHall} station = {item.section} submitState = {submitState} setSubmitState = {setSubmitState}></MenuCard>
+                        }
+                        else{
+                            if(item === topRated[topRated.length -1] && !mapped){
+                                return <MenuCard mItem={noSuchItems["No Items"][0]} hall={null} station={null}></MenuCard>
                             }
-                        } else if(!item.tags.includes(filter)){
-                            validItem = false;
                         }
-                        })
                     }
-                    if(validItem){
-                        mapped = true;
-                        console.log(item.section);
-                        return <MenuCard mItem = {item} hall = {diningHall} station = {item.section} submitState = {submitState} setSubmitState = {setSubmitState}></MenuCard>
-                    }
-                    else{
-                        if(item === topRated[topRated.length -1] && !mapped){
-                            return <MenuCard mItem={noSuchItems["No Items"][0]} hall={null} station={null}></MenuCard>
-                        }
+                    else if(item == "dummyVal" && topRated.length == 1){
+                        return <MenuCard mItem={noSuchItems["No Items"][0]} hall={null} station={null}></MenuCard>
                     }
                 })}  
             </div> 
