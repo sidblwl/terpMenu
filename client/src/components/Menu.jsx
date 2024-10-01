@@ -151,7 +151,6 @@ function Menu() {
 
   return (
     <>
-
       <MobileMenu setMobileMenu = {setMobileMenu} diningKeys = {diningKeys} setAbortController= {setAbortController} controller = {controller} diningHall={diningHall} setActiveSection={setActiveSection} mobileMenu = {mobileMenu}></MobileMenu>
       
       {/* Navbar */}
@@ -186,7 +185,7 @@ function Menu() {
 
       {/* Menu */}
       <div className="main">
-        <TopRated diningHall = {diningHall} filters = {filters} menulist={menulist} meal = {meal} setSubmitState={setSubmitState} submitState={submitState}></TopRated>
+        <TopRated menulist = {menulist} meal={meal} setSubmitState={setSubmitState} submitState={submitState} diningHall={diningHall} filters={filters}></TopRated>
         {Object.keys(menulist[meal]).map((station) => {
           return (
             <SectionCard mapped={mapped} filters = {filters} menulist = {menulist} meal = {meal} station = {station} submitState = {submitState} setSubmitState = {setSubmitState} diningHall={diningHall}></SectionCard>

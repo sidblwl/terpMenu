@@ -21,8 +21,6 @@ const noSuchItems =  {
   ]
 }
 
-
-
 export default function SectionCard({menulist, mapped, meal, station, submitState, setSubmitState, filters, diningHall}){
 
     return (
