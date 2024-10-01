@@ -60,7 +60,7 @@ function MenuCard({mItem, hall, station, submitState, setSubmitState}){
     
       return (mItem.name != "Loading Items..." && mItem.name != "No items matched your search" && mItem.name != "Could Not Load Items") ? (
         <>
-          <div>
+          <div className="reviewsHolder">
             <Star id = {1}></Star>
             <Star id = {2}></Star>
             <Star id = {3}></Star>

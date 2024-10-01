@@ -12,7 +12,7 @@
 }
 
 .stationName h1 {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
   color: #333;
   margin-bottom: 20px;
@@ -22,7 +22,7 @@
 .menuItem {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 13px;
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -38,14 +38,14 @@
 .menuItemInfo {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
   margin-left: 20px;
   flex: 1;
   text-align: left;
 }
 
 .menuItemName {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #333;
   margin: 0px;
@@ -62,6 +62,10 @@
   margin-right: 5px;
 }
 
+/* .reviewsHolder{
+  margin-top: auto;
+} */
+
 /* Star Ratings */
 .fa-star {
   font-size: 17px;
@@ -70,12 +74,13 @@
 
 .reviewButton {
   margin-left: 5px;
-  padding: 10px 15px;
+  padding: 5px 7px;
   font-size: 14px;
+  font-weight: 500;
   border: none;
   border-radius: 5px;
   background-color: #e7e7e7;
-  color: #333;
+  color: black;
   cursor: pointer;
 }
 

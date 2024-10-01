@@ -185,7 +185,7 @@ function Menu() {
 
       {/* Menu */}
       <div className="main">
-        {Object.keys(menulist[meal]).toReversed().map((station) => {
+        {Object.keys(menulist[meal]).map((station) => {
           return (
             <SectionCard mapped={mapped} filters = {filters} menulist = {menulist} meal = {meal} station = {station} submitState = {submitState} setSubmitState = {setSubmitState} diningHall={diningHall}></SectionCard>
           )
