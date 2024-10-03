@@ -26,9 +26,7 @@ export default function SectionCard({menulist, mapped, meal, station, submitStat
     return (
         <>
         <div className="stationCard">
-          <div className="stationName">
-            <h1>{station}</h1>
-          </div>
+          <h1 className="stationName">{station}</h1>
           <div className="menu">
               {menulist[meal][station].map((menuItem) => {
               let validItem = true;

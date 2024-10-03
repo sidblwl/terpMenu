@@ -59,9 +59,7 @@ export default function TopRated({menulist, meal, setSubmitState, submitState, d
     return(
         <>
         <div className = "stationCard">
-            <div className="stationName">
-                <h1>Top Rated</h1>
-            </div>
+            <h1 className = "stationName">Top Rated</h1>
             <div className = "menu">
                 {topRated.map((item)=>{
                     if(item != "dummyVal"){

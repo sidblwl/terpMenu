@@ -80,14 +80,16 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
         return(
             <div className="reviewCard">
                 <div className="reviewInformation">
-                    <Star id = {1} reviewRating={reviewRating}></Star>
-                    <Star id = {2} reviewRating={reviewRating}></Star>
-                    <Star id = {3} reviewRating={reviewRating}></Star>
-                    <Star id = {4} reviewRating={reviewRating}></Star>
-                    <Star id = {5} reviewRating={reviewRating}></Star>
-                    <p>{review["name"]}</p>
+                    <div className="reviewStars">
+                        <Star id = {1} reviewRating={reviewRating}></Star>
+                        <Star id = {2} reviewRating={reviewRating}></Star>
+                        <Star id = {3} reviewRating={reviewRating}></Star>
+                        <Star id = {4} reviewRating={reviewRating}></Star>
+                        <Star id = {5} reviewRating={reviewRating}></Star>
+                    </div>
                     <p>{review["date"]}</p>
                 </div>
+                <p className="reviewerName">{review["name"]}</p>
                 <div className="reviewText">
                     <p>{review["text"]}</p>
                 </div>
@@ -122,7 +124,7 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
                     </div>
                     <h1 className="popupTitle">{mItem.name}</h1>
                     <h2 className="ratingTitle">Add your own review</h2>
-                    <div className="rating-section">
+                    <div className="ratingSection">
                         <div className="starSection">
                             <div>
                                 <RatingStar rating = {rating} setRating = {setRating}  id = {1}></RatingStar>
@@ -131,44 +133,44 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
                                 <RatingStar rating = {rating} setRating = {setRating}  id = {4}></RatingStar>
                                 <RatingStar rating = {rating} setRating = {setRating}  id = {5}></RatingStar>
                             </div>
-                            <input id = "nameInput" className="ratingNameInput" type="text" placeholder="Name (optional)"></input>
-                            <button className="ratingSubmitBtn" onClick={() => {
-                                let text = document.getElementById("review-input").value
-                                text = text.trim() 
-                                let name = document.getElementById("nameInput").value
-                                name = name.trim()
-                                if(name == ""){
-                                    name = "Anonymous";
-                                }
-                                
-                                if(text == ""){
-                                    document.getElementById("review-input").value = "";
-                                    document.getElementById("review-input").placeholder = "Must add text to your review";
-                                }
-                                else if(text.length < 10){
-                                    document.getElementById("review-input").value = "";
-                                    document.getElementById("review-input").placeholder = "Your review must be at least 10 characters";
-                                }
-                                else if(name.length > 20){
-                                    document.getElementById("nameInput").value = "";
-                                    document.getElementById("nameInput").placeholder = "Too long";
-                                }
-                                else{
-                                    if(filter(text) && filter(name)){
-                                        addReview(text, name)
+                            <div className="nameSubmitSection">
+                                <input id = "nameInput" className="ratingNameInput" type="text" placeholder="Name (optional)"></input>
+                                <button className="ratingSubmitBtn" onClick={() => {
+                                    let text = document.getElementById("review-input").value
+                                    text = text.trim() 
+                                    let name = document.getElementById("nameInput").value
+                                    name = name.trim()
+                                    if(name == ""){
+                                        name = "Anonymous";
+                                    }
+                                    
+                                    if(text == ""){
+                                        document.getElementById("review-input").value = "";
+                                        document.getElementById("review-input").placeholder = "Must add text to your review";
+                                    }
+                                    else if(text.length < 10){
+                                        document.getElementById("review-input").value = "";
+                                        document.getElementById("review-input").placeholder = "Your review must be at least 10 characters";
+                                    }
+                                    else if(name.length > 20){
+                                        document.getElementById("nameInput").value = "";
+                                        document.getElementById("nameInput").placeholder = "Too long";
                                     }
                                     else{
-                                        document.getElementById("review-input").value = "";
-                                        document.getElementById("review-input").placeholder = "Please keep your review appropriate.";
-                                    }
-                                }                            
-                            }}>Submit</button>
+                                        if(filter(text) && filter(name)){
+                                            addReview(text, name)
+                                        }
+                                        else{
+                                            document.getElementById("review-input").value = "";
+                                            document.getElementById("review-input").placeholder = "Please keep your review appropriate.";
+                                        }
+                                    }                            
+                                }}>Submit</button>
+                            </div>
                         </div>
                         <textarea name="content" cols="40" id="review-input" rows="10" maxLength="10000" placeholder="Add a review to this menu item" className="review-input"></textarea>
                     </div>
-                    <h2 className="ratingTitle">Reviews</h2>
-                    {/* <h3>Info</h3>
-                    <h3>Review</h3> */}
+                    <h2 className="reviewsHeading">Reviews</h2>
                     <div className="reviewsContainer">
                     {mItem.reviews.map((review) => (
                         <Review review={review}></Review>

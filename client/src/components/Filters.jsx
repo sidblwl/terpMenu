@@ -20,19 +20,19 @@ export default function Filters({filterState, setFilterState, filters, setFilter
         <>
             <div className="popup">
                 <div className="popup-inner">
-                    <div className = "closeButtonContainer">
-                        <img className="close-popup" src={close} onClick = {() => setFilterState(false)}></img>
+                    <div className = "filterTop">
+                        <h1 className="filterTitle">Filters</h1>
                     </div>
-                    <h1 className="filterTitle">Filters</h1>
+                    <img className="filterCloseButton" src={close} onClick = {() => setFilterState(false)}></img>
                     <div className="filterOptions">
                         <p style={{
-        color: filters.length === allFilters.length ? '#00000042' : '#007BC7',
-        cursor: filters.length === allFilters.length ? 'not-allowed' : 'pointer'
-    }} onClick = {() => {setFilters(allFilters.map(filter => convertFilterName(filter)))}}>Select All</p>
-                        <p     style={{
-        color: filters.length === 0 ? '#00000042' : '#007BC7',
-        cursor: filters.length === 0 ? 'not-allowed' : 'pointer'
-    }} onClick = {() => {setFilters([])}}>Reset</p>
+                                    color: filters.length === allFilters.length ? '#00000042' : '#007BC7',
+                                    cursor: filters.length === allFilters.length ? 'not-allowed' : 'pointer'
+                                  }} onClick = {() => {setFilters(allFilters.map(filter => convertFilterName(filter)))}}>Select All</p>
+                        <p style={{
+                                    color: filters.length === 0 ? '#00000042' : '#007BC7',
+                                    cursor: filters.length === 0 ? 'not-allowed' : 'pointer'
+                                  }} onClick = {() => {setFilters([])}}>Reset</p>
                     </div>
                     <FilterButtons filters = {filters} setFilters = {setFilters} setSubmitState = {setSubmitState}></FilterButtons>
                 </div>
