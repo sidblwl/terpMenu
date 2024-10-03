@@ -11,7 +11,7 @@ export default function MenuCard({mItem, hall, station, submitState, setSubmitSt
   
     return(
       <>
-        <div className="menuItem">
+        <div className="menuItem" data-item={mItem.name}>
           <img className="menuItemImage" src = {mItem.image}></img>
           <div className="menuItemInfo">
             <h1 className="menuItemName">{mItem.name}</h1>

@@ -95,9 +95,9 @@
   flex-direction: column;
 }
 
-.search_option:hover{
+/* .search_option_container:hover{
   background-color: lightgray;
-}
+} */
 
 .filtersButton {
   padding: 10px 15px;

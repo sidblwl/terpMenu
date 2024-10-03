@@ -9,11 +9,19 @@ export default function SearchDropdown({menulist, meal, value}){
         })
     )))
 
-
+    const handleScroll = (itemName) => {
+        const targetElement = document.querySelector(`[data-item="${itemName}"]`);
+        if (targetElement) {
+            const yOffset = -100; // The offset above the element
+            const yPosition = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    
+            window.scrollTo({ top: yPosition, behavior: "smooth" });
+        }
+    };
 
     return (displayedItems.length != 0) ? (
         displayedItems.map((mItem) => (
-            <div className="search_option_container">
+            <div className="search_option_container" onClick={() => handleScroll(mItem.name)}>
                 <p className="search_option">{mItem.name}</p>
                 <div className="menuItemTagHolder">
                     {mItem.tags.map((tag) => (
