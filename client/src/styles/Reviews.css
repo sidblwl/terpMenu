@@ -1,37 +1,43 @@
-.review-input {
-  height: 7.5rem;
-  width: 70%;
+.ratingTitle {
+  text-align: center;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
 }
 
-.rating-section {
+.ratingSection {
   display: flex;
-  flex-direction: row;
-  margin-right: 50px;
-  margin-left: 50px;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .starSection {
   display: flex;
+  margin: 0px;
   flex-direction: column;
-  text-align: left;
   align-items: center;
-  margin-right: 60px;
 }
 
 .ratingStar {
-  font-size: 40px;
-  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.nameSubmitSection{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
 }
 
 .ratingNameInput {
   width: 75%;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-right: 5px;
 }
 
 .ratingSubmitBtn {
   margin: 0;
-  padding: 5px 10px;
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
@@ -39,36 +45,71 @@
   transition: 0.25s;
   border: 1px solid #c2c2c2;
   border-radius: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-.ratingTitle {
-  text-align: left;
-  margin-left: 50px;
+.review-input {
+  height: 5rem;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.reviewsHeading{
+  text-align: center;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 7px;
 }
 
 .reviewsContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .reviewCard {
   display: flex;
-  flex-direction: row;
-  /* background-color: #c2c2c2; */
-  padding-top: 20px;
-  border-top: 1px solid black;
-  margin-bottom: 20px;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  /* border: 1px solid black; */
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-bottom: 5px;
+  position: relative;
 }
 
 .reviewInformation {
-  margin-right: 50px;
-  min-width: 100px;
-  text-align: left;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.reviewStars{
+  display: flex;
+}
+
+.reviewerName{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .reviewInformation > p {
   margin: 0;
+  position: absolute;
+  right: 8px;
+  font-size: 16px;
+}
+
+.separator {
+  margin: 0 10px; /* Adds space around the dot */
 }
 
 .reviewRatingStar {
@@ -77,61 +118,19 @@
 }
 
 .reviewText {
-  text-align: right;
   width: 100%;
-  margin-right: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .rating-section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  .starSection {
-    display: flex;
-    margin: 0px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .review-input {
-    height: 7.5rem;
-    width: 95%;
-    resize: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .ratingTitle {
-    text-align: center;
-    margin: 0px;
-  }
-
-  .reviewCard {
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-    border-top: 1px solid black;
-    margin-bottom: 20px;
-  }
-
-  .reviewsContainer {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .reviewInformation {
-    width: 100%;
-    text-align: left;
-  }
-  .no-scroll {
-    height: 96vh !important;
-    overflow-y: hidden;
-    object-fit: cover;
-  }
+.reviewText > p{
+  margin: 0;
 }
+
+.no-scroll {
+  height: 96vh !important;
+  overflow-y: hidden;
+  object-fit: cover;
+}
+
+/* @media only screen and (max-width: 1000px) {
+
+} */

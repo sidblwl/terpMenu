@@ -68,7 +68,7 @@
   position: absolute;
   background-color: #f9f9f9; /* Light gray background for contrast */
   margin-top: 40px;
-  width: 350px;
+  width: 750px;
   text-align: left;
   border-radius: 8px; /* Rounded corners for a modern look */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -130,6 +130,9 @@
     width: 350px;
   }
 
+  .search_dropdown{
+    width: 350px;
+  }
     /* .filtersButton{
         padding: 0px;
         background-position: center center;

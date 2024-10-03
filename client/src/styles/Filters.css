@@ -1,26 +1,51 @@
+.filterTop{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .filterTitle {
-  text-align: center;
   margin: 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.filterCloseButton{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 .filterButtonsContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .filterButton {
-  color: #333;
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  width: 50%;
   font-size: 16px;
+  font-weight: 500;
+  color: #333;
   cursor: pointer;
-  padding: 10px;
-  text-align: left;
-  transition: 0.25s;
-  background-color: white;
+  transition: background-color 0.2s ease;
+  margin-bottom: 6px;
 }
 
-.checkbox{
+/* Checkbox styling */
+.checkbox {
   margin-right: 10px;
+  transform: scale(1.2); /* Slightly larger checkboxes */
 }
 
 .filterOptions{
@@ -29,4 +54,15 @@
   justify-content: center;
   gap: 30px;
   cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.filterOptions > p{
+  margin: 0px;
+}
+
+@media (max-width: 500px) {
+  .filterButton {
+    width: 80%; /* Full width on small screens */
+  }
 }
