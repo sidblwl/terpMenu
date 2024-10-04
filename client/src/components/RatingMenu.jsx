@@ -1,9 +1,12 @@
 import '../App.css'
 import React, { useState } from "react";
 import close from "../assets/close.png";
+import ErrorMessage from './ErrorMessage';
+
 
 export default function RatingMenu({setSubmitState, popupState, setPopupState, mItem, hall, station}){
-    const [rating, setRating] = useState(1);
+    const [rating, setRating] = useState(0);
+    const [errorMessage, setErrorMessage] = useState("");
     
     function getDate() {
         const today = new Date();
@@ -124,6 +127,7 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
                     </div>
                     <h1 className="popupTitle">{mItem.name}</h1>
                     <h2 className="ratingTitle">Add your own review</h2>
+                    <ErrorMessage errorMessage = {errorMessage} setErrorMessage = {setErrorMessage}></ErrorMessage>
                     <div className="ratingSection">
                         <div className="starSection">
                             <div>
@@ -144,25 +148,24 @@ export default function RatingMenu({setSubmitState, popupState, setPopupState, m
                                         name = "Anonymous";
                                     }
                                     
-                                    if(text == ""){
-                                        document.getElementById("review-input").value = "";
-                                        document.getElementById("review-input").placeholder = "Must add text to your review";
+                                    if(rating == 0){
+                                        setErrorMessage("Please select a star rating.")
+                                    }
+                                    else if(text == ""){
+                                        setErrorMessage("You must add text to your review.")
                                     }
                                     else if(text.length < 10){
-                                        document.getElementById("review-input").value = "";
-                                        document.getElementById("review-input").placeholder = "Your review must be at least 10 characters";
+                                        setErrorMessage("Review must be at least 10 characters.")
                                     }
                                     else if(name.length > 20){
-                                        document.getElementById("nameInput").value = "";
-                                        document.getElementById("nameInput").placeholder = "Too long";
+                                        setErrorMessage("Please use a shorter name.")
                                     }
                                     else{
                                         if(filter(text) && filter(name)){
                                             addReview(text, name)
                                         }
                                         else{
-                                            document.getElementById("review-input").value = "";
-                                            document.getElementById("review-input").placeholder = "Please keep your review appropriate.";
+                                            setErrorMessage("Please keep your review appropriate.");
                                         }
                                     }                            
                                 }}>Submit</button>

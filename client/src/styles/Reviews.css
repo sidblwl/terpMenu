@@ -130,6 +130,10 @@
   overflow-y: hidden;
   object-fit: cover;
 }
+.errorMessage{
+  color: red;
+  text-align: center;
+}
 
 /* @media only screen and (max-width: 1000px) {
 
