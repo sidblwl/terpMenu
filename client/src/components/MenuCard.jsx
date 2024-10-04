@@ -8,11 +8,11 @@ export default function MenuCard({mItem, hall, station, submitState, setSubmitSt
         <div style = {(id <= mItem.rating ? {color: "orange"} : {color: "lightgray"})} className="fa fa-star"></div>
       )
     }
-  
+    const url = "https://viewourpics.com/images/" + mItem.image;
     return(
       <>
         <div className="menuItem" data-item={mItem.name}>
-          <img className="menuItemImage" src = {mItem.image}></img>
+          <img className="menuItemImage" src = {url}></img>
           <div className="menuItemInfo">
             <h1 className="menuItemName">{mItem.name}</h1>
             <MenuCardTags></MenuCardTags>
