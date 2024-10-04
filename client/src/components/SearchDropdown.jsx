@@ -1,6 +1,6 @@
 import "../App.css"
 
-export default function SearchDropdown({menulist, meal, value}){
+export default function SearchDropdown({menulist, meal, value, setValue}){
 
     let displayedItems = [];
     Object.keys(menulist[meal]).map((station) => ((
@@ -10,12 +10,14 @@ export default function SearchDropdown({menulist, meal, value}){
     )))
 
     const handleScroll = (itemName) => {
+
         const targetElement = document.querySelector(`[data-item="${itemName}"]`);
         if (targetElement) {
             const yOffset = -100; // The offset above the element
             const yPosition = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
     
             window.scrollTo({ top: yPosition, behavior: "smooth" });
+            setValue("");
         }
     };
 

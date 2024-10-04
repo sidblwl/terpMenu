@@ -41,7 +41,7 @@ export default function SearchBar({ menulist, meal }) {
           />
         </div>
         <div className={value === "" ? "search_dropdown_inactive" : "search_dropdown"}>
-          <SearchDropdown menulist={menulist} meal={meal} value={value} />
+          <SearchDropdown menulist={menulist} meal={meal} setValue = {setValue} value={value} />
         </div>
       </div>
     </>
