@@ -1,28 +1,49 @@
-import { Routes, Route, useParams, Link } from "react-router-dom";
-import React, { useState, useEffect } from "react";
-import '../App.css'
+import React, { useState, useEffect, useRef } from "react";
+import '../App.css';
 import SearchDropdown from "./SearchDropdown";
 
-   export default function SearchBar({menulist, meal}){
+export default function SearchBar({ menulist, meal }) {
+  let displayedItems = [];
+  
+  const [value, setValue] = useState("");
+  const searchRef = useRef(null); // Create a ref for the entire search bar area
 
-    let displayedItems = [];
-    
-    const [value, setValue] = useState("")
-    const onChange = (e) => {
-        setValue(e.target.value)
-        displayedItems = [];
+  const onChange = (e) => {
+    setValue(e.target.value);
+    displayedItems = [];
+  };
+
+  // Function to detect clicks outside the search bar and dropdown
+  const handleClickOutside = (event) => {
+    if (searchRef.current && !searchRef.current.contains(event.target)) {
+      setValue(""); // Clear the search when clicking outside
     }
+  };
 
-    return(
-        <>
-            <div className="search">
-                <div>
-                    <input className="searchbar" type="text" onChange={onChange} onBlur = {() => {setValue("")}} value={value} placeholder="Search"></input>
-                </div>
-                <div className = {value == "" ? "search_dropdown_inactive" : "search_dropdown"}>
-                    <SearchDropdown menulist = {menulist} meal = {meal} value = {value}></SearchDropdown>
-                </div>
-            </div>
-        </>
-     )
-   }
+  // Add and remove event listeners for clicks outside
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  return (
+    <>
+      <div ref={searchRef} className="search">
+        <div>
+          <input 
+            className="searchbar" 
+            type="text" 
+            onChange={onChange} 
+            value={value} 
+            placeholder="Search" 
+          />
+        </div>
+        <div className={value === "" ? "search_dropdown_inactive" : "search_dropdown"}>
+          <SearchDropdown menulist={menulist} meal={meal} value={value} />
+        </div>
+      </div>
+    </>
+  );
+}
