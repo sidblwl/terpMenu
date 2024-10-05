@@ -51,7 +51,9 @@ def getMenu(num):
     def getItemsForMeal(id):
         items = {}
 
-        meal = parser.find(attrs={'id':id})
+        meal = parser.find("div", id=id)
+        if not meal:
+            return
 
         #list of all card bodies
         stations = (meal.find_all("div", class_="card-body"))
