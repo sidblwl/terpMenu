@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from .config import reviews_collection, menuItems_collection
-from .models import Review, MenuItem
-from .schemas import reviews_serializer, menuItems_serializer
+from config import reviews_collection, menuItems_collection
+from models import Review, MenuItem
+from schemas import reviews_serializer, menuItems_serializer
 from bson import ObjectId
 import json
 
@@ -11,8 +11,6 @@ menu_api_router = APIRouter()
 async def get_reviews():
     reviews = reviews_serializer(reviews_collection.find())
     menuItems = menuItems_serializer(menuItems_collection.find())
-    print("updating")
-    print(reviews)
     
     with open('menus.json', 'r') as mf:
         menus = json.load(mf)
@@ -32,7 +30,6 @@ async def get_reviews():
     
                         if review_item['diningHall'] == diningHall:
                             if review_item['section'] == section:
-                                print(section)
                                 if(review_item['text'] == "this review is not showing up"):
                                     print(review_item['text'])
                                 if review_item['menuItem'] == item_name:

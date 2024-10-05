@@ -1,5 +1,7 @@
 from fastapi import FastAPI
-from .routes import menu_api_router, get_menuItems
+from routes import menu_api_router
+from config import menuItems_collection
+from schemas import menuItems_serializer
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 import requests
@@ -38,6 +40,16 @@ def changeTagName(tag):
         tag = "smart"
     return tag + ".gif"
 
+itemsWithImages = []
+imagePaths = {}
+
+menuItems = menuItems_serializer(menuItems_collection.find())
+for mItem in menuItems:
+    itemsWithImages.append(mItem['name'])
+    imagePaths[mItem['name']] = mItem['imagePath']
+
+print(itemsWithImages)
+
 def getMenu(num):
     # url = "https://nutrition.umd.edu/?locationNum=" + str(num) + "&dtdate=9/3/2023"
     url = "http://nutrition.umd.edu/?locationNum=" + str(num)
@@ -52,7 +64,7 @@ def getMenu(num):
         items = {}
 
         meal = parser.find("div", id=id)
-        if not meal:
+        if meal == None:
             return
 
         #list of all card bodies
@@ -81,6 +93,8 @@ def getMenu(num):
                         for tag in itemTagsHTML:
                             itemTags.append(changeTagName(tag.get("title").lower()))
                         item["tags"] = itemTags
+                        if item["name"] in itemsWithImages:
+                            item["image"] = imagePaths[item["name"]]
                         item["image"] = "none.jpg"
                         item["reviews"] = []
                         item["rating"] = 0
@@ -94,7 +108,7 @@ def getMenu(num):
 
     menu["Breakfast"] = getItemsForMeal("pane-1")
     menu["Lunch"] = getItemsForMeal("pane-2")
-    menu["Dinner"] = getItemsForMeal("pane-3")
+    # menu["Dinner"] = getItemsForMeal("pane-3")
 
     return menu
 
