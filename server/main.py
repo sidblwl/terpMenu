@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from routes import menu_api_router
-from config import menuItems_collection
-from schemas import menuItems_serializer
+from .routes import menu_api_router
+from .config import menuItems_collection
+from .schemas import menuItems_serializer
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 import requests
