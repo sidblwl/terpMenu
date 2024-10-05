@@ -110,7 +110,6 @@ def scheduleMenus():
 
 scheduleMenus()
 
-
 @app.on_event('startup')
 async def createScheduler():
     print("scheduler created")

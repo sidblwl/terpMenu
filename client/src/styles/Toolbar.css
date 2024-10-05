@@ -66,14 +66,14 @@
 
 .search_dropdown {
   position: absolute;
-  background-color: #f9f9f9; /* Light gray background for contrast */
+  background-color: white; /* Light gray background for contrast */
   margin-top: 40px;
   width: 750px;
   text-align: left;
   border-radius: 8px; /* Rounded corners for a modern look */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   border: 1px solid #e0e0e0; /* Light border for structure */
-  z-index: 1000;
+  z-index: 500;
   padding-bottom: 20px;
   max-height: 50vh;
   overflow-y: scroll;
